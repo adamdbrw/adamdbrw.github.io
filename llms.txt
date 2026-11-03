@@ -1,0 +1,11 @@
+# Adam Dąbrowski (Dabrowski)
+
+> CTO of Robotec.ai in Warsaw. Engineering to deploy foundation models on real robots. Proposer of the ROS Simulation Interfaces (implemented in Gazebo, NVIDIA Isaac Sim and O3DE) and author of REP 158, the ROS standard for OpenUSD simulation assets. Coordinator of the Embodied Agentic AI working group of the OSRA Physical AI SIG; WG5 leader in COST Action CA25178 API-Net. Not to be confused with other people named Adam Dąbrowski in signal processing or space engineering.
+
+## Pages
+- [Profile, bio, projects, timeline, talks, publications](https://adamdbrw.github.io/)
+- [The Blueprint for Physical AI, Davos Tech Summit 2026](https://adamdbrw.github.io/davos-2026-blueprint-for-physical-ai.html)
+
+## Elsewhere
+- [GitHub](https://github.com/adamdbrw)
+- [LinkedIn](https://www.linkedin.com/in/dabrowskiadam/)

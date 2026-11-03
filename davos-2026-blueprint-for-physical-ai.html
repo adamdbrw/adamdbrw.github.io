@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Blueprint for Physical AI — Adam Dąbrowski, Davos Tech Summit 2026</title>
+<meta name="description" content="Adam Dąbrowski's Davos Tech Summit 2026 talk: engineering to deploy foundation models on robots. The deployment gap, physical common sense, safety with zero trust, simulation, small wins, and the four-step blueprint.">
+<link rel="canonical" href="https://adamdbrw.github.io/davos-2026-blueprint-for-physical-ai.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="The Blueprint for Physical AI — Davos Tech Summit 2026">
+<meta property="og:description" content="Demos deliver 90%; industry runs at 99.9%. Engineering to close the gap.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "The Blueprint for Physical AI: engineering to deploy foundation models",
+  "author": {"@type": "Person", "@id": "https://adamdbrw.github.io/#adam", "name": "Adam Dąbrowski", "alternateName": "Adam Dabrowski", "url": "https://adamdbrw.github.io/"},
+  "datePublished": "2026-11-03",
+  "about": {
+    "@type": "Event",
+    "name": "Davos Tech Summit 2026",
+    "startDate": "2026-07-01",
+    "endDate": "2026-07-04",
+    "location": {"@type": "Place", "name": "Davos Congress Centre, Davos, Switzerland"}
+  },
+  "associatedMedia": {"@type": "MediaObject", "contentUrl": "https://adamdbrw.github.io/blueprint-for-physical-ai-slides.pdf", "encodingFormat": "application/pdf"}
+}
+</script>
+<style>
+  :root { --ink: #1b1f24; --quiet: #57606a; --rule: #d8dee4; --accent: #1f6feb; --tint: #f6f8fa; }
+  body { margin: 0; font: 17px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; color: var(--ink); }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 24px 80px; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 8px; }
+  h2 { font-size: 1.25rem; margin: 40px 0 10px; }
+  .meta { color: var(--quiet); margin: 0 0 28px; }
+  a { color: var(--accent); }
+  table { border-collapse: collapse; margin: 8px 0; }
+  th, td { text-align: left; padding: 6px 14px 6px 0; border-bottom: 1px solid var(--rule); }
+  .quote { border-left: 3px solid var(--accent); padding: 4px 14px; background: var(--tint); font-size: 1.1rem; }
+</style>
+</head>
+<body>
+<main>
+<p><a href="./">← Adam Dąbrowski</a></p>
+<h1>The Blueprint for Physical AI</h1>
+<p class="meta">Engineering to deploy foundation models. A talk by Adam Dąbrowski, CTO of Robotec.ai, at the Davos Tech Summit, July 2026. The talk was not recorded; this page and the <a href="blueprint-for-physical-ai-slides.pdf">slides (PDF)</a> are its record.</p>
+
+<h2>The deployment gap</h2>
+<p>Today's demos deliver about 90%. The industry runs at 99.9%. The missing 10% is not a rounding error. It is a stopped supply chain, a broken machine, an injured worker.</p>
+
+<h2>Physical common sense</h2>
+<p>Foundation models need engineering to deliver, not just more data and training. What agentic coding did for software, robots will do for physical work, and the mapping is direct:</p>
+<table>
+  <thead><tr><th>Agentic coding</th><th>Physical AI</th></tr></thead>
+  <tbody>
+    <tr><td>Tools</td><td>Robot skills</td></tr>
+    <tr><td>Security</td><td>Safety</td></tr>
+    <tr><td>Validation</td><td>Simulation</td></tr>
+  </tbody>
+</table>
+<p>The question is how to add new reasoning without breaking what already works.</p>
+
+<h2>Engineer for safety and adoption</h2>
+<p>Safety assumes zero trust. A system must be <strong>safe even with the dumbest AI in charge</strong>, enforced through contracts, envelopes and guardrails. On top of that sit robot skills and orchestration: perception, locomotion and manipulation as modules an agent can call. The open question is how to tell whether AI makes the work more productive and keeps it safe.</p>
+
+<h2>Be serious about simulation</h2>
+<p>Test operational behaviour at scale before anything touches the floor. Simulation is used to train policies and models and to prototype and fail fast. The shift in emphasis is toward the third use: testing operations at scale, with metrics. That needs a simulation toolbox built on interoperability and standards such as OpenUSD.</p>
+
+<h2>Small wins</h2>
+<p>Start with AI that is auxiliary and additive: each use adds value without replacing core processes.</p>
+<ul>
+  <li><strong>Inspection:</strong> compliance and safety, by general rules and site-specific ones.</li>
+  <li><strong>Debugging:</strong> faster root cause, less downtime.</li>
+  <li><strong>"Stuck" resolution:</strong> reason and rescue without human intervention.</li>
+</ul>
+
+<h2>The blueprint</h2>
+<ol>
+  <li><strong>Compute:</strong> inference-ready.</li>
+  <li><strong>Simulation:</strong> cover the whole cycle.</li>
+  <li><strong>Robot skills:</strong> a modular framework, not a monolith.</li>
+  <li><strong>Adoption:</strong> small wins first.</li>
+</ol>
+
+<h2>Time to build</h2>
+<p class="quote">AI doesn't have to do everything to be useful.</p>
+<p>Learn from the success of agentic coding, and engineer for safety and adoption.</p>
+
+<p>Related work: the <a href="https://github.com/ros-simulation/simulation_interfaces">ROS Simulation Interfaces</a>, REP 158 for OpenUSD robot assets, and <a href="https://github.com/RobotecAI/rai">RAI</a>, an agent framework for embodied AI.</p>
+</main>
+</body>
+</html>

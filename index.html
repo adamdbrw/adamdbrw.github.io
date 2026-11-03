@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Adam Dąbrowski (Dabrowski) — CTO, Robotec.ai · Physical AI and robot simulation standards</title>
+<meta name="description" content="Adam Dąbrowski (Dabrowski), CTO of Robotec.ai in Warsaw. Engineering to deploy foundation models on real robots. Proposer of the ROS Simulation Interfaces and author of REP 158 (OpenUSD).">
+<link rel="canonical" href="https://adamdbrw.github.io/">
+<meta property="og:type" content="profile">
+<meta property="og:title" content="Adam Dąbrowski — CTO, Robotec.ai">
+<meta property="og:description" content="Engineering to deploy foundation models on real robots. ROS Simulation Interfaces, REP 158, RAI, micro-ROS, ROS 2 for Unity, O3DE robotics.">
+<meta property="og:url" content="https://adamdbrw.github.io/">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://adamdbrw.github.io/#adam",
+  "name": "Adam Dąbrowski",
+  "alternateName": ["Adam Dabrowski", "adamdbrw"],
+  "url": "https://adamdbrw.github.io/",
+  "jobTitle": "Chief Technology Officer",
+  "worksFor": {"@type": "Organization", "name": "Robotec.ai", "url": "https://robotec.ai"},
+  "alumniOf": {"@type": "CollegeOrUniversity", "name": "University of Warsaw"},
+  "homeLocation": {"@type": "Place", "name": "Warsaw, Poland"},
+  "knowsAbout": ["Physical AI", "Robotics", "ROS 2", "Robot simulation", "OpenUSD", "Embodied AI agents", "Foundation models for robotics", "micro-ROS", "Open 3D Engine"],
+  "memberOf": [
+    {"@type": "Organization", "name": "COST Action CA25178 API-Net (Agentic Physical AI)", "url": "https://www.cost.eu/actions/CA25178/"},
+    {"@type": "Organization", "name": "OSRA Physical AI SIG", "url": "https://physical-ai.ros.org/working-groups/embodied-agentic-ai/"}
+  ],
+  "sameAs": [
+    "https://github.com/adamdbrw",
+    "https://www.linkedin.com/in/dabrowskiadam/",
+    "https://warsaw.ai/speaker/adam-dabrowski/"
+  ]
+}
+</script>
+<style>
+  :root { --ink: #1b1f24; --quiet: #57606a; --rule: #d8dee4; --accent: #1f6feb; --tint: #f6f8fa; }
+  * { box-sizing: border-box; }
+  body { margin: 0; font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; color: var(--ink); }
+  main { max-width: 880px; margin: 0 auto; padding: 48px 24px 80px; }
+  h1 { font-size: 2.1rem; line-height: 1.2; margin: 0 0 6px; }
+  h2 { font-size: 1.3rem; margin: 48px 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--rule); }
+  .lede { font-size: 1.15rem; color: var(--quiet); margin: 0 0 20px; }
+  a { color: var(--accent); }
+  nav a { margin-right: 14px; font-size: .95rem; }
+  table { width: 100%; border-collapse: collapse; font-size: .92rem; margin: 8px 0; }
+  th, td { text-align: left; vertical-align: top; padding: 7px 9px; border-bottom: 1px solid var(--rule); }
+  th { background: var(--tint); font-weight: 600; }
+  ol.blueprint li { margin-bottom: 8px; }
+  .quote { border-left: 3px solid var(--accent); padding: 4px 14px; background: var(--tint); }
+  footer { color: var(--quiet); font-size: .9rem; margin-top: 56px; }
+  @media (max-width: 640px) { table { font-size: .85rem; } th, td { padding: 6px; } }
+</style>
+</head>
+<body>
+<main>
+
+<header>
+  <h1>Adam Dąbrowski</h1>
+  <p class="lede">CTO at <a href="https://robotec.ai">Robotec.ai</a>, Warsaw · Engineering to deploy foundation models on real robots</p>
+  <nav>
+    <a href="#bio">Bio</a><a href="#blueprint">Blueprint</a><a href="#work">Work</a><a href="#timeline">Timeline</a><a href="#talks">Talks</a><a href="#publications">Publications</a><a href="#roles">Roles</a><a href="davos-2026-blueprint-for-physical-ai.html">Davos talk</a>
+  </nav>
+</header>
+
+<section id="bio">
+  <h2>Bio</h2>
+  <p>Adam Dąbrowski (also written Dabrowski) is CTO of Robotec.ai in Warsaw. His work is the engineering that takes foundation models from impressive demos to dependable operation on real robots. That was the theme of his 2026 Davos Tech Summit talk, <a href="davos-2026-blueprint-for-physical-ai.html"><em>The Blueprint for Physical AI</em></a>.</p>
+  <p>For more than a decade Adam has built the layers that let robotics tools work together, then handed them to the community as standards. At PIAP, the Industrial Research Institute for Automation and Measurements, he evaluated the resilience of ROS 2 communication (ROSCon 2016) and researched human–machine interfaces for unmanned and construction robots. He was also first author of the founding scenarios and requirements of micro-ROS in the EU-funded OFERA project. At Robotec.ai he led performance work on rosbag2, the ROS 2 data recorder, and co-created ROS 2 for Unity, which now runs inside Autoware's AWSIM simulator. He started and led the ROS 2 integration of Open 3D Engine and conceived RAI, an open-source agent framework for embodied AI.</p>
+  <p>He proposed the ROS Simulation Interfaces, now implemented in Gazebo, NVIDIA Isaac Sim and O3DE, and authored REP 158, the accepted ROS standard for OpenUSD simulation assets. He founded the ROS Embodied AI Community Group, now the Embodied Agentic AI working group of the OSRA Physical AI SIG, which he coordinates. He leads the Simulations &amp; Standards working group of COST Action API-Net and is an independent expert evaluator for the European Commission. Adam studied at the University of Warsaw. He has spoken at ROSCon since 2016 and co-led a ROSCon 2026 workshop with AMD.</p>
+</section>
+
+<section id="blueprint">
+  <h2>The Blueprint for Physical AI</h2>
+  <p>Today's demos deliver 90%; industry runs at 99.9%. The missing 10% is a stopped supply chain, a broken machine, an injured worker. Closing that gap takes engineering, not just more data and training.</p>
+  <ol class="blueprint">
+    <li><strong>Compute, inference-ready.</strong> ROS 2 communication resilience (2016), micro-ROS on microcontrollers (2018), the cloud-to-robot workshop with AMD (2026).</li>
+    <li><strong>Simulation, covering the whole cycle:</strong> train, prototype, then test operations at scale with metrics. ROS 2 in Unity and O3DE, the ROS Simulation Interfaces, REP 158 for OpenUSD.</li>
+    <li><strong>Robot skills, a modular framework, not a monolith.</strong> RAI: agents, connectors and tools on ROS 2. Safety assumes zero trust: “safe even with the dumbest AI in charge”.</li>
+    <li><strong>Adoption, small wins first.</strong> Inspection, debugging, getting a stuck robot unstuck: AI that adds value without replacing core processes.</li>
+  </ol>
+  <p class="quote">AI doesn't have to do everything to be useful. — <a href="davos-2026-blueprint-for-physical-ai.html">read the talk</a></p>
+</section>
+
+<section id="work">
+  <h2>Founded, then handed on</h2>
+  <p>Each project follows the same arc: start it, set its architecture, direct it, then hand it to the people who run it day to day.</p>
+  <table>
+    <thead><tr><th>Project</th><th>Started</th><th>Adam's part</th><th>Where it is now</th></tr></thead>
+    <tbody>
+      <tr><td><a href="https://discourse.openrobotics.org/t/draft-rep-158-openusd-conventions-for-simulation-asset-interoperability-in-open-source-robotics/55526">REP 158</a>: OpenUSD conventions for robot simulation assets</td><td>2026</td><td>Author; core schema</td><td>Accepted ROS standard (October 2026)</td></tr>
+      <tr><td><a href="https://github.com/ros-simulation/simulation_interfaces">ROS Simulation Interfaces</a></td><td>2024</td><td>Standardization proposal, first PR, design</td><td>Implemented in <a href="https://gazebosim.org/docs/latest/ros2_sim_interfaces">Gazebo</a>, <a href="https://docs.nvidia.com/learning/physical-ai/going-further-with-robotics/latest/scalable-multi-robot-scene-workflows-using-ros-simulation-interfaces-standard-in-isaac-sim/index.html">NVIDIA Isaac Sim</a> and <a href="https://docs.o3de.org/docs/user-guide/interactivity/robotics/simulation-interfaces/">O3DE</a></td></tr>
+      <tr><td><a href="https://github.com/RobotecAI/rai">RAI</a>: agent framework for embodied AI</td><td>2024</td><td>Conceived and directed; first author of the <a href="https://arxiv.org/abs/2505.07532">paper</a></td><td>Led by the RAI team at Robotec.ai</td></tr>
+      <tr><td><a href="https://physical-ai.ros.org/working-groups/embodied-agentic-ai/">ROS Embodied AI Community Group</a></td><td>2024</td><td>Founder</td><td>Embodied Agentic AI working group of the OSRA Physical AI SIG; Adam coordinates it</td></tr>
+      <tr><td><a href="https://github.com/o3de/o3de-extras">O3DE ROS 2 Gem</a>: robotics in Open 3D Engine</td><td>2022</td><td>RFC, first code, lead</td><td>The official O3DE robotics stack, maintained by O3DE SIG-Simulation</td></tr>
+      <tr><td><a href="https://github.com/RobotecAI/ros2-for-unity">ROS 2 for Unity</a> and <a href="https://github.com/RobotecAI/ros2cs">ros2cs</a></td><td>2021</td><td>Co-creator, lead committer</td><td>Inside <a href="https://github.com/tier4/AWSIM">AWSIM</a>, Autoware's reference simulator</td></tr>
+      <tr><td><a href="https://github.com/ros2/rosbag2/pull/568">rosbag2 performance</a></td><td>2020</td><td>Benchmarks, SQLite defaults, <code>--regex</code> and <code>--exclude</code></td><td>Shipped in ROS 2</td></tr>
+      <tr><td><a href="https://piap.lukasiewicz.gov.pl/en/research-projects/ofera-project/">micro-ROS</a> (OFERA)</td><td>2018</td><td>First author of the founding scenarios and requirements</td><td>ROS 2 on microcontrollers; a Zephyr module</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="timeline">
+  <h2>Timeline</h2>
+  <table>
+    <thead><tr><th>Year</th><th>Built</th><th>Standards and community</th><th>On stage and in print</th></tr></thead>
+    <tbody>
+      <tr><td>2026</td><td>LiDAR-to-twin pipeline; HDMapping fixes</td><td>REP 158 accepted; COST API-Net WG5 lead</td><td>Davos Tech Summit: <em>The Blueprint for Physical AI</em>; ROSCon Toronto workshop with AMD</td></tr>
+      <tr><td>2025</td><td></td><td>Simulation Interfaces in Gazebo, Isaac Sim, O3DE; Physical AI SIG working group coordinator</td><td>ROSCon Singapore: the ROS simulation standard; RAI paper at PAAMS</td></tr>
+      <tr><td>2024</td><td>RAI</td><td>Simulation Interfaces proposal; founded the Embodied AI group</td><td>ROSCon Odense: RAI talk and Embodied AI Birds of a Feather</td></tr>
+      <tr><td>2023</td><td>ROSCon 2023 warehouse demo</td><td>O3DE SIG-Simulation maintainer</td><td>ROSCon New Orleans: O3DE talk; Gazebo community meeting; ROS Developers Podcast</td></tr>
+      <tr><td>2022</td><td>O3DE ROS 2 Gem, merged into o3de-extras</td><td></td><td>ROSCon Kyoto: apple-picking demo in O3DE</td></tr>
+      <tr><td>2021</td><td>ROS 2 for Unity and ros2cs open-sourced</td><td></td><td>ROS World: <em>Rosbag2 for Power Users</em>, with Emerson Knapp</td></tr>
+      <tr><td>2020</td><td>rosbag2 benchmarks and SQLite defaults</td><td></td><td>ROS Tooling WG: rosbag2 performance</td></tr>
+      <tr><td>2019</td><td>ros2_dotnet arrays, Dashing port</td><td></td><td>AUTOMATION 2019: VR teleoperation study</td></tr>
+      <tr><td>2018</td><td>micro-ROS founding scenarios and requirements (OFERA)</td><td></td><td><em>Automation in Construction</em>: HMIs for construction robots</td></tr>
+      <tr><td>2017</td><td>ROS 2 benchmarking at PIAP</td><td></td><td></td></tr>
+      <tr><td>2016</td><td>rmw_fastrtps fix</td><td></td><td>ROSCon Seoul: ROS 2 communication resilience</td></tr>
+      <tr><td>2015</td><td></td><td></td><td>NATO AVT-241: UGV human–machine interface gaps</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="talks">
+  <h2>Talks and workshops</h2>
+  <table>
+    <thead><tr><th>Date</th><th>Event</th><th>Title</th></tr></thead>
+    <tbody>
+      <tr><td>Sep 2026</td><td>ROSCon Global, Toronto</td><td>Workshop with AMD: <a href="https://newsroom.amd.com/news/media-alert-amd-roscon-2026/"><em>Train, Simulate, Deploy: Agentic AI from Cloud to Robot</em></a></td></tr>
+      <tr><td>Jul 2026</td><td>Davos Tech Summit</td><td><a href="davos-2026-blueprint-for-physical-ai.html"><em>The Blueprint for Physical AI</em></a></td></tr>
+      <tr><td>Oct 2025</td><td>ROSCon, Singapore</td><td><a href="https://vimeo.com/1136376172"><em>Introducing the new ROS simulation standard</em></a>, with Ayush Ghosh (NVIDIA)</td></tr>
+      <tr><td>2025</td><td>Warsaw.ai</td><td><a href="https://warsaw.ai/speaker/adam-dabrowski/"><em>AI Agent framework for robotics</em></a></td></tr>
+      <tr><td>Oct 2024</td><td>ROSCon, Odense</td><td><a href="https://roscon.ros.org/2024/talks/Agent-based_AI_Framework_for_ROS_2.pdf"><em>Agent-based AI Framework for ROS 2</em></a></td></tr>
+      <tr><td>Nov 2023</td><td>ROS Developers Podcast</td><td><a href="https://www.theconstruct.ai/128-o3de-robotics-simulator/">#128: O3DE robotics simulator</a></td></tr>
+      <tr><td>Oct 2023</td><td>Gazebo community meeting</td><td><a href="https://discourse.openrobotics.org/t/community-meeting-open-3d-engine-for-ros-simulations/49081"><em>Open 3D Engine for ROS simulations</em></a></td></tr>
+      <tr><td>Oct 2023</td><td>ROSCon, New Orleans</td><td><a href="https://vimeo.com/879001753"><em>Simulate robots like never before with Open 3D Engine</em></a></td></tr>
+      <tr><td>Oct 2022</td><td>ROSCon, Kyoto</td><td><a href="https://github.com/o3de/roscondemo">Apple-picking demo in O3DE</a></td></tr>
+      <tr><td>Oct 2021</td><td>ROS World</td><td><em>Rosbag2 for Power Users</em>, with Emerson Knapp</td></tr>
+      <tr><td>Jul 2020</td><td>ROS Tooling Working Group</td><td><a href="https://discourse.openrobotics.org/t/tooling-wg-breakout-session-rosbag2-performance/15067">rosbag2 performance findings</a></td></tr>
+      <tr><td>Oct 2016</td><td>ROSCon, Seoul</td><td><em>Evaluating the resilience of ROS2 communication layer</em>, with Rafał Kozik and Mateusz Macias (PIAP)</td></tr>
+    </tbody>
+  </table>
+</section>
+
+<section id="publications">
+  <h2>Publications</h2>
+  <ul>
+    <li>Dąbrowski, A., Rachwał, K., Majek, M., Boczek, B., Dąbrowski, K., Liberadzki, P., Ganzha, M. <a href="https://arxiv.org/abs/2505.07532"><em>RAI: Flexible Agent Framework for Embodied AI</em></a>. PAAMS 2025, Springer.</li>
+    <li>Report on performance improvements in rosbag2. ros2/rosbag2 technical report, 2021.</li>
+    <li><em>Measuring Performance in Robotic Teleoperation Tasks with Virtual Reality Headgear</em>. AUTOMATION 2019, pp. 408–417. With M. Maciaś, J. Fras, S. Puchalski.</li>
+    <li><em>Technology gaps in Human-Machine Interfaces for autonomous construction robots</em>. <em>Automation in Construction</em>, vol. 94, 2018. With M. Maciaś, J. Główka, J. Czarnowski.</li>
+    <li>Dąbrowski, A., Lütkebohle, I., Lange, R., Losa, J. M., Gamarra, B. O., Goenaga, I. M., Vilches, V. M. <em>Reference Scenarios and Technical System Requirements Definition</em>. OFERA H2020 deliverable, 2018. Cited in the <a href="https://link.springer.com/chapter/10.1007/978-3-031-09062-2_2">micro-ROS chapter</a> of <em>Robot Operating System: The Complete Reference</em>, vol. 7.</li>
+    <li><em>Identification and analysis of gaps in the field of UGV human-machine interfaces</em>. NATO AVT-241 Specialists Meeting, Rzeszów, 2015. With M. Maciaś, J. Główka.</li>
+  </ul>
+</section>
+
+<section id="roles">
+  <h2>Roles</h2>
+  <ul>
+    <li>Chief Technology Officer, <a href="https://robotec.ai">Robotec.ai</a> (earlier VP Robotics &amp; Simulation, and Principal Software Engineer)</li>
+    <li>Leader of WG5, Simulations &amp; Standards, and Management Committee member for Poland, <a href="https://www.cost.eu/actions/CA25178/">COST Action CA25178 API-Net</a></li>
+    <li>Coordinator, <a href="https://physical-ai.ros.org/working-groups/embodied-agentic-ai/">Embodied Agentic AI working group</a>, OSRA Physical AI SIG</li>
+    <li>Founder, ROS Embodied AI Community Group (2024)</li>
+    <li>Independent Expert Evaluator, European Commission</li>
+    <li>Maintainer, O3DE SIG-Simulation (2023)</li>
+  </ul>
+</section>
+
+<footer>
+  <p><a href="https://github.com/adamdbrw">GitHub</a> · <a href="https://www.linkedin.com/in/dabrowskiadam/">LinkedIn</a> · Reach out for social good initiatives.</p>
+  <p>Last updated 3 November 2026.</p>
+</footer>
+
+</main>
+</body>
+</html>
