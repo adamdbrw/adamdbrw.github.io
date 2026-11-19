@@ -75,11 +75,11 @@
    "id": "simif-design",
    "category": "Standards",
    "status": "verified",
-   "claim": "Opened the first pull request of the ROS Simulation Interfaces, designed them with NVIDIA and Gazebo contributors, and is listed as maintainer and author.",
+   "claim": "Opened the first pull request of the ROS Simulation Interfaces, designed them with NVIDIA contributors with reviews from Gazebo maintainers, and is listed as maintainer and author.",
    "evidence": [
     {
      "url": "https://github.com/ros-simulation/simulation_interfaces/pull/1",
-     "shows": "First pull request, by adamdbrw (opened 17 Dec 2024, merged 21 Mar 2025)"
+     "shows": "First pull request, by adamdbrw (opened 17 Dec 2024, merged 21 Mar 2025); reviews include Gazebo maintainers (azeey, scpeters)"
     },
     {
      "url": "https://index.ros.org/p/simulation_interfaces/",
@@ -148,7 +148,7 @@
    "id": "rai-research-use",
    "category": "Open source",
    "status": "verified",
-   "claim": "RAI is cited in later robotics research by independent groups, and evaluated on in RHO (2026).",
+   "claim": "RAI is cited in later robotics research by independent groups; RHO (2026) evaluates on RAI's manipulation benchmark.",
    "evidence": [
     {
      "url": "https://arxiv.org/abs/2610.27039",
@@ -190,6 +190,10 @@
     {
      "url": "https://github.com/o3de/o3de-extras",
      "shows": "The Gem now lives in o3de-extras (Adam #2 committer, read 19 Nov 2026)"
+    },
+    {
+     "url": "https://github.com/o3de/sig-simulation",
+     "shows": "O3DE SIG-Simulation, which maintains the Gem"
     }
    ]
   },
@@ -295,6 +299,10 @@
     {
      "url": "https://cordis.europa.eu/project/id/780785/results",
      "shows": "OFERA project results (European Commission CORDIS)"
+    },
+    {
+     "url": "https://www.zephyrproject.org/micro-ros-a-member-of-the-zephyr-project-and-integrated-into-the-zephyr-build-system-as-a-module/",
+     "shows": "micro-ROS is a Zephyr Project module"
     }
    ]
   },
@@ -346,7 +354,7 @@
    "id": "ec-expert",
    "category": "Roles",
    "status": "self-reported",
-   "claim": "Independent Expert Evaluator for the European Commission since June 2018 (Horizon 2020, Horizon Europe).",
+   "claim": "Independent Expert Evaluator for the European Commission since June 2018 (Horizon 2020, Horizon Europe): architecture, feasibility and execution risk of research proposals.",
    "evidence": [
     {
      "url": "https://www.linkedin.com/in/dabrowskiadam/",
@@ -363,7 +371,7 @@
    "id": "career-robotec",
    "category": "Career",
    "status": "self-reported",
-   "claim": "At Robotec.ai since November 2017: Technical Lead, Principal Software Engineer (2021), VP Robotics & Simulation (2023, a department of six teams), CTO (since July 2024).",
+   "claim": "At Robotec.ai since November 2017: Technical Lead (Nov 2017–Jun 2021), Principal Software Engineer (Jul 2021–Jan 2023), VP Robotics & Simulation (Jan 2023–Jul 2024, a department of six teams), CTO (since July 2024).",
    "evidence": [
     {
      "url": "https://www.linkedin.com/in/dabrowskiadam/",
@@ -387,7 +395,7 @@
    "id": "career-piap",
    "category": "Career",
    "status": "self-reported",
-   "claim": "PIAP, Industrial Research Institute for Automation and Measurements (2014–2017 and 2017–2019): robotics software, EU projects, Autonomy group lead (11 people), PIAP's lead in R5-COP and OFERA.",
+   "claim": "PIAP, Industrial Research Institute for Automation and Measurements (April 2014–April 2017; December 2017–March 2019, in parallel with Robotec.ai): Senior Software Engineer; software for mobile robots and operator consoles; EU robotics and space research projects; Autonomy group lead (11 people); PIAP's project lead in R5-COP; project lead and main engineer in OFERA.",
    "evidence": [
     {
      "url": "https://www.linkedin.com/in/dabrowskiadam/",
@@ -403,7 +411,7 @@
    "id": "career-early",
    "category": "Career",
    "status": "self-reported",
-   "claim": "Software engineer and system analyst 2005–2014: TLS-Technologie, Gadu-Gadu, Inter Polska, PZU, GG Network, DCC Labs, Deloitte Poland.",
+   "claim": "Software engineer and system analyst 2005–2014: TLS-Technologie (2005–2007), Gadu-Gadu (2007–2008, C++/Qt client of Poland's most-used instant messenger), PZU and Inter Polska (2009–2010, system analyst), GG Network (2011–2012), DCC Labs (2013, digital TV decoding), Deloitte Poland (2013–2014, risk-rating system for Poland's largest bank).",
    "evidence": [
     {
      "url": "https://www.linkedin.com/in/dabrowskiadam/",
@@ -415,7 +423,7 @@
    "id": "education",
    "category": "Career",
    "status": "self-reported",
-   "claim": "MSc in Information Technology, University of Warsaw. Languages: Polish, English, German.",
+   "claim": "MSc in Information Technology, University of Warsaw. Languages: Polish (native), English, German.",
    "evidence": [
     {
      "url": "https://www.linkedin.com/in/dabrowskiadam/",
@@ -424,10 +432,22 @@
    ]
   },
   {
+   "id": "volunteer-2009",
+   "category": "Career",
+   "status": "self-reported",
+   "claim": "Volunteer maths teacher for children from families in hardship (2009–2010).",
+   "evidence": [
+    {
+     "url": "https://www.linkedin.com/in/dabrowskiadam/",
+     "shows": "LinkedIn volunteering entry"
+    }
+   ]
+  },
+  {
    "id": "talk-2016",
    "category": "Talks",
    "status": "verified",
-   "claim": "ROSCon 2016, Seoul: 'Evaluating the resilience of ROS2 communication layer', with Rafał Kozik and Mateusz Macias (PIAP).",
+   "claim": "ROSCon 2016, Seoul: 'Evaluating the resilience of ROS2 communication layer', with Rafał Kozik and Mateusz Maciaś (PIAP).",
    "evidence": [
     {
      "url": "https://roscon.ros.org/2016/",
@@ -539,11 +559,11 @@
    "id": "talk-2026-davos",
    "category": "Talks",
    "status": "verified",
-   "claim": "Davos Tech Summit, 1 July 2026: main-stage keynote 'The Blueprint for Physical AI' (session 'Foundation Models in Robotics').",
+   "claim": "Davos Tech Summit, 2 July 2026: main-stage keynote 'The Blueprint for Physical AI' in the session 'Foundation Models in Robotics'.",
    "evidence": [
     {
      "url": "https://davostechsummit.com/data/program.csv",
-     "shows": "Programme data: 1 July 2026, 12:15–13:00, Main Stage, Keynote, 'The Blueprint for Physical AI', Adam Dabrowski, Robotec, CTO"
+     "shows": "Programme data (CSV): Thursday 2 July 2026, 12:15–13:00, Main Stage, session 'Foundation Models in Robotics', Keynote, 'The Blueprint for Physical AI', Adam Dabrowski, Robotec, CTO"
     },
     {
      "url": "https://adamdbrw.github.io/davos-2026-blueprint-for-physical-ai.html",
@@ -560,10 +580,6 @@
     {
      "url": "https://discourse.openrobotics.org/t/roscon-global-2026-registration-now-open-workshop-and-exhibitor-info-now-available/54710",
      "shows": "Workshop listing naming the presenters, including Adam Dąbrowski"
-    },
-    {
-     "url": "https://newsroom.amd.com/news/media-alert-amd-roscon-2026/",
-     "shows": "Workshop title and date"
     }
    ]
   },
@@ -591,7 +607,7 @@
    "evidence": [
     {
      "url": "https://arxiv.org/abs/2607.07403",
-     "shows": "Preprint"
+     "shows": "Preprint; arXiv comments: 'accepted to … PAAMS'26'"
     }
    ]
   },
@@ -623,7 +639,7 @@
    "id": "pub-ofera-2018",
    "category": "Publications",
    "status": "verified",
-   "claim": "Dąbrowski, A., Lütkebohle, I., Lange, R., et al. Reference Scenarios and Technical System Requirements Definition. OFERA (Horizon 2020) deliverable, 2018.",
+   "claim": "Dąbrowski, A., Lütkebohle, I., Lange, R., Losa, J. M., Gamarra, B. O., Goenaga, I. M., Vilches, V. M. Reference Scenarios and Technical System Requirements Definition. OFERA (Horizon 2020) deliverable, 2018.",
    "evidence": [
     {
      "url": "https://doi.org/10.1007/978-3-031-09062-2_2",
@@ -635,7 +651,7 @@
    "id": "pub-rosbag2-2021",
    "category": "Publications",
    "status": "verified",
-   "claim": "Report on performance improvements in rosbag2. ros2/rosbag2 technical report, 2021.",
+   "claim": "Report on performance improvements in rosbag2. ros2/rosbag2 technical report, 2021 (added by adamdbrw).",
    "evidence": [
     {
      "url": "https://github.com/ros2/rosbag2/pull/651",
@@ -647,7 +663,7 @@
    "id": "pub-nato-2015",
    "category": "Publications",
    "status": "self-reported",
-   "claim": "Identification and analysis of gaps in the field of UGV human-machine interfaces. NATO AVT-241 Specialists Meeting, 2015. With M. Maciaś and J. Główka.",
+   "claim": "Identification and analysis of gaps in the field of UGV human-machine interfaces. NATO AVT-241 Specialists Meeting, 2015. Authors: M. Maciaś, A. Dąbrowski, J. Główka (order not independently confirmed).",
    "evidence": [
     {
      "url": "https://www.linkedin.com/in/dabrowskiadam/",
