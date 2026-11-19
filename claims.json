@@ -11,7 +11,7 @@
   "linkedin": "https://www.linkedin.com/in/dabrowskiadam/",
   "disambiguation": "Robotics software engineer and CTO of Robotec.ai, Warsaw. Not the researchers of the same name in signal processing or space engineering."
  },
- "about": "Every factual claim made on adamdbrw.github.io, with public sources. status: 'verified' = an independent public source confirms the claim; 'self-reported' = stated by Adam (site, LinkedIn) and not independently published; partial corroboration is listed in evidence.",
+ "about": "Every factual claim made on adamdbrw.github.io, with sources. status: 'verified' = an independent public source confirms the claim; 'self-reported' = stated by Adam (site, LinkedIn, speaker bios he supplied) and not independently published; partial corroboration is listed in evidence. Notes disclose relationships between Adam and the authors of some sources.",
  "last_checked": "2026-11-19",
  "how_to_verify": [
   "Open each evidence URL; the 'shows' field says what to look for.",
@@ -75,7 +75,7 @@
    "id": "simif-design",
    "category": "Standards",
    "status": "verified",
-   "claim": "Opened the first pull request of the ROS Simulation Interfaces, designed them with NVIDIA contributors with reviews from Gazebo maintainers, and is listed as maintainer and author.",
+   "claim": "Wrote the first version of the ROS Simulation Interfaces (pull request #1: all its commits, 289 review comments), then developed them with NVIDIA contributors and reviews from Gazebo maintainers; listed as maintainer and author.",
    "evidence": [
     {
      "url": "https://github.com/ros-simulation/simulation_interfaces/pull/1",
@@ -87,7 +87,7 @@
     },
     {
      "url": "https://github.com/ros-simulation/simulation_interfaces/graphs/contributors",
-     "shows": "Contributors: Ayush Ghosh (NVIDIA) and Adam are the two largest committers"
+     "shows": "Contributors: Ayush Ghosh (NVIDIA, joined February 2025) is now the largest committer; Adam second"
     }
    ]
   },
@@ -109,7 +109,8 @@
      "url": "https://docs.o3de.org/docs/user-guide/interactivity/robotics/simulation-interfaces/",
      "shows": "O3DE documentation for the interfaces"
     }
-   ]
+   ],
+   "note": "The O3DE implementation is by Robotec.ai; Gazebo and NVIDIA Isaac Sim implemented the interfaces themselves."
   },
   {
    "id": "simif-roscon2025",
@@ -148,7 +149,7 @@
    "id": "rai-research-use",
    "category": "Open source",
    "status": "verified",
-   "claim": "RAI is cited in later robotics research by independent groups; RHO (2026) evaluates on RAI's manipulation benchmark.",
+   "claim": "RAI is cited in later robotics research; RHO (2026) evaluates on RAI's manipulation benchmark.",
    "evidence": [
     {
      "url": "https://arxiv.org/abs/2610.27039",
@@ -167,7 +168,7 @@
      "shows": "RHO (2026) evaluates on RAI's manipulation benchmark and transfers to RAI's ROS 2 stack"
     }
    ],
-   "note": "The independent papers cite RAI; RHO evaluates on RAI's benchmark, and its authors include two of Adam's ROSCon 2026 workshop co-presenters."
+   "note": "Relationships, for transparency: RHO's authors include two of Adam's ROSCon 2026 workshop co-presenters; the last author of ROSBag MCP Server chairs the COST Action in which Adam leads a working group. The other papers are by unrelated groups."
   },
   {
    "id": "o3de-gem",
@@ -201,7 +202,7 @@
    "id": "o3de-sig",
    "category": "Roles",
    "status": "verified",
-   "claim": "Maintainer (April 2023) and Chair (elected May 2023) of O3DE SIG-Simulation.",
+   "claim": "Maintainer (April 2023) and elected Chair (May 2023) of O3DE SIG-Simulation; the SIG README lists him as Chair.",
    "evidence": [
     {
      "url": "https://github.com/o3de/sig-simulation/issues/70",
@@ -569,13 +570,14 @@
      "url": "https://adamdbrw.github.io/davos-2026-blueprint-for-physical-ai.html",
      "shows": "The talk in writing, with slides (the talk was not recorded)"
     }
-   ]
+   ],
+   "note": "One of three keynotes in a 45-minute main-stage session; the talk was not recorded."
   },
   {
    "id": "talk-2026-roscon",
    "category": "Talks",
    "status": "verified",
-   "claim": "ROSCon 2026, Toronto: co-presenter of the AMD-hosted workshop 'Train, Simulate, Deploy: Agentic AI from Cloud to Robot'.",
+   "claim": "ROSCon 2026, Toronto: co-presenter of the workshop 'Train, Simulate, Deploy: Agentic AI from Cloud to Robot' (one of five presenters).",
    "evidence": [
     {
      "url": "https://discourse.openrobotics.org/t/roscon-global-2026-registration-now-open-workshop-and-exhibitor-info-now-available/54710",
