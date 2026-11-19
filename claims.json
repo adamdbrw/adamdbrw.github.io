@@ -1,0 +1,212 @@
+{
+  "subject": {
+    "name": "Adam Dąbrowski",
+    "alternate_names": ["Adam Dabrowski", "adamdbrw"],
+    "id": "https://adamdbrw.github.io/#adam",
+    "profile": "https://adamdbrw.github.io/",
+    "github": "https://github.com/adamdbrw",
+    "linkedin": "https://www.linkedin.com/in/dabrowskiadam/",
+    "disambiguation": "Robotics software engineer and CTO of Robotec.ai, Warsaw. Not the researchers of the same name in signal processing or space engineering."
+  },
+  "about": "Every factual claim made on adamdbrw.github.io, with public sources. status: 'verified' = an independent public source confirms the claim; 'self-reported' = stated by Adam (site, LinkedIn) and not independently published; partial corroboration is listed in evidence.",
+  "last_checked": "2026-11-19",
+  "how_to_verify": [
+    "Open each evidence URL; the 'shows' field says what to look for.",
+    "GitHub authorship: commits, pull requests and issues are by the account adamdbrw (also older commits authored as 'Adam Dąbrowski' or 'adamdbrw').",
+    "Commit ranks change over time; they are given with the date read."
+  ],
+  "claims": [
+    {"id": "rep158-author", "category": "Standards", "status": "verified",
+     "claim": "Lead author of REP 158, 'OpenUSD Conventions for Simulation Asset Interoperability in Open Source Robotics', with co-authors from Robotec.ai, NVIDIA and Ekumen.",
+     "evidence": [
+       {"url": "https://reps.openrobotics.org/rep-0158-2006/", "shows": "Official REP page: 'By Adam Dabrowski (Robotec.ai), Mateusz Zak, Michal Pelka (Robotec.ai), Ayush Ghosh, Renato Gasoto (NVIDIA), Franco Cipollone (Ekumen)'; Status: Accepted"},
+       {"url": "https://github.com/openrobotics/reps/pull/29", "shows": "Pull request adding the REP draft (merged June 2026)"},
+       {"url": "https://github.com/ros-simulation/openusd-schemas/pull/1", "shows": "Core schema, pull request by adamdbrw"}]},
+    {"id": "rep158-accepted", "category": "Standards", "status": "verified",
+     "claim": "REP 158 was accepted by the Gazebo PMC (28 September 2026) and the ROS PMC (29 September 2026) and marked Accepted on 22 October 2026.",
+     "evidence": [
+       {"url": "https://discourse.openrobotics.org/t/ros-pmc-minutes-for-september-29-2026/58518", "shows": "ROS PMC minutes: REP 158 passes"},
+       {"url": "https://discourse.openrobotics.org/t/gazebo-pmc-meeting-minutes-2026-09-28/58502", "shows": "Gazebo PMC minutes: REP 158 vote"},
+       {"url": "https://github.com/openrobotics/reps/pull/34", "shows": "Status change to Accepted, by adamdbrw"}]},
+    {"id": "simif-proposal", "category": "Standards", "status": "verified",
+     "claim": "Proposed the standardization of ROS simulation interfaces (November 2024).",
+     "evidence": [
+       {"url": "https://github.com/ros-infrastructure/rep/issues/410", "shows": "Issue 'Standardization of simulation interfaces' opened by adamdbrw on 5 Nov 2024; Gazebo lead thanks him for kicking it off"}]},
+    {"id": "simif-design", "category": "Standards", "status": "verified",
+     "claim": "Opened the first pull request of the ROS Simulation Interfaces and is listed as its maintainer and author.",
+     "evidence": [
+       {"url": "https://github.com/ros-simulation/simulation_interfaces/pull/1", "shows": "First pull request, by adamdbrw (opened 17 Dec 2024, merged 21 Mar 2025)"},
+       {"url": "https://index.ros.org/p/simulation_interfaces/", "shows": "ROS Index lists Adam Dąbrowski as maintainer and author"}]},
+    {"id": "simif-implementations", "category": "Standards", "status": "verified",
+     "claim": "The ROS Simulation Interfaces are implemented in Gazebo, NVIDIA Isaac Sim and O3DE.",
+     "evidence": [
+       {"url": "https://gazebosim.org/docs/latest/ros2_sim_interfaces", "shows": "Gazebo documentation for the interfaces"},
+       {"url": "https://docs.isaacsim.omniverse.nvidia.com/latest/ros2_tutorials/bridge_configuration/tutorial_ros2_simulation_control.html", "shows": "Isaac Sim tutorial: simulation control through the standard simulation_interfaces package"},
+       {"url": "https://docs.o3de.org/docs/user-guide/interactivity/robotics/simulation-interfaces/", "shows": "O3DE documentation for the interfaces"}]},
+    {"id": "simif-roscon2025", "category": "Standards", "status": "verified",
+     "claim": "Presented the new ROS simulation standard at ROSCon 2025 with Ayush Ghosh (NVIDIA).",
+     "evidence": [
+       {"url": "https://vimeo.com/1136376172", "shows": "Talk video, 'Introducing the new ROS simulation standard'"}]},
+
+    {"id": "rai", "category": "Open source", "status": "self-reported",
+     "claim": "Conceived and directed RAI, an open-source agent framework for embodied AI (2024); co-author of its PAAMS 2025 paper.",
+     "evidence": [
+       {"url": "https://github.com/RobotecAI/rai", "shows": "The RAI repository (Robotec.ai)"},
+       {"url": "https://doi.org/10.1007/978-3-032-05925-3_16", "shows": "Published paper: Rachwał, Majek, Boczek, K. Dąbrowski, Liberadzki, A. Dąbrowski, Ganzha; PAAMS 2025, CCIS, pp. 195–206"},
+       {"url": "https://roscon.ros.org/2024/talks/Agent-based_AI_Framework_for_ROS_2.pdf", "shows": "ROSCon 2024 talk introducing the framework, presented by Adam"}],
+     "note": "Directing RAI is Adam's statement; the public record shows him as presenter and co-author."},
+    {"id": "rai-research-use", "category": "Open source", "status": "verified",
+     "claim": "RAI is used and cited in later robotics research.",
+     "evidence": [
+       {"url": "https://arxiv.org/abs/2606.16458", "shows": "RHO (2026) evaluates on RAI's manipulation benchmark and transfers to RAI's ROS 2 stack"},
+       {"url": "https://arxiv.org/abs/2610.27039", "shows": "Embodied Playground (2026) cites RAI"},
+       {"url": "https://arxiv.org/abs/2511.03497", "shows": "ROSBag MCP Server (2025) cites RAI"},
+       {"url": "https://arxiv.org/abs/2603.18520", "shows": "Robotic Agentic Platform for Intelligent Electric Vehicle Disassembly (2026) cites RAI"}]},
+    {"id": "o3de-gem", "category": "Open source", "status": "verified",
+     "claim": "Wrote the RFC and first code of the O3DE ROS 2 Gem (2022) and is its top committer in the original repository; it is now the official O3DE robotics stack.",
+     "evidence": [
+       {"url": "https://github.com/o3de/sig-core/issues/33", "shows": "'RFC - ROS2 Gem', 7 Apr 2022"},
+       {"url": "https://github.com/RobotecAI/o3de-ros2-gem", "shows": "Original repository: first commits by Adam (5 Apr 2022); #1 committer (104 commits, read 19 Nov 2026)"},
+       {"url": "https://github.com/o3de/o3de-extras", "shows": "The Gem now lives in o3de-extras (Adam #2 committer, read 19 Nov 2026)"}]},
+    {"id": "o3de-sig", "category": "Roles", "status": "verified",
+     "claim": "Maintainer (April 2023) and Chair (elected May 2023) of O3DE SIG-Simulation.",
+     "evidence": [
+       {"url": "https://github.com/o3de/sig-simulation/issues/70", "shows": "Maintainer nomination approved"},
+       {"url": "https://github.com/o3de/sig-simulation/issues/71", "shows": "Chair election"},
+       {"url": "https://github.com/o3de/sig-simulation", "shows": "README lists the Chair"}]},
+    {"id": "o3de-foundation", "category": "Open source", "status": "verified",
+     "claim": "Quoted in the Linux Foundation's 2023 announcement on Open 3D Engine in robotics, and a panelist in the Open 3D Foundation webinar on open source in robotics.",
+     "evidence": [
+       {"url": "https://www.linuxfoundation.org/press/open-3d-engine-sees-momentum-across-robotics-industry", "shows": "Press release, 14 Mar 2023, quoting Adam"},
+       {"url": "https://project.linuxfoundation.org/o3df-how-os-technologies-are-accelerating-robotic-innovation", "shows": "Webinar page listing the panel"}]},
+    {"id": "ros2-for-unity", "category": "Open source", "status": "verified",
+     "claim": "Co-created ROS 2 for Unity (first commit and #1 committer) and ros2cs (first commit); both ship inside AWSIM, the Autoware simulator.",
+     "evidence": [
+       {"url": "https://github.com/RobotecAI/ros2-for-unity", "shows": "First commit by Adam (16 Aug 2021); #1 committer (read 19 Nov 2026)"},
+       {"url": "https://github.com/RobotecAI/ros2cs", "shows": "First commit by Adam (11 Apr 2020); #2 committer (read 19 Nov 2026)"},
+       {"url": "https://github.com/autowarefoundation/AWSIM/tree/main/Assets", "shows": "Assets/Ros2ForUnity ships in AWSIM (now hosted by the Autoware Foundation; originally TIER IV)"},
+       {"url": "https://unity.com/resources/tier-iv-awsim-open-source-autonomous-driving-simulator", "shows": "Unity case study crediting Robotec.ai for ROS 2 for Unity"}]},
+    {"id": "rosbag2", "category": "Open source", "status": "verified",
+     "claim": "Led rosbag2 recording-performance work (2020–2021): optimized SQLite defaults and the --regex and --exclude options, shipped in ROS 2, and the performance report.",
+     "evidence": [
+       {"url": "https://github.com/ros2/rosbag2/pull/568", "shows": "'SQLite storage optimized by default', merged 8 Jan 2021"},
+       {"url": "https://github.com/ros2/rosbag2/pull/604", "shows": "--regex option"},
+       {"url": "https://github.com/ros2/rosbag2/pull/607", "shows": "--exclude option"},
+       {"url": "https://github.com/ros2/rosbag2/pull/651", "shows": "Performance report"},
+       {"url": "https://github.com/ros2/rosbag2/blob/rolling/rosbag2_storage_sqlite3/README.md", "shows": "Optimized SQLite defaults still documented in ROS 2"}],
+     "note": "MCAP has been rosbag2's default storage since ROS 2 Iron; the SQLite plugin and the options remain."},
+    {"id": "micro-ros", "category": "Open source", "status": "verified",
+     "claim": "First author of the founding scenarios and requirements of micro-ROS (EU project OFERA, 2018).",
+     "evidence": [
+       {"url": "https://doi.org/10.1007/978-3-031-09062-2_2", "shows": "micro-ROS chapter of 'Robot Operating System: The Complete Reference' vol. 7, citing 'Dabrowski, A., Lütkebohle, I., Lange, R., … Reference Scenarios and Technical System Requirements Definition. OFERA (2018)'"},
+       {"url": "https://cordis.europa.eu/project/id/780785/results", "shows": "OFERA project results (European Commission CORDIS)"}]},
+
+    {"id": "osra-wg", "category": "Roles", "status": "verified",
+     "claim": "Coordinator of the Embodied Agentic AI working group of the OSRA Physical AI SIG, and an initial member of the SIG (September 2025).",
+     "evidence": [
+       {"url": "https://physical-ai.ros.org/working-groups/embodied-agentic-ai/", "shows": "'Coordinator: Adam Dabrowski (Robotec.ai)'"},
+       {"url": "https://discourse.openrobotics.org/t/new-tgc-special-interest-group-on-physical-ai/50002", "shows": "SIG announcement with initial members"}]},
+    {"id": "embodied-ai-cg", "category": "Roles", "status": "verified",
+     "claim": "Founded the ROS Embodied AI Community Group (October 2024).",
+     "evidence": [
+       {"url": "https://discourse.openrobotics.org/t/embodied-ai-community-group-call-of-interest/39990", "shows": "Call of interest, 9 Oct 2024, and the ROSCon 2024 Birds of a Feather session"},
+       {"url": "https://discourse.openrobotics.org/t/the-launch-and-first-meeting-of-embodied-ai-community-group/40420", "shows": "Launch and first meeting, 4 Nov 2024"}]},
+    {"id": "cost", "category": "Roles", "status": "verified",
+     "claim": "Leader of WG5 (Simulations & Standards) and Management Committee member for Poland in COST Action CA25178 API-Net (from October 2026).",
+     "evidence": [
+       {"url": "https://www.cost.eu/actions/CA25178/", "shows": "'WG5 Leader Mr Adam Dabrowski'; Management Committee, Poland"}]},
+    {"id": "ec-expert", "category": "Roles", "status": "self-reported",
+     "claim": "Independent Expert Evaluator for the European Commission since June 2018 (Horizon 2020, Horizon Europe).",
+     "evidence": [
+       {"url": "https://www.linkedin.com/in/dabrowskiadam/", "shows": "LinkedIn experience entry"},
+       {"url": "https://warsaw.ai/pages/previous-events/episode-xxiv/", "shows": "Warsaw.ai speaker bio (Oct 2024) names the role"}],
+     "note": "The European Commission does not publish evaluator lists by name."},
+
+    {"id": "career-robotec", "category": "Career", "status": "self-reported",
+     "claim": "At Robotec.ai since November 2017: Technical Lead, Principal Software Engineer (2021), VP Robotics & Simulation (2023, a department of six teams), CTO (since July 2024).",
+     "evidence": [
+       {"url": "https://www.linkedin.com/in/dabrowskiadam/", "shows": "LinkedIn experience entries"},
+       {"url": "https://warsaw.ai/pages/previous-events/episode-xxiv/", "shows": "Listed as CTO, Robotec.ai (Oct 2024)"},
+       {"url": "https://vimeo.com/879001753", "shows": "ROSCon 2023 talk by 'Adam Dabrowski of Robotec.ai'"}]},
+    {"id": "career-piap", "category": "Career", "status": "self-reported",
+     "claim": "PIAP, Industrial Research Institute for Automation and Measurements (2014–2017 and 2017–2019): robotics software, EU projects, Autonomy group lead (11 people), PIAP's lead in R5-COP and OFERA.",
+     "evidence": [
+       {"url": "https://www.linkedin.com/in/dabrowskiadam/", "shows": "LinkedIn experience entries"},
+       {"url": "https://roscon.ros.org/2016/", "shows": "ROSCon 2016 programme lists him with PIAP"}]},
+    {"id": "career-early", "category": "Career", "status": "self-reported",
+     "claim": "Software engineer and system analyst 2005–2014: TLS-Technologie, Gadu-Gadu, Inter Polska, PZU, GG Network, DCC Labs, Deloitte Poland.",
+     "evidence": [{"url": "https://www.linkedin.com/in/dabrowskiadam/", "shows": "LinkedIn experience entries"}]},
+    {"id": "education", "category": "Career", "status": "self-reported",
+     "claim": "MSc in Information Technology, University of Warsaw. Languages: Polish, English, German.",
+     "evidence": [{"url": "https://www.linkedin.com/in/dabrowskiadam/", "shows": "LinkedIn education and languages"}]},
+
+    {"id": "talk-2016", "category": "Talks", "status": "verified",
+     "claim": "ROSCon 2016, Seoul: 'Evaluating the resilience of ROS2 communication layer', with Rafał Kozik and Mateusz Macias (PIAP).",
+     "evidence": [
+       {"url": "https://roscon.ros.org/2016/", "shows": "Programme entry"},
+       {"url": "https://vimeo.com/187705229", "shows": "Talk video"},
+       {"url": "https://roscon.ros.org/2016/presentations/rafal.kozik-ros2evaluation.pdf", "shows": "Slides"}]},
+    {"id": "talk-2020", "category": "Talks", "status": "verified",
+     "claim": "ROS Tooling Working Group, July 2020: rosbag2 performance findings.",
+     "evidence": [
+       {"url": "https://discourse.openrobotics.org/t/tooling-wg-breakout-session-rosbag2-performance/15067", "shows": "Session announcement"},
+       {"url": "https://www.youtube.com/watch?v=UUOy85c94Aw", "shows": "Recording"}]},
+    {"id": "talk-2021", "category": "Talks", "status": "verified",
+     "claim": "ROS World 2021: 'Rosbag2 for Power Users', with Emerson Knapp.",
+     "evidence": [
+       {"url": "https://roscon.ros.org/world/2021/", "shows": "Programme entry"},
+       {"url": "https://vimeo.com/649655219/75630c8cff", "shows": "Talk video"}]},
+    {"id": "demo-2022", "category": "Talks", "status": "verified",
+     "claim": "ROSCon 2022, Kyoto: apple-picking robots demo in O3DE (demo, not a talk).",
+     "evidence": [{"url": "https://github.com/o3de/roscondemo", "shows": "Demo repository 'as presented during ROSCon 2022'; Adam #1 committer (read 19 Nov 2026)"}]},
+    {"id": "talk-2023", "category": "Talks", "status": "verified",
+     "claim": "ROSCon 2023, New Orleans: 'Simulate robots like never before with Open 3D Engine'; Gazebo community meeting (Oct 2023); ROS Developers Podcast #128 (Nov 2023).",
+     "evidence": [
+       {"url": "https://vimeo.com/879001753", "shows": "Talk video"},
+       {"url": "https://roscon.ros.org/2023/talks/Simulate_robots_like_never_before_with_Open_3D_Engine.pdf", "shows": "Slides"},
+       {"url": "https://discourse.openrobotics.org/t/community-meeting-open-3d-engine-for-ros-simulations/49081", "shows": "Gazebo community meeting"},
+       {"url": "https://www.theconstruct.ai/128-o3de-robotics-simulator/", "shows": "Podcast episode"}]},
+    {"id": "talk-2024", "category": "Talks", "status": "verified",
+     "claim": "ROSCon 2024, Odense: 'Agent-based AI Framework for ROS 2', and the Embodied AI Birds of a Feather session; Warsaw.ai Episode XXIV (10 Oct 2024): 'AI Agent framework for robotics'.",
+     "evidence": [
+       {"url": "https://roscon.ros.org/2024/talks/Agent-based_AI_Framework_for_ROS_2.pdf", "shows": "Slides"},
+       {"url": "https://vimeo.com/1026029511", "shows": "Talk video"},
+       {"url": "https://warsaw.ai/pages/previous-events/episode-xxiv/", "shows": "Warsaw.ai event page"}]},
+    {"id": "talk-2026-davos", "category": "Talks", "status": "self-reported",
+     "claim": "Davos Tech Summit, July 2026: 'The Blueprint for Physical AI'.",
+     "evidence": [
+       {"url": "https://adamdbrw.github.io/davos-2026-blueprint-for-physical-ai.html", "shows": "The talk in writing, with slides (the talk was not recorded)"},
+       {"url": "https://davostechsummit.com/", "shows": "The event (1–4 July 2026)"}],
+     "note": "The event's public programme page does not list individual sessions."},
+    {"id": "talk-2026-roscon", "category": "Talks", "status": "verified",
+     "claim": "ROSCon 2026, Toronto: co-led the workshop 'Train, Simulate, Deploy: Agentic AI from Cloud to Robot' with AMD.",
+     "evidence": [
+       {"url": "https://discourse.openrobotics.org/t/roscon-global-2026-registration-now-open-workshop-and-exhibitor-info-now-available/54710", "shows": "Workshop listing naming the presenters, including Adam Dąbrowski"},
+       {"url": "https://newsroom.amd.com/news/media-alert-amd-roscon-2026/", "shows": "Workshop title and date"}]},
+
+    {"id": "pub-rai", "category": "Publications", "status": "verified",
+     "claim": "Rachwał, K., Majek, M., Boczek, B., Dąbrowski, K., Liberadzki, P., Dąbrowski, A., Ganzha, M. RAI: Flexible Agent Framework for Embodied AI. PAAMS 2025 (Springer CCIS), pp. 195–206.",
+     "evidence": [
+       {"url": "https://doi.org/10.1007/978-3-032-05925-3_16", "shows": "Published version"},
+       {"url": "https://arxiv.org/abs/2505.07532", "shows": "Preprint"}]},
+    {"id": "pub-vlm-2026", "category": "Publications", "status": "verified",
+     "claim": "Rachwał, K., Majek, M., Boczek, B., Matejczyk, J., Matejkowski, D., Dąbrowski, A., Seyde, T., Amini, A., Ganzha, M. Multi-Agent Robotic Control with Onboard Vision-Language Models. 2026.",
+     "evidence": [{"url": "https://arxiv.org/abs/2607.07403", "shows": "Preprint"}]},
+    {"id": "pub-automation-2019", "category": "Publications", "status": "verified",
+     "claim": "Maciaś, M., Dąbrowski, A., Fraś, J., Karczewski, M., Puchalski, S., Tabaka, S., Jaroszek, P. Measuring Performance in Robotic Teleoperation Tasks with Virtual Reality Headgear. AUTOMATION 2019, Springer, pp. 408–417.",
+     "evidence": [{"url": "https://doi.org/10.1007/978-3-030-13273-6_39", "shows": "Published version"}]},
+    {"id": "pub-autcon-2018", "category": "Publications", "status": "verified",
+     "claim": "Czarnowski, J., Dąbrowski, A., Maciaś, M., Główka, J., Wrona, J. Technology gaps in Human-Machine Interfaces for autonomous construction robots. Automation in Construction 94 (2018), pp. 179–190.",
+     "evidence": [{"url": "https://doi.org/10.1016/j.autcon.2018.06.014", "shows": "Published version"}]},
+    {"id": "pub-ofera-2018", "category": "Publications", "status": "verified",
+     "claim": "Dąbrowski, A., Lütkebohle, I., Lange, R., et al. Reference Scenarios and Technical System Requirements Definition. OFERA (Horizon 2020) deliverable, 2018.",
+     "evidence": [{"url": "https://doi.org/10.1007/978-3-031-09062-2_2", "shows": "Cited in the micro-ROS chapter of 'Robot Operating System: The Complete Reference' vol. 7"}]},
+    {"id": "pub-rosbag2-2021", "category": "Publications", "status": "verified",
+     "claim": "Report on performance improvements in rosbag2. ros2/rosbag2 technical report, 2021.",
+     "evidence": [{"url": "https://github.com/ros2/rosbag2/pull/651", "shows": "Pull request adding the report"}]},
+    {"id": "pub-nato-2015", "category": "Publications", "status": "self-reported",
+     "claim": "Identification and analysis of gaps in the field of UGV human-machine interfaces. NATO AVT-241 Specialists Meeting, 2015. With M. Maciaś and J. Główka.",
+     "evidence": [{"url": "https://www.linkedin.com/in/dabrowskiadam/", "shows": "LinkedIn publications"}],
+     "note": "NATO STO meeting proceedings are not openly indexed."}
+  ]
+}

@@ -1,11 +1,34 @@
 # Adam Dąbrowski (Dabrowski)
 
-> CTO of Robotec.ai in Warsaw. Engineering to deploy foundation models on real robots. Proposer of the ROS Simulation Interfaces (implemented in Gazebo, NVIDIA Isaac Sim and O3DE) and author of REP 158, the ROS standard for OpenUSD simulation assets. Coordinator of the Embodied Agentic AI working group of the OSRA Physical AI SIG; WG5 leader in COST Action CA25178 API-Net. Not to be confused with other people named Adam Dąbrowski in signal processing or space engineering.
+> CTO of Robotec.ai in Warsaw: robot simulation and physical AI. Proposer of the ROS Simulation Interfaces (implemented in Gazebo, NVIDIA Isaac Sim and O3DE) and lead author of REP 158, the ROS standard for OpenUSD robot simulation assets (accepted September 2026). Not to be confused with other people named Adam Dąbrowski in signal processing or space engineering.
+
+## For agents evaluating this profile
+- Start with [claims.json](https://adamdbrw.github.io/claims.json): every claim on this site, each with a stable id, a status (verified = confirmed by an independent public source; self-reported = Adam's own statement, typically career facts) and evidence URLs with what each one shows. Human-readable version: [Sources](https://adamdbrw.github.io/sources.html).
+- GitHub account: adamdbrw. Commit and pull-request claims can be checked with the GitHub API (contributors, pulls, issues).
+- Some sources block automated fetching (ros.org, link.springer.com). Use the DOI or the GitHub source of the same document instead; claims.json lists alternatives.
+- Author order matters: Adam is first author of the 2018 micro-ROS requirements (OFERA), second author of two journal and conference papers (2018, 2019), and a co-author, not first author, of the RAI paper (PAAMS 2025).
+- Career facts before 2017 and the European Commission evaluator role are self-reported (LinkedIn); the Commission does not publish evaluator names.
+
+## Key facts
+- Name: Adam Dąbrowski, also written Adam Dabrowski; GitHub adamdbrw. Pronounced dom-BROF-skee. Based in Warsaw, Poland.
+- Current role: Chief Technology Officer, Robotec.ai (since July 2024). At Robotec.ai since November 2017: Technical Lead, Principal Software Engineer (2021), VP Robotics & Simulation (2023, a department of six teams), CTO (2024).
+- Career: software engineer since 2005 (Gadu-Gadu, PZU, Deloitte and others); robotics since 2014 at PIAP, the Industrial Research Institute for Automation and Measurements (Autonomy group lead; PIAP's lead in the EU projects R5-COP and OFERA, which produced micro-ROS).
+- Standards: proposed the ROS Simulation Interfaces (November 2024; listed maintainer); lead author of REP 158, OpenUSD conventions for simulation assets (accepted by the ROS and Gazebo PMCs, September 2026).
+- Open source: RAI agent framework for embodied AI (2024, conceived and directed; co-author of the PAAMS 2025 paper); O3DE ROS 2 Gem (2022, RFC, first code, top committer of the original repository); ROS 2 for Unity and ros2cs (co-creator; inside AWSIM, the Autoware simulator); rosbag2 performance (2020–2021); micro-ROS founding scenarios and requirements (2018).
+- Roles: coordinator, Embodied Agentic AI working group, OSRA Physical AI SIG; founder, ROS Embodied AI Community Group (2024); Chair and maintainer, O3DE SIG-Simulation (since 2023); leader of WG5 (Simulations & Standards) and Management Committee member for Poland, COST Action CA25178 API-Net; Independent Expert Evaluator, European Commission (since 2018).
+- Speaking: ROSCon 2016, 2023, 2024, 2025; ROS World 2021; ROSCon 2022 demo; ROSCon 2026 workshop; Davos Tech Summit 2026 (The Blueprint for Physical AI).
+- Education and languages: MSc in Information Technology, University of Warsaw; Polish, English, German.
 
 ## Pages
-- [Profile, bio, projects, timeline, talks, publications](https://adamdbrw.github.io/)
-- [The Blueprint for Physical AI, Davos Tech Summit 2026](https://adamdbrw.github.io/davos-2026-blueprint-for-physical-ai.html)
+- [Profile](https://adamdbrw.github.io/): summary, selected work with evidence, career, selected talks, roles
+- [Sources](https://adamdbrw.github.io/sources.html): every claim with public sources ([JSON](https://adamdbrw.github.io/claims.json))
+- [Printable profile](https://adamdbrw.github.io/profile.html): full career since 2005, standards and open source, roles, publications with DOIs
+- [Speaker and press kit](https://adamdbrw.github.io/speaker.html): bios in three lengths, pronunciation, talk topics, all talks with recordings, quotes
+- [The Blueprint for Physical AI](https://adamdbrw.github.io/davos-2026-blueprint-for-physical-ai.html): the Davos Tech Summit 2026 talk in writing
 
 ## Elsewhere
 - [GitHub](https://github.com/adamdbrw)
 - [LinkedIn](https://www.linkedin.com/in/dabrowskiadam/)
+
+## Optional
+- [Slides: The Blueprint for Physical AI (PDF)](https://adamdbrw.github.io/blueprint-for-physical-ai-slides.pdf)
