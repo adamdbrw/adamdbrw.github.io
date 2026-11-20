@@ -358,7 +358,7 @@
    "id": "ros2-for-unity",
    "category": "Open source",
    "status": "verified",
-   "claim": "Co-created ROS 2 for Unity (first commit and #1 committer) and ros2cs (first commit); both ship inside AWSIM, the Autoware simulator.",
+   "claim": "Co-created ROS 2 for Unity (first commit and #1 committer) and ros2cs (first commit); both ship inside AWSIM, the Autoware simulator; he architected and engineered Robotec.ai's first work on AWSIM (2022).",
    "evidence": [
     {
      "url": "https://github.com/RobotecAI/ros2-for-unity",
@@ -376,7 +376,8 @@
      "url": "https://unity.com/resources/tier-iv-awsim-open-source-autonomous-driving-simulator",
      "shows": "Unity case study crediting Robotec.ai for ROS 2 for Unity"
     }
-   ]
+   ],
+   "note": "The AWSIM role is his own statement."
   },
   {
    "id": "rosbag2",
@@ -615,7 +616,7 @@
    "id": "case-tier4",
    "category": "Customer case studies",
    "status": "verified",
-   "claim": "TIER IV: Autoware's simulation realism and sensor validation; ROS 2 for Unity runs inside TIER IV's open-source AWSIM driving simulator. His role: Co-created ROS 2 for Unity; as CTO, directed the engineering.",
+   "claim": "TIER IV: Autoware's simulation realism and sensor validation; ROS 2 for Unity runs inside TIER IV's open-source AWSIM driving simulator. His role: architected and engineered Robotec.ai's first AWSIM work (2022) and co-created ROS 2 for Unity (2021); as CTO, directs the current work with TIER IV.",
    "evidence": [
     {
      "url": "https://www.robotec.ai/case-studies/advancing-autonomous-driving-simulation",
