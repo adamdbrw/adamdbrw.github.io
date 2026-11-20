@@ -14,9 +14,18 @@
  "about": "Every factual claim made on adamdbrw.github.io, with sources. status: 'verified' = an independent public source confirms the claim; 'self-reported' = stated by Adam (site, LinkedIn, speaker bios he supplied) and not independently published; partial corroboration is listed in evidence. Notes disclose relationships between Adam and the authors of some sources.",
  "last_checked": "2026-11-19",
  "how_to_verify": [
+  "Start with the ids in start_here: the strongest independently verified claims.",
   "Open each evidence URL; the 'shows' field says what to look for.",
   "GitHub authorship: commits, pull requests and issues are by the account adamdbrw (also older commits authored as 'Adam Dąbrowski' or 'adamdbrw').",
   "Commit ranks change over time; they are given with the date read."
+ ],
+ "start_here": [
+  "rep158-author",
+  "rep158-accepted",
+  "simif-proposal",
+  "simif-implementations",
+  "o3de-gem",
+  "rosbag2"
  ],
  "claims": [
   {
@@ -63,7 +72,7 @@
    "id": "simif-proposal",
    "category": "Standards",
    "status": "verified",
-   "claim": "Proposed the standardization of ROS simulation interfaces (November 2024).",
+   "claim": "Proposed the standardisation of ROS simulation interfaces (November 2024).",
    "evidence": [
     {
      "url": "https://github.com/ros-infrastructure/rep/issues/410",

@@ -72,16 +72,10 @@
 <main id="main">
   <ul class="proof" aria-label="At a glance">
     <li><b>REP 158</b>lead author of the OpenUSD standard for robot simulation assets, accepted 2026</li>
-    <li><b>3 simulators</b>Gazebo, NVIDIA Isaac Sim and O3DE implement the ROS Simulation Interfaces he proposed</li>
+    <li><b>3 simulators</b>implement the ROS Simulation Interfaces he proposed: Gazebo and NVIDIA Isaac Sim built their own; O3DE's is by Robotec.ai</li>
     <li><b>Since 2005</b>in software; robotics since 2014; CTO since 2024</li>
     <li><b>ROSCon since 2016</b>talks or workshops at 6 ROSCon and ROS World editions, plus a 2022 demo</li>
   </ul>
-
-<section id="view" aria-labelledby="h-view">
-  <h2 id="h-view">Point of view</h2>
-  <p>Physical AI will be won by engineering, not only by bigger models: safety that holds “even with the dumbest AI in charge”, simulation that tests operations at scale before anything touches the floor, modular robot skills instead of monoliths, and small, additive wins first.</p>
-  <p class="quote"><em>AI doesn't have to do everything to be useful.</em><br><span class="small">From <a href="davos-2026-blueprint-for-physical-ai.html"><em>The Blueprint for Physical AI</em></a>, his main-stage keynote at the Davos Tech Summit, July 2026 (<a href="blueprint-for-physical-ai-slides.pdf">slides, PDF</a>)</span></p>
-</section>
 
 <section id="work" aria-labelledby="h-work">
   <h2 id="h-work">Selected work</h2>
@@ -91,7 +85,7 @@
     <thead><tr><th scope="col">Year</th><th scope="col">Work</th><th scope="col">His part</th><th scope="col">Status today</th></tr></thead>
     <tbody>
       <tr data-claim="rep158-author rep158-accepted"><td data-label="Year">2026</td><td data-label="Work" class="wrap"><a href="https://reps.openrobotics.org/rep-0158-2006/">REP 158</a>: OpenUSD conventions for robot simulation assets</td><td data-label="His part" class="wrap">Lead author (with co-authors from Robotec.ai, NVIDIA and Ekumen); submitted the <a href="https://github.com/ros-simulation/openusd-schemas/pull/1">core schema</a></td><td data-label="Status today" class="wrap">Accepted by the ROS and Gazebo project management committees, September 2026</td></tr>
-      <tr data-claim="simif-proposal simif-design simif-implementations"><td data-label="Year">2024</td><td data-label="Work" class="wrap"><a href="https://github.com/ros-simulation/simulation_interfaces">ROS Simulation Interfaces</a>: one ROS 2 interface for robot simulators</td><td data-label="His part" class="wrap"><a href="https://github.com/ros-infrastructure/rep/issues/410">Proposed it</a>, wrote the <a href="https://github.com/ros-simulation/simulation_interfaces/pull/1">first version</a>, then developed it with NVIDIA contributors and reviews from Gazebo maintainers; <a href="https://index.ros.org/p/simulation_interfaces/">listed maintainer</a></td><td data-label="Status today" class="wrap">Implemented in <a href="https://gazebosim.org/docs/latest/ros2_sim_interfaces">Gazebo</a>, <a href="https://docs.isaacsim.omniverse.nvidia.com/latest/ros2_tutorials/bridge_configuration/tutorial_ros2_simulation_control.html">NVIDIA Isaac Sim</a> and <a href="https://docs.o3de.org/docs/user-guide/interactivity/robotics/simulation-interfaces/">O3DE</a></td></tr>
+      <tr data-claim="simif-proposal simif-design simif-implementations"><td data-label="Year">2024</td><td data-label="Work" class="wrap"><a href="https://github.com/ros-simulation/simulation_interfaces">ROS Simulation Interfaces</a>: a common ROS 2 interface for robot simulators</td><td data-label="His part" class="wrap"><a href="https://github.com/ros-infrastructure/rep/issues/410">Proposed it</a>, wrote the <a href="https://github.com/ros-simulation/simulation_interfaces/pull/1">first version</a>, then developed it with NVIDIA contributors and reviews from Gazebo maintainers; <a href="https://index.ros.org/p/simulation_interfaces/">listed maintainer</a></td><td data-label="Status today" class="wrap">Implemented in <a href="https://gazebosim.org/docs/latest/ros2_sim_interfaces">Gazebo</a>, <a href="https://docs.isaacsim.omniverse.nvidia.com/latest/ros2_tutorials/bridge_configuration/tutorial_ros2_simulation_control.html">NVIDIA Isaac Sim</a> and <a href="https://docs.o3de.org/docs/user-guide/interactivity/robotics/simulation-interfaces/">O3DE</a></td></tr>
       <tr data-claim="rai rai-research-use"><td data-label="Year">2024</td><td data-label="Work" class="wrap"><a href="https://github.com/RobotecAI/rai">RAI</a>: open-source agent framework for embodied AI</td><td data-label="His part" class="wrap">Conceived and directed it; co-author of the <a href="https://doi.org/10.1007/978-3-032-05925-3_16">PAAMS 2025 paper</a></td><td data-label="Status today" class="wrap">Developed by the RAI team at Robotec.ai; cited in later research, for example <a href="https://arxiv.org/abs/2610.27039">Embodied Playground (2026)</a></td></tr>
       <tr data-claim="o3de-gem o3de-sig"><td data-label="Year">2022</td><td data-label="Work" class="wrap"><a href="https://github.com/o3de/o3de-extras">O3DE ROS 2 Gem</a>: robotics in Open 3D Engine</td><td data-label="His part" class="wrap"><a href="https://github.com/o3de/sig-core/issues/33">RFC</a>, first code; top committer of the <a href="https://github.com/RobotecAI/o3de-ros2-gem">original repository</a></td><td data-label="Status today" class="wrap">The official O3DE robotics stack, maintained by <a href="https://github.com/o3de/sig-simulation">O3DE SIG-Simulation</a>; he was elected its Chair in 2023</td></tr>
       <tr data-claim="ros2-for-unity"><td data-label="Year">2020</td><td data-label="Work" class="wrap"><a href="https://github.com/RobotecAI/ros2-for-unity">ROS 2 for Unity</a> and <a href="https://github.com/RobotecAI/ros2cs">ros2cs</a></td><td data-label="His part" class="wrap">Co-creator; first commit in both, top committer of ROS 2 for Unity</td><td data-label="Status today" class="wrap">Ships inside <a href="https://github.com/autowarefoundation/AWSIM/tree/main/Assets">AWSIM</a>, an open-source driving simulator for Autoware started by TIER IV</td></tr>
@@ -101,6 +95,12 @@
   </table>
   </div>
   <p class="small">ROS: Robot Operating System. REP: Robotics Enhancement Proposal, the standards process of the ROS and Gazebo projects. O3DE: Open 3D Engine. OSRA: Open Source Robotics Alliance. SIG: special interest group.</p>
+</section>
+
+<section id="view" aria-labelledby="h-view">
+  <h2 id="h-view">Point of view</h2>
+  <p>Physical AI will be won by engineering, not only by bigger models: safety that holds “even with the dumbest AI in charge”, simulation that tests operations at scale before anything touches the floor, modular robot skills instead of monoliths, and small, additive wins first.</p>
+  <p class="quote"><em>AI doesn't have to do everything to be useful.</em><br><span class="small">From <a href="davos-2026-blueprint-for-physical-ai.html"><em>The Blueprint for Physical AI</em></a>, his keynote in the main-stage session <em>Foundation Models in Robotics</em>, Davos Tech Summit, July 2026 (<a href="blueprint-for-physical-ai-slides.pdf">slides, PDF</a>)</span></p>
 </section>
 
 <section id="career" aria-labelledby="h-career">
