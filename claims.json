@@ -423,7 +423,7 @@
    "id": "quote-taddese",
    "category": "What others say",
    "status": "verified",
-   "claim": "Addisu Z. Taddese, Gazebo PMC lead, on Adam's proposal for the ROS Simulation Interfaces (November 2024): “Thanks @adamdbrw for kicking this off. I do agree that having a standardized simulation interface would be good for the community.”",
+   "claim": "Addisu Z. Taddese, Gazebo PMC lead, on the proposal for the ROS Simulation Interfaces (November 2024): “Thanks @adamdbrw for kicking this off. I do agree that having a standardized simulation interface would be good for the community.”",
    "evidence": [
     {
      "url": "https://github.com/ros-infrastructure/rep/issues/410#issuecomment-2477956175",
@@ -477,7 +477,8 @@
      "url": "https://github.com/ros-infrastructure/rep/issues/410#issuecomment-2628603807",
      "shows": "The original statement"
     }
-   ]
+   ],
+   "note": "Posted in the proposal issue Adam opened; it thanks the discussion rather than naming him."
   },
   {
    "id": "quote-peters",
@@ -513,7 +514,8 @@
      "url": "https://github.com/google-deepmind/mujoco/discussions/3360#discussioncomment-17445609",
      "shows": "The original statement"
     }
-   ]
+   ],
+   "note": "The same comment cautions against duplicating the Newton schema in a neutral ext_physics layer; REP 158 dropped that layer after this feedback."
   },
   {
    "id": "quote-biggs",
@@ -531,7 +533,7 @@
    "id": "quote-mayoral",
    "category": "What others say",
    "status": "verified",
-   "claim": "Víctor Mayoral Vilches, on Adam's call to found the ROS Embodied AI Community Group (October 2024): “Well done @adamdbrw taking the lead and attempting to unify AI/GenAI efforts.”",
+   "claim": "Víctor Mayoral Vilches, on the call to found the ROS Embodied AI Community Group (October 2024): “Well done @adamdbrw taking the lead and attempting to unify AI/GenAI efforts.”",
    "evidence": [
     {
      "url": "https://discourse.openrobotics.org/t/embodied-ai-community-group-call-of-interest/39990/2",
@@ -624,6 +626,19 @@
     }
    ],
    "note": "The European Commission does not publish evaluator lists by name."
+  },
+  {
+   "id": "teaching",
+   "category": "Roles",
+   "status": "self-reported",
+   "claim": "Guest lecturer at the University of Warsaw: lectures at the Faculty of Mathematics, Informatics and Mechanics, and a lecture on large language models for linguists; mentors Robotec.ai engineers in agentic, AI-agent-driven software development.",
+   "evidence": [
+    {
+     "url": "https://www.linkedin.com/in/dabrowskiadam/",
+     "shows": "Profile"
+    }
+   ],
+   "note": "No public event pages found; his own statement."
   },
   {
    "id": "career-robotec",
