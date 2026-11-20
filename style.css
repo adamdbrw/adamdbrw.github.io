@@ -34,10 +34,12 @@ nav.top a:hover { text-decoration: underline; }
 .crumb { margin: 0 0 18px; font-size: .95rem; }
 
 /* proof strip: four facts a reader can check */
-.proof { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin: 26px 0 6px; padding: 0; list-style: none; }
+.proof { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin: 26px 0 6px; padding: 0; list-style: none; }
 .proof li { background: var(--tint); border: 1px solid var(--rule); border-radius: 8px; padding: 12px 14px; font-size: .92rem; line-height: 1.4; }
 .proof b { display: block; font-size: 1.02rem; margin-bottom: 3px; color: var(--ink); }
-@media (min-width: 701px) { .proof { grid-template-columns: repeat(6, 1fr); } .proof li { grid-column: span 2; } .proof li:nth-child(n+4) { grid-column: span 3; } }
+.proof li.lead { grid-column: 1 / -1; font-size: 1rem; border-left: 4px solid var(--accent); }
+.proof li.lead b { font-size: 1.12rem; }
+@media (max-width: 860px) { .proof { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 700px) { .proof { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 420px) { .proof { grid-template-columns: 1fr; } }
 
