@@ -410,6 +410,10 @@
     {
      "url": "https://artemis-ia.eu/publication/download/r5cop-atc2016-agenda.pdf",
      "shows": "R5-COP workshop agenda (ARTEMIS Technology Conference 2016): project overview keynote by Adam Dąbrowski (PIAP)"
+    },
+    {
+     "url": "https://github.com/piappl/robotic-map",
+     "shows": "Map interface for robot control systems (Qt, usable as a ROS node); all 26 commits by Adam Dąbrowski, 2016–2018"
     }
    ]
   },
@@ -483,6 +487,10 @@
     {
      "url": "https://roscon.ros.org/2016/presentations/rafal.kozik-ros2evaluation.pdf",
      "shows": "Slides"
+    },
+    {
+     "url": "https://github.com/piappl/ros2_benchmarking",
+     "shows": "The ROS 2 benchmarking framework behind the talk, led by Rafał Kozik; Adam contributed (2016)"
     }
    ]
   },
