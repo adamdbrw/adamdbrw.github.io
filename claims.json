@@ -735,6 +735,19 @@
    "note": "The European Commission does not publish evaluator lists by name."
   },
   {
+   "id": "mentoring",
+   "category": "Roles",
+   "status": "self-reported",
+   "claim": "Mentors Robotec.ai's technical leads in understanding customers' business needs, project management and leadership; mentors and develops engineers, including junior engineers, and drives the adoption of agentic coding with the harness he built for Slingshot.",
+   "evidence": [
+    {
+     "url": "https://www.linkedin.com/in/dabrowskiadam/",
+     "shows": "Profile (CTO entry)"
+    }
+   ],
+   "note": "His own statement; Robotec.ai's CEO can confirm it."
+  },
+  {
    "id": "teaching",
    "category": "Roles",
    "status": "self-reported",
