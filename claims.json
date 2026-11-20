@@ -30,6 +30,7 @@
   "o3de-gem",
   "rosbag2",
   "quote-taddese",
+  "quote-nvidia-blog",
   "quote-ghosh"
  ],
  "claims": [
@@ -369,7 +370,7 @@
    "id": "rosbag2",
    "category": "Open source",
    "status": "verified",
-   "claim": "Led rosbag2 recording-performance work (2020–2021): optimised SQLite defaults and the --regex and --exclude options, shipped in ROS 2, and the performance report.",
+   "claim": "Led rosbag2 recording-performance work (2020–2021): optimised SQLite defaults and the --regex and --exclude options, shipped in ROS 2, and the performance report. ROS 2 Galactic release notes: in a 200 Mbps stress test the Foxy release dropped up to 70% of messages, Galactic retained about 100%.",
    "evidence": [
     {
      "url": "https://github.com/ros2/rosbag2/pull/568",
@@ -390,6 +391,10 @@
     {
      "url": "https://github.com/ros2/rosbag2/blob/rolling/rosbag2_storage_sqlite3/README.md",
      "shows": "Optimized SQLite defaults still documented in ROS 2"
+    },
+    {
+     "url": "https://docs.ros.org/en/rolling/Releases/Release-Galactic-Geochelone.html",
+     "shows": "Release notes: the rosbag2 performance analysis and its report; Foxy up to 70% message loss vs about 100% retention in Galactic"
     }
    ],
    "note": "MCAP has been rosbag2's default storage since ROS 2 Iron; the SQLite plugin and the options remain."
@@ -422,6 +427,42 @@
    "evidence": [
     {
      "url": "https://github.com/ros-infrastructure/rep/issues/410#issuecomment-2477956175",
+     "shows": "The original statement"
+    }
+   ]
+  },
+  {
+   "id": "quote-nvidia-blog",
+   "category": "What others say",
+   "status": "verified",
+   "claim": "NVIDIA Technical Blog, on the ROS Simulation Interfaces in Isaac Sim 5.0 (August 2025): “Led by Robotec.ai and developed in collaboration with Gazebo, Open 3D Engine, and NVIDIA, these interfaces streamline integration by offering developers a consistent and simplified way to manage simulations directly from ROS 2.”",
+   "evidence": [
+    {
+     "url": "https://developer.nvidia.com/blog/announcing-general-availability-for-nvidia-isaac-sim-5-0-and-nvidia-isaac-lab-2-2",
+     "shows": "The original statement"
+    }
+   ]
+  },
+  {
+   "id": "quote-osra",
+   "category": "What others say",
+   "status": "verified",
+   "claim": "Open Source Robotics Alliance, initiatives announced at ROSCon 2025 (October 2025): “Robotec.ai: Leading the development of new standardized interfaces for simulators”",
+   "evidence": [
+    {
+     "url": "https://osralliance.org/?p=4378",
+     "shows": "The original statement"
+    }
+   ]
+  },
+  {
+   "id": "quote-openrobotics",
+   "category": "What others say",
+   "status": "verified",
+   "claim": "Open Robotics, on LinkedIn (June 2026): “Adam Dabrowski from Robotec.ai is drafting a new Robotics Extension Proposal (REP) for REP-0158 OpenUSD conventions for simulation asset interoperability in open source robotics.”",
+   "evidence": [
+    {
+     "url": "https://www.linkedin.com/posts/open-source-robotics-foundation_draft-rep-158-openusd-conventions-for-simulation-activity-7473085906543890432-OheD",
      "shows": "The original statement"
     }
    ]
@@ -494,6 +535,30 @@
    "evidence": [
     {
      "url": "https://discourse.openrobotics.org/t/embodied-ai-community-group-call-of-interest/39990/2",
+     "shows": "The original statement"
+    }
+   ]
+  },
+  {
+   "id": "quote-knapp",
+   "category": "What others say",
+   "status": "verified",
+   "claim": "Emerson Knapp, rosbag2 maintainer, on Adam's SQLite double-buffering change (November 2020): “Thanks everyone for pushing this through - it looks great, this is a huge improvement for rosbag2.”",
+   "evidence": [
+    {
+     "url": "https://github.com/ros2/rosbag2/pull/546#issuecomment-733957695",
+     "shows": "The original statement"
+    }
+   ]
+  },
+  {
+   "id": "quote-tier4",
+   "category": "What others say",
+   "status": "verified",
+   "claim": "Takatoki Makino, TIER IV simulation engineer, in Unity's AWSIM case study (June 2026): “‘ros2-for-unity’ enables as-is high-throughput low-latency utilization of the messaging formats and communication protocols used in actual cars, which allows us to reproduce simulations that are as close to real cars as possible.”",
+   "evidence": [
+    {
+     "url": "https://unity.com/resources/tier-iv-awsim-open-source-autonomous-driving-simulator",
      "shows": "The original statement"
     }
    ]

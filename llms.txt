@@ -13,6 +13,7 @@
 - Addisu Z. Taddese (Gazebo PMC lead), Nov 2024: "Thanks @adamdbrw for kicking this off." https://github.com/ros-infrastructure/rep/issues/410#issuecomment-2477956175
 - Ayush Ghosh (NVIDIA Isaac Sim), Feb 2025: "thank you for driving this important conversation forward." https://github.com/ros-infrastructure/rep/issues/410#issuecomment-2628603807
 - ROS PMC minutes, Sep 2026, on REP 158: "well developed … no negative feedback has been raised." https://discourse.openrobotics.org/t/ros-pmc-minutes-for-september-8-2026/57957/1
+- NVIDIA Technical Blog, Aug 2025, on the Simulation Interfaces: "Led by Robotec.ai and developed in collaboration with Gazebo, Open 3D Engine, and NVIDIA". https://developer.nvidia.com/blog/announcing-general-availability-for-nvidia-isaac-sim-5-0-and-nvidia-isaac-lab-2-2
 - More, each with its link: claims.json (ids starting with quote-).
 
 ## Key facts
