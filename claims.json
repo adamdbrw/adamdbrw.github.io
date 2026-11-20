@@ -35,7 +35,7 @@
    "id": "lede-direction",
    "category": "Standards",
    "status": "verified",
-   "claim": "Since 2018 his work has been taken up beyond his own company: the micro-ROS requirements (2018), the rosbag2 recording defaults in ROS 2 (2021), the ROS Simulation Interfaces (shipped by Gazebo and NVIDIA Isaac Sim) and REP 158 (lead author; accepted by the ROS and Gazebo PMCs).",
+   "claim": "Since 2018 his work has been taken up beyond his own company: the micro-ROS requirements (2018), the optimised SQLite recording defaults in ROS 2's rosbag2 (2021), the ROS Simulation Interfaces (shipped by Gazebo and NVIDIA Isaac Sim) and REP 158 (lead author; accepted by the ROS and Gazebo PMCs).",
    "evidence": [
     {
      "url": "https://doi.org/10.1007/978-3-031-09062-2_2",
@@ -121,7 +121,7 @@
    "id": "simif-design",
    "category": "Standards",
    "status": "verified",
-   "claim": "Wrote the first version of the ROS Simulation Interfaces (pull request #1: all 33 commits, 289 review comments), then developed them with NVIDIA contributors and reviews from Gazebo maintainers; listed as maintainer and author.",
+   "claim": "Wrote the first version of the ROS Simulation Interfaces (pull request #1: all 33 commits; 185 review comments from 13 reviewers, among them Gazebo and ROS maintainers), then developed them with NVIDIA contributors and reviews from Gazebo maintainers; listed as maintainer and author.",
    "evidence": [
     {
      "url": "https://github.com/ros-simulation/simulation_interfaces/pull/1",
@@ -148,6 +148,10 @@
      "shows": "Gazebo documentation for the interfaces"
     },
     {
+     "url": "https://github.com/gazebosim/ros_gz/pull/790",
+     "shows": "'Implement ROS standard simulation interfaces', by azeey (Gazebo lead maintainer), merged 30 September 2025"
+    },
+    {
      "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/ros2_tutorials/bridge_configuration/tutorial_ros2_simulation_control.html",
      "shows": "Isaac Sim tutorial: simulation control through the standard simulation_interfaces package"
     },
@@ -160,13 +164,13 @@
      "shows": "ROS Index: releases for Humble, Jazzy, Kilted, Lyrical and Rolling"
     }
    ],
-   "note": "The O3DE implementation is by Robotec.ai; Gazebo and NVIDIA Isaac Sim implemented the interfaces themselves."
+   "note": "The O3DE implementation is by Robotec.ai; Gazebo and NVIDIA Isaac Sim implemented the interfaces themselves. Gazebo's implementation (gazebosim/ros_gz#790, September 2025) was written by its lead maintainer, Addisu Z. Taddese."
   },
   {
    "id": "simif-adoption",
    "category": "Standards",
    "status": "verified",
-   "claim": "More than 60 public GitHub projects outside Robotec.ai declare the ROS Simulation Interfaces as a dependency (November 2026), among them the MVSim simulator, OmniSim, community bridges for Genesis and Newton, and the toolkit of the AI for Industry Challenge.",
+   "claim": "More than 60 public GitHub repositories outside Robotec.ai declare the ROS Simulation Interfaces as a dependency (November 2026). About ten are simulators or simulator bridges, among them the MVSim simulator, OmniSim, community bridges for Genesis and Newton, and PyBulletFleet; others include the toolkit of the AI for Industry Challenge and its entrants' copies, and coursework.",
    "evidence": [
     {
      "url": "https://github.com/MRPT/mvsim/blob/develop/mvsim_node_src/mvsim_node_sim_interfaces.cpp",
@@ -181,8 +185,8 @@
      "shows": "OmniSim: a Simulation Interfaces node"
     },
     {
-     "url": "https://github.com/signalbotics/genesis_ros/blob/main/genesis_ros/genesis_ros/services/entity.py",
-     "shows": "Genesis bridge (community) uses the Simulation Interfaces services"
+     "url": "https://github.com/vybhav-ibr/genesis_ros/tree/main/gs_simulation_interfaces",
+     "shows": "Genesis bridge (community, 200+ stars): a dedicated gs_simulation_interfaces package"
     },
     {
      "url": "https://github.com/vybhav-ibr/newton_ros/blob/main/newton_simulation_interfaces/newton_simulation_interfaces/simulation_interface.py",
@@ -282,7 +286,7 @@
     },
     {
      "url": "https://github.com/o3de/o3de/pull/8715",
-     "shows": "'ROS2 Gem bare bones', first code proposed to O3DE by adamdbrw, 5 Apr 2022"
+     "shows": "'ROS2 Gem bare bones', first code proposed to O3DE by adamdbrw, 5 Apr 2022; closed, as development moved to the original repository"
     },
     {
      "url": "https://github.com/RobotecAI/o3de-ros2-gem",
