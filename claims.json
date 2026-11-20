@@ -202,7 +202,7 @@
    "id": "o3de-sig",
    "category": "Roles",
    "status": "verified",
-   "claim": "Maintainer (April 2023) and elected Chair (May 2023) of O3DE SIG-Simulation; the SIG README lists him as Chair.",
+   "claim": "Maintainer (April 2023) and elected Chair (May 2023) of O3DE SIG-Simulation; no longer Chair.",
    "evidence": [
     {
      "url": "https://github.com/o3de/sig-simulation/issues/70",
@@ -214,9 +214,10 @@
     },
     {
      "url": "https://github.com/o3de/sig-simulation",
-     "shows": "README lists the Chair"
+     "shows": "README still lists him as Chair (not yet updated)"
     }
-   ]
+   ],
+   "note": "The election is verified; that he no longer holds the role is his own statement."
   },
   {
    "id": "o3de-foundation",
@@ -396,7 +397,7 @@
    "id": "career-piap",
    "category": "Career",
    "status": "self-reported",
-   "claim": "PIAP, Industrial Research Institute for Automation and Measurements (April 2014–April 2017; December 2017–March 2019, in parallel with Robotec.ai): Senior Software Engineer; software for mobile robots and operator consoles; EU robotics and space research projects; Autonomy group lead (11 people); PIAP's project lead in R5-COP; project lead and main engineer in OFERA.",
+   "claim": "PIAP, Industrial Research Institute for Automation and Measurements (April 2014–April 2017; December 2017–March 2019, half-time in parallel with Robotec.ai): Senior Software Engineer; software for mobile robots and operator consoles; EU robotics and space research projects; Autonomy group lead (11 people); PIAP's project lead in R5-COP; project lead and main engineer in OFERA.",
    "evidence": [
     {
      "url": "https://www.linkedin.com/in/dabrowskiadam/",
