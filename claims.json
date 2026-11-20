@@ -9,7 +9,8 @@
   "profile": "https://adamdbrw.github.io/",
   "github": "https://github.com/adamdbrw",
   "linkedin": "https://www.linkedin.com/in/dabrowskiadam/",
-  "disambiguation": "Robotics software engineer and CTO of Robotec.ai, Warsaw. Not the researchers of the same name in signal processing, space engineering or medicine."
+  "disambiguation": "Robotics software engineer and CTO of Robotec.ai, Warsaw. Not the researchers of the same name in signal processing, space engineering or medicine.",
+  "orcid": "https://orcid.org/0000-0002-2130-0577"
  },
  "about": "Every factual claim made on adamdbrw.github.io, with sources. status: 'verified' = an independent public source confirms the claim; 'self-reported' = stated by Adam (site, LinkedIn, speaker bios he supplied) and not independently published; partial corroboration is listed in evidence. Notes disclose relationships between Adam and the authors of some sources.",
  "last_checked": "2026-11-19",
@@ -755,11 +756,19 @@
    "id": "pub-vlm-2026",
    "category": "Publications",
    "status": "verified",
-   "claim": "Rachwał, K., Majek, M., Boczek, B., Matejczyk, J., Matejkowski, D., Dąbrowski, A., Seyde, T., Amini, A., Ganzha, M. Multi-Agent Robotic Control with Onboard Vision-Language Models. 2026. Accepted at PAAMS 2026.",
+   "claim": "Rachwał, K., Majek, M., Boczek, B., Matejczyk, J., Matejkowski, D., Dąbrowski, A., Seyde, T., Amini, A., Ganzha, M. Multi-Agent Robotic Control with Onboard Vision-Language Models. Advances in Practical Applications of Agentic AI and Multi-Agent Systems: The PAAMS Collection (PAAMS 2026), Springer LNCS, pp. 427–432.",
    "evidence": [
     {
+     "url": "https://doi.org/10.1007/978-3-032-41794-7_38",
+     "shows": "Published chapter (Crossref: 17 October 2026), author list in this order"
+    },
+    {
      "url": "https://arxiv.org/abs/2607.07403",
-     "shows": "Preprint; arXiv comments: 'accepted to … PAAMS'26'"
+     "shows": "Preprint"
+    },
+    {
+     "url": "https://orcid.org/0000-0002-2130-0577",
+     "shows": "Listed on his ORCID record"
     }
    ]
   },

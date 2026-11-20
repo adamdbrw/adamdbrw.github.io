@@ -5,6 +5,7 @@
 ## Machine-readable data
 - [claims.json](https://adamdbrw.github.io/claims.json): every factual claim on this site, one entry each, with a stable id, a status ("verified": an independent public source confirms it; "self-reported": Adam's own statement) and evidence URLs with what each source shows. The same data as a page: [Sources](https://adamdbrw.github.io/sources.html).
 - GitHub account: adamdbrw. Authorship of commits, pull requests and issues can be checked with the public GitHub API.
+- ORCID: https://orcid.org/0000-0002-2130-0577 (lists his peer-reviewed works with DOIs).
 - Publications are listed in claims.json with author lists in published order and DOIs. The RAI paper lists two authors named Dąbrowski: A. Dąbrowski (this person) and K. Dąbrowski.
 - roscon.ros.org and link.springer.com may block automated requests; DOIs (via Crossref) and the GitHub sources listed in claims.json are alternatives.
 
