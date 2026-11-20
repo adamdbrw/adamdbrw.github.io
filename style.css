@@ -37,7 +37,7 @@ nav.top a:hover { text-decoration: underline; }
 .proof { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin: 26px 0 6px; padding: 0; list-style: none; }
 .proof li { background: var(--tint); border: 1px solid var(--rule); border-radius: 8px; padding: 12px 14px; font-size: .92rem; line-height: 1.4; }
 .proof b { display: block; font-size: 1.02rem; margin-bottom: 3px; color: var(--ink); }
-@media (max-width: 760px) { .proof { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 880px) { .proof { grid-template-columns: 1fr 1fr; } }
 @media (max-width: 420px) { .proof { grid-template-columns: 1fr; } }
 
 table { width: 100%; border-collapse: collapse; font-size: .92rem; margin: 8px 0 4px; }
@@ -87,3 +87,10 @@ footer.site.narrow { max-width: 760px; }
   footer, footer.site { margin-top: 10pt; padding: 4pt 0 0; max-width: none; }
   header.site { padding: 0; max-width: none; }
 }
+
+/* third-party statements */
+.said { margin: 0 0 16px; padding: 10px 16px; border-left: 3px solid var(--accent); background: var(--tint); }
+.said blockquote { margin: 0; } .said blockquote p { margin: 0 0 6px; }
+.said figcaption { font-size: .9rem; line-height: 1.45; color: var(--quiet); }
+.said figcaption b { color: var(--ink); font-weight: 600; }
+@media print { .said { break-inside: avoid; } }

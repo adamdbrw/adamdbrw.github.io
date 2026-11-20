@@ -1,24 +1,10 @@
 # Adam Dąbrowski (Dabrowski)
 
-> CTO of Robotec.ai in Warsaw: robot simulation and physical AI. Since 2018 his work has been taken up well beyond his own company (micro-ROS requirements, rosbag2's optimised SQLite defaults in ROS 2, two simulation standards): proposer of the ROS Simulation Interfaces (shipped by Gazebo and NVIDIA Isaac Sim, and in O3DE) and lead author of REP 158, OpenUSD conventions for robot simulation assets, accepted by the ROS and Gazebo project management committees. He still builds: Slingshot (2026), Robotec.ai's scan-to-digital-twin product, is his design and mostly his code.
-
-## Machine-readable data
-- [claims.json](https://adamdbrw.github.io/claims.json): every factual claim on this site, one entry each, with a stable id, a status ("verified": an independent public source confirms it; "self-reported": Adam's own statement) and evidence URLs with what each source shows. The same data as a page: [Sources](https://adamdbrw.github.io/sources.html).
-- GitHub account: adamdbrw. Authorship of commits, pull requests and issues can be checked with the public GitHub API.
-- ORCID: https://orcid.org/0000-0002-2130-0577 (lists his peer-reviewed works with DOIs).
-- Publications are listed in claims.json with author lists in published order and DOIs. The RAI paper lists two authors named Dąbrowski: A. Dąbrowski (this person) and K. Dąbrowski.
-- roscon.ros.org and link.springer.com may block automated requests; DOIs (via Crossref) and the GitHub sources listed in claims.json are alternatives.
-
-## What others say
-- Addisu Z. Taddese (Gazebo PMC lead), Nov 2024: "Thanks @adamdbrw for kicking this off." https://github.com/ros-infrastructure/rep/issues/410#issuecomment-2477956175
-- Ayush Ghosh (NVIDIA Isaac Sim), Feb 2025: "thank you for driving this important conversation forward." https://github.com/ros-infrastructure/rep/issues/410#issuecomment-2628603807
-- ROS PMC minutes, Sep 2026, on REP 158: "well developed … no negative feedback has been raised." https://discourse.openrobotics.org/t/ros-pmc-minutes-for-september-8-2026/57957/1
-- NVIDIA Technical Blog, Aug 2025, on the Simulation Interfaces: "Led by Robotec.ai and developed in collaboration with Gazebo, Open 3D Engine, and NVIDIA". https://developer.nvidia.com/blog/announcing-general-availability-for-nvidia-isaac-sim-5-0-and-nvidia-isaac-lab-2-2
-- More, each with its link: claims.json (ids starting with quote-).
+> CTO of Robotec.ai in Warsaw: open standards for robot simulation, and the products built on them. Proposer and lead author of the ROS Simulation Interfaces (implemented in Gazebo, NVIDIA Isaac Sim and O3DE; a dependency of 60+ public GitHub repositories) and lead author of REP 158, OpenUSD conventions for robot simulation assets, accepted by the ROS and Gazebo project management committees in 2026. Designed Slingshot (2026), Robotec.ai's scan-to-digital-twin product, and wrote most of its code.
 
 ## Key facts
 - Name: Adam Dąbrowski, also written Adam Dabrowski; GitHub adamdbrw. Pronounced dom-BROF-skee. Based in Warsaw, Poland.
-- Current role: Chief Technology Officer, Robotec.ai (since July 2024), he was among its first five people and has led its technology through its bootstrapped growth to 50 people. At Robotec.ai since November 2017: Technical Lead, Principal Software Engineer (2021), VP Robotics & Simulation (2023, a department of six teams), CTO (2024).
+- Current role: Chief Technology Officer, Robotec.ai (since July 2024); among its first five people and has led its technology through its bootstrapped growth to 50 people. At Robotec.ai since November 2017: Technical Lead, Principal Software Engineer (2021), VP Robotics & Simulation (2023, a department of six teams), CTO (2024).
 - Career: software engineer since 2005 (Gadu-Gadu, PZU, Deloitte and others); robotics since 2014 at PIAP, the Industrial Research Institute for Automation and Measurements (Autonomy group lead; PIAP's lead in the EU projects R5-COP (ARTEMIS Exhibition Award 2015) and OFERA, which produced micro-ROS).
 - Standards: proposed the ROS Simulation Interfaces (November 2024; first version by Adam, then developed with NVIDIA contributors and reviews from Gazebo maintainers; listed maintainer; implemented in Gazebo, NVIDIA Isaac Sim and O3DE; declared as a dependency in more than 60 public GitHub repositories, about ten of them simulators or bridges, including MVSim, OmniSim, Genesis and Newton bridges and the AI for Industry Challenge toolkit); lead author of REP 158, OpenUSD conventions for simulation assets (accepted by the ROS and Gazebo PMCs, September 2026).
 - Product: Slingshot (2026, https://www.robotec.ai/slingshot), Robotec.ai's product that turns a site scan into a simulation-ready digital twin with OpenUSD output; his idea and architecture and about 95% of the code (private repository), written with an AI coding-agent harness he built; he mentors Robotec.ai engineers in agentic development; exports checked against REP 158.
@@ -34,6 +20,19 @@
 - [Printable profile](https://adamdbrw.github.io/profile.html): full career since 2005, standards and open source, roles, publications with DOIs
 - [Speaker and press kit](https://adamdbrw.github.io/speaker.html): bios in three lengths, pronunciation, talk topics, all talks with recordings, quotes
 - [The Blueprint for Physical AI](https://adamdbrw.github.io/davos-2026-blueprint-for-physical-ai.html): the Davos Tech Summit 2026 talk in writing
+
+## Machine-readable data
+- [claims.json](https://adamdbrw.github.io/claims.json): every factual claim on this site, one entry each, with a stable id, a status ("verified": an independent public source confirms it; "self-reported": Adam's own statement) and evidence URLs with what each source shows. The same data as a page: [Sources](https://adamdbrw.github.io/sources.html).
+- GitHub account: adamdbrw. Authorship of commits, pull requests and issues can be checked with the public GitHub API.
+- ORCID: https://orcid.org/0000-0002-2130-0577 (lists his peer-reviewed works with DOIs).
+- Publications are listed in claims.json with author lists in published order and DOIs. The RAI paper lists two authors named Dąbrowski: A. Dąbrowski (this person) and K. Dąbrowski.
+- roscon.ros.org and link.springer.com may block automated requests; DOIs (via Crossref) and the GitHub sources listed in claims.json are alternatives.
+
+## What others say
+- NVIDIA Technical Blog, Aug 2025, on the Simulation Interfaces: "Led by Robotec.ai and developed in collaboration with Gazebo, Open 3D Engine, and NVIDIA". https://developer.nvidia.com/blog/announcing-general-availability-for-nvidia-isaac-sim-5-0-and-nvidia-isaac-lab-2-2
+- Addisu Z. Taddese (Gazebo PMC lead), Nov 2024: "Thanks @adamdbrw for kicking this off." https://github.com/ros-infrastructure/rep/issues/410#issuecomment-2477956175
+- Steve Peters (Gazebo maintainer), Apr 2025: "... which has just had its 1.0.0 release by @adamdbrw. We should consider how to support these interfaces in Gazebo." https://github.com/gazebosim/ros_gz/issues/732
+- More, each with its link: claims.json (ids starting with quote-).
 
 ## Elsewhere
 - [GitHub](https://github.com/adamdbrw)

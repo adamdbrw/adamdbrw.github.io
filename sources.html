@@ -35,20 +35,20 @@
 <body>
 <a class="skip" href="#main">Skip to content</a>
 <main id="main" class="narrow">
-<p class="crumb"><a href="./">← Adam Dąbrowski</a></p>
+<nav class="crumb" aria-label="Breadcrumb"><a href="./">← Adam Dąbrowski</a></nav>
 <h1>Sources</h1>
 <p class="lede">Every claim on this site, with public sources to check it.</p>
-<p>56 claims; 46 are confirmed by an independent public source (<span class="st v">verified</span>). The other 10 are Adam's own statements (<span class="st">self-reported</span>), such as job titles and dates; each lists whatever public record supports it. Last checked <time datetime="2026-11-19">19 November 2026</time>.</p>
+<p>56 claims; 46 are confirmed by an independent public source (<span class="st v">verified</span>). The other 10 are Adam's own statements (<span class="st">self-reported</span>), such as job titles and dates; each lists whatever public record supports it. Last checked <time datetime="2026-11-20">20 November 2026</time>.</p>
 <p>For agents and scripts: the same data as <a href="claims.json">claims.json</a> (stable ids, one entry per claim, each with evidence URLs and what each source shows). GitHub account: <a href="https://github.com/adamdbrw">adamdbrw</a>; ORCID: <a href="https://orcid.org/0000-0002-2130-0577">0000-0002-2130-0577</a>.</p>
 <h2 id="start-here">Start here</h2>
 <p>The strongest independently verified claims:</p>
-<ul><li><a href="#lede-direction">Since 2018 his work has been taken up beyond his own company: the micro-ROS requirements (2018), the optimised SQLite recording defaults in ROS 2&#x27;s rosbag2 (2021), the ROS Simulation Interfaces (shipped by Gazebo and NVIDIA Isaac Sim) and REP 158 (lead author; accepted by the ROS and Gazebo PMCs).</a></li><li><a href="#rep158-author">Lead author of REP 158, &#x27;OpenUSD Conventions for Simulation Asset Interoperability in Open Source Robotics&#x27;, with co-authors from Robotec.ai, NVIDIA and Ekumen.</a></li><li><a href="#rep158-accepted">REP 158 was accepted by the Gazebo PMC (28 September 2026) and the ROS PMC (29 September 2026) and marked Accepted on 22 October 2026.</a></li><li><a href="#simif-proposal">Proposed the standardisation of ROS simulation interfaces (November 2024).</a></li><li><a href="#simif-implementations">The ROS Simulation Interfaces are implemented in Gazebo, NVIDIA Isaac Sim and O3DE, and released for ROS 2 Humble, Jazzy, Kilted, Lyrical and Rolling.</a></li><li><a href="#simif-adoption">More than 60 public GitHub repositories outside Robotec.ai declare the ROS Simulation Interfaces as a dependency (November 2026). About ten are simulators or simulator bridges, among them the MVSim simulator, OmniSim, community bridges for Genesis and Newton, and PyBulletFleet; others include the toolkit of the AI for Industry Challenge and its entrants&#x27; copies, and coursework.</a></li><li><a href="#o3de-gem">Wrote the RFC and first code of the O3DE ROS 2 Gem (2022) and is its top committer in the original repository; it is now the official O3DE robotics stack.</a></li><li><a href="#rosbag2">Led rosbag2 recording-performance work (2020–2021): optimised SQLite defaults and the --regex and --exclude options, shipped in ROS 2, and the performance report. ROS 2 Galactic release notes: in a 200 Mbps stress test the Foxy release dropped up to 70% of messages, Galactic retained about 100%.</a></li><li><a href="#quote-taddese">Addisu Z. Taddese, Gazebo PMC lead, on the proposal for the ROS Simulation Interfaces (November 2024): “Thanks @adamdbrw for kicking this off. I do agree that having a standardized simulation interface would be good for the community.”</a></li><li><a href="#quote-nvidia-blog">NVIDIA Technical Blog, on the ROS Simulation Interfaces in Isaac Sim 5.0 (August 2025): “Led by Robotec.ai and developed in collaboration with Gazebo, Open 3D Engine, and NVIDIA, these interfaces streamline integration by offering developers a consistent and simplified way to manage simulations directly from ROS 2.”</a></li><li><a href="#quote-ghosh">Ayush Ghosh, NVIDIA Isaac Sim team (February 2025): “The proposal to standardize simulation interfaces is both timely and critical for improving interoperability and user experience across different simulators. … thank you for driving this important conversation forward.”</a></li></ul>
+<ul><li><a href="#rep158-author">Lead author of REP 158, &#x27;OpenUSD Conventions for Simulation Asset Interoperability in Open Source Robotics&#x27;, with co-authors from Robotec.ai, NVIDIA and Ekumen.</a></li><li><a href="#rep158-accepted">REP 158 was accepted by the Gazebo PMC (28 September 2026) and the ROS PMC (29 September 2026) and marked Accepted on 22 October 2026.</a></li><li><a href="#simif-proposal">Proposed the standardisation of ROS simulation interfaces (November 2024).</a></li><li><a href="#simif-design">Lead author of the ROS Simulation Interfaces: wrote the first version (pull request #1: all 33 commits, squash-merged into one; 185 review comments from 13 reviewers, among them Gazebo and ROS maintainers), then developed them with NVIDIA contributors; most of the non-empty lines in the 38 interface definition files today are his: 72% by default git blame, 77% ignoring whitespace (-w), 83% also following moved and copied lines (-w -C) (November 2026), and he created 29 of the 38 files; listed as author and maintainer.</a></li><li><a href="#simif-implementations">The ROS Simulation Interfaces are implemented in Gazebo, NVIDIA Isaac Sim and O3DE, and released for ROS 2 Humble, Jazzy, Kilted, Lyrical and Rolling.</a></li><li><a href="#simif-adoption">More than 60 public GitHub repositories outside Robotec.ai declare the ROS Simulation Interfaces as a dependency (November 2026). About ten are simulators or simulator bridges, among them the MVSim simulator, OmniSim, community bridges for Genesis and Newton, and PyBulletFleet; others include the toolkit of the AI for Industry Challenge and its entrants&#x27; copies, and coursework.</a></li><li><a href="#o3de-gem">Wrote the RFC and first code of the O3DE ROS 2 Gem (2022) and is its top committer in the original repository; it is now the official O3DE robotics stack.</a></li><li><a href="#rosbag2">Led rosbag2 recording-performance work (2020–2021): optimised SQLite defaults and the --regex and --exclude options, shipped in ROS 2, and the performance report. ROS 2 Galactic release notes: in a 200 Mbps stress test the Foxy release dropped up to 70% of messages, Galactic retained about 100%.</a></li><li><a href="#quote-nvidia-blog">NVIDIA Technical Blog, on the ROS Simulation Interfaces in Isaac Sim 5.0 (August 2025): “Led by Robotec.ai and developed in collaboration with Gazebo, Open 3D Engine, and NVIDIA, these interfaces streamline integration by offering developers a consistent and simplified way to manage simulations directly from ROS 2.”</a></li><li><a href="#quote-taddese">Addisu Z. Taddese, Gazebo PMC lead, on the proposal for the ROS Simulation Interfaces (November 2024): “Thanks @adamdbrw for kicking this off. I do agree that having a standardized simulation interface would be good for the community.”</a></li><li><a href="#quote-peters">Steve Peters, Gazebo maintainer, opening Gazebo&#x27;s implementation work (April 2025): “Standard ROS interfaces have been defined for interacting with simulation in the ros-simulation/simulation_interfaces package, which has just had its 1.0.0 release by @adamdbrw. We should consider how to support these interfaces in Gazebo.”</a></li></ul>
 <nav class="top" aria-label="Categories"><a href="#standards">Standards</a><a href="#products">Products</a><a href="#open-source">Open source</a><a href="#roles">Roles</a><a href="#what-others-say">What others say</a><a href="#career">Career</a><a href="#talks">Talks</a><a href="#publications">Publications</a></nav>
 
 <section id="standards" aria-labelledby="h-standards">
   <h2 id="h-standards">Standards</h2>
   <div class="claim" id="lede-direction">
-    <p>Since 2018 his work has been taken up beyond his own company: the micro-ROS requirements (2018), the optimised SQLite recording defaults in ROS 2&#x27;s rosbag2 (2021), the ROS Simulation Interfaces (shipped by Gazebo and NVIDIA Isaac Sim) and REP 158 (lead author; accepted by the ROS and Gazebo PMCs).<span class="st v">verified</span> <a class="id" href="#lede-direction">#lede-direction</a></p>
+    <p>Since 2018 his work has been taken up beyond his own company: the micro-ROS requirements (2018), the optimised SQLite recording defaults in ROS 2&#x27;s rosbag2 (2021), the ROS Simulation Interfaces (shipped by Gazebo and NVIDIA Isaac Sim) and REP 158 (lead author; accepted by the ROS and Gazebo PMCs). <span class="st v">verified</span> <a class="id" href="#lede-direction">#lede-direction</a></p>
     <ul>
       <li><a href="https://doi.org/10.1007/978-3-031-09062-2_2">doi.org/10.1007/978-3-031-09062-2_2</a>: micro-ROS chapter cites his OFERA requirements report as first author (see micro-ros)</li>
       <li><a href="https://github.com/ros2/rosbag2/pull/568">github.com/ros2/rosbag2/pull/568</a>: rosbag2 SQLite defaults merged into ROS 2, 2021 (see rosbag2)</li>
@@ -59,7 +59,7 @@
     <p class="small">Summary of the claims micro-ros, rosbag2, simif-implementations, rep158-author and rep158-accepted.</p>
   </div>
   <div class="claim" id="rep158-author">
-    <p>Lead author of REP 158, &#x27;OpenUSD Conventions for Simulation Asset Interoperability in Open Source Robotics&#x27;, with co-authors from Robotec.ai, NVIDIA and Ekumen.<span class="st v">verified</span> <a class="id" href="#rep158-author">#rep158-author</a></p>
+    <p>Lead author of REP 158, &#x27;OpenUSD Conventions for Simulation Asset Interoperability in Open Source Robotics&#x27;, with co-authors from Robotec.ai, NVIDIA and Ekumen. <span class="st v">verified</span> <a class="id" href="#rep158-author">#rep158-author</a></p>
     <ul>
       <li><a href="https://reps.openrobotics.org/rep-0158-2006/">reps.openrobotics.org/rep-0158-2006</a>: Official REP page: &#x27;By Adam Dabrowski (Robotec.ai), Mateusz Zak, Michal Pelka (Robotec.ai), Ayush Ghosh, Renato Gasoto (NVIDIA), Franco Cipollone (Ekumen)&#x27;; Status: Accepted</li>
       <li><a href="https://github.com/openrobotics/reps/pull/29">github.com/openrobotics/reps/pull/29</a>: Pull request adding the REP draft (merged June 2026)</li>
@@ -68,7 +68,7 @@
     </ul>
   </div>
   <div class="claim" id="rep158-accepted">
-    <p>REP 158 was accepted by the Gazebo PMC (28 September 2026) and the ROS PMC (29 September 2026) and marked Accepted on 22 October 2026.<span class="st v">verified</span> <a class="id" href="#rep158-accepted">#rep158-accepted</a></p>
+    <p>REP 158 was accepted by the Gazebo PMC (28 September 2026) and the ROS PMC (29 September 2026) and marked Accepted on 22 October 2026. <span class="st v">verified</span> <a class="id" href="#rep158-accepted">#rep158-accepted</a></p>
     <ul>
       <li><a href="https://discourse.openrobotics.org/t/ros-pmc-minutes-for-september-29-2026/58518">discourse.openrobotics.org/t/ros-pmc-minutes-for-september-29-2026/58518</a>: ROS PMC minutes: REP 158 passes</li>
       <li><a href="https://discourse.openrobotics.org/t/gazebo-pmc-meeting-minutes-2026-09-28/58502">discourse.openrobotics.org/t/gazebo-pmc-meeting-minutes-2026-09-28/58502</a>: Gazebo PMC minutes: REP 158 vote</li>
@@ -76,14 +76,14 @@
     </ul>
   </div>
   <div class="claim" id="simif-proposal">
-    <p>Proposed the standardisation of ROS simulation interfaces (November 2024).<span class="st v">verified</span> <a class="id" href="#simif-proposal">#simif-proposal</a></p>
+    <p>Proposed the standardisation of ROS simulation interfaces (November 2024). <span class="st v">verified</span> <a class="id" href="#simif-proposal">#simif-proposal</a></p>
     <ul>
       <li><a href="https://github.com/ros-infrastructure/rep/issues/410">github.com/ros-infrastructure/rep/issues/410</a>: Issue &#x27;Standardization of simulation interfaces&#x27; opened by adamdbrw on 5 Nov 2024; Gazebo lead thanks him for kicking it off</li>
     </ul>
     <p class="small">Addisu Z. Taddese (GitHub azeey), Gazebo lead maintainer, replied on 15 November 2024: &#x27;Thanks @adamdbrw for kicking this off. I do agree that having a standardized simulation interface would be good for the community.&#x27;</p>
   </div>
   <div class="claim" id="simif-design">
-    <p>Lead author of the ROS Simulation Interfaces: wrote the first version (pull request #1: all 33 commits, squash-merged into one; 185 review comments from 13 reviewers, among them Gazebo and ROS maintainers), then developed them with NVIDIA contributors; 83% of the non-empty lines in the 38 interface definition files today are his (git blame, November 2026), and he created 29 of the 38 files; listed as author and maintainer.<span class="st v">verified</span> <a class="id" href="#simif-design">#simif-design</a></p>
+    <p>Lead author of the ROS Simulation Interfaces: wrote the first version (pull request #1: all 33 commits, squash-merged into one; 185 review comments from 13 reviewers, among them Gazebo and ROS maintainers), then developed them with NVIDIA contributors; most of the non-empty lines in the 38 interface definition files today are his: 72% by default git blame, 77% ignoring whitespace (-w), 83% also following moved and copied lines (-w -C) (November 2026), and he created 29 of the 38 files; listed as author and maintainer. <span class="st v">verified</span> <a class="id" href="#simif-design">#simif-design</a></p>
     <ul>
       <li><a href="https://github.com/ros-simulation/simulation_interfaces/pull/1">github.com/ros-simulation/simulation_interfaces/pull/1</a>: First pull request, by adamdbrw (opened 17 Dec 2024, merged 21 Mar 2025); reviews include Gazebo maintainers (azeey, scpeters)</li>
       <li><a href="https://index.ros.org/p/simulation_interfaces/">index.ros.org/p/simulation_interfaces</a>: ROS Index lists Adam Dąbrowski as maintainer and author</li>
@@ -91,7 +91,7 @@
     </ul>
   </div>
   <div class="claim" id="simif-implementations">
-    <p>The ROS Simulation Interfaces are implemented in Gazebo, NVIDIA Isaac Sim and O3DE, and released for ROS 2 Humble, Jazzy, Kilted, Lyrical and Rolling.<span class="st v">verified</span> <a class="id" href="#simif-implementations">#simif-implementations</a></p>
+    <p>The ROS Simulation Interfaces are implemented in Gazebo, NVIDIA Isaac Sim and O3DE, and released for ROS 2 Humble, Jazzy, Kilted, Lyrical and Rolling. <span class="st v">verified</span> <a class="id" href="#simif-implementations">#simif-implementations</a></p>
     <ul>
       <li><a href="https://gazebosim.org/docs/latest/ros2_sim_interfaces">gazebosim.org/docs/latest/ros2_sim_interfaces</a>: Gazebo documentation for the interfaces</li>
       <li><a href="https://github.com/gazebosim/ros_gz/pull/790">github.com/gazebosim/ros_gz/pull/790</a>: &#x27;Implement ROS standard simulation interfaces&#x27;, by azeey (Gazebo lead maintainer), merged 30 September 2025</li>
@@ -102,7 +102,7 @@
     <p class="small">The O3DE implementation is by Robotec.ai; Gazebo and NVIDIA Isaac Sim implemented the interfaces themselves. Gazebo&#x27;s implementation (gazebosim/ros_gz#790, September 2025) was written by its lead maintainer, Addisu Z. Taddese.</p>
   </div>
   <div class="claim" id="simif-adoption">
-    <p>More than 60 public GitHub repositories outside Robotec.ai declare the ROS Simulation Interfaces as a dependency (November 2026). About ten are simulators or simulator bridges, among them the MVSim simulator, OmniSim, community bridges for Genesis and Newton, and PyBulletFleet; others include the toolkit of the AI for Industry Challenge and its entrants&#x27; copies, and coursework.<span class="st v">verified</span> <a class="id" href="#simif-adoption">#simif-adoption</a></p>
+    <p>More than 60 public GitHub repositories outside Robotec.ai declare the ROS Simulation Interfaces as a dependency (November 2026). About ten are simulators or simulator bridges, among them the MVSim simulator, OmniSim, community bridges for Genesis and Newton, and PyBulletFleet; others include the toolkit of the AI for Industry Challenge and its entrants&#x27; copies, and coursework. <span class="st v">verified</span> <a class="id" href="#simif-adoption">#simif-adoption</a></p>
     <ul>
       <li><a href="https://github.com/MRPT/mvsim/blob/develop/mvsim_node_src/mvsim_node_sim_interfaces.cpp">github.com/MRPT/mvsim/blob/develop/mvsim_node_src/mvsim_node_sim_interfaces.cpp</a>: MVSim simulator: its ROS 2 node implements the Simulation Interfaces</li>
       <li><a href="https://github.com/intrinsic-dev/aic/blob/main/aic_engine/src/aic_engine.hpp">github.com/intrinsic-dev/aic/blob/main/aic_engine/src/aic_engine.hpp</a>: AI for Industry Challenge toolkit: its engine uses the Simulation Interfaces</li>
@@ -115,7 +115,7 @@
     <p class="small">Count from a GitHub code search for simulation_interfaces in package.xml files, excluding Robotec.ai and the package&#x27;s own repository; the search needs a GitHub login, so the listed files are the checkable sample.</p>
   </div>
   <div class="claim" id="simif-roscon2025">
-    <p>Presented the new ROS simulation standard at ROSCon 2025 with Ayush Ghosh (NVIDIA).<span class="st v">verified</span> <a class="id" href="#simif-roscon2025">#simif-roscon2025</a></p>
+    <p>Presented the new ROS simulation standard at ROSCon 2025 with Ayush Ghosh (NVIDIA). <span class="st v">verified</span> <a class="id" href="#simif-roscon2025">#simif-roscon2025</a></p>
     <ul>
       <li><a href="https://vimeo.com/1136376172">vimeo.com/1136376172</a>: Talk video, &#x27;Introducing the new ROS simulation standard&#x27;</li>
     </ul>
@@ -125,7 +125,7 @@
 <section id="products" aria-labelledby="h-products">
   <h2 id="h-products">Products</h2>
   <div class="claim" id="slingshot">
-    <p>Conceived and designed Slingshot (2026), Robotec.ai&#x27;s product that turns a site scan into a simulation-ready digital twin with OpenUSD output; wrote about 95% of the code (reconstruction with Gaussian splatting, people removal, camera calibration, object extraction, OpenUSD export) with an AI coding-agent harness he built; its OpenUSD exports are checked against REP 158.<span class="st">self-reported</span> <a class="id" href="#slingshot">#slingshot</a></p>
+    <p>Conceived and designed Slingshot (2026), Robotec.ai&#x27;s product that turns a site scan into a simulation-ready digital twin with OpenUSD output; wrote about 95% of the code (reconstruction with Gaussian splatting, people removal, camera calibration, object extraction, OpenUSD export) with an AI coding-agent harness he built; its OpenUSD exports are checked against REP 158. <span class="st">self-reported</span> <a class="id" href="#slingshot">#slingshot</a></p>
     <ul>
       <li><a href="https://www.robotec.ai/slingshot">www.robotec.ai/slingshot</a>: Public product page: a digital twin of a site from a scan, with OpenUSD output</li>
     </ul>
@@ -136,7 +136,7 @@
 <section id="open-source" aria-labelledby="h-open-source">
   <h2 id="h-open-source">Open source</h2>
   <div class="claim" id="rai">
-    <p>Conceived and directed RAI, an open-source agent framework for embodied AI (2024); co-author of its PAAMS 2025 paper.<span class="st">self-reported</span> <a class="id" href="#rai">#rai</a></p>
+    <p>Conceived and directed RAI, an open-source agent framework for embodied AI (2024); co-author of its PAAMS 2025 paper. <span class="st">self-reported</span> <a class="id" href="#rai">#rai</a></p>
     <ul>
       <li><a href="https://github.com/RobotecAI/rai">github.com/RobotecAI/rai</a>: The RAI repository (Robotec.ai)</li>
       <li><a href="https://doi.org/10.1007/978-3-032-05925-3_16">doi.org/10.1007/978-3-032-05925-3_16</a>: Published paper: Rachwał, Majek, Boczek, K. Dąbrowski, Liberadzki, A. Dąbrowski, Ganzha; PAAMS 2025, CCIS, pp. 195–206</li>
@@ -145,7 +145,7 @@
     <p class="small">Directing RAI is Adam&#x27;s statement; the public record shows him as presenter and co-author.</p>
   </div>
   <div class="claim" id="rai-research-use">
-    <p>RAI is cited in later robotics research; RHO (2026) evaluates on RAI&#x27;s manipulation benchmark.<span class="st v">verified</span> <a class="id" href="#rai-research-use">#rai-research-use</a></p>
+    <p>RAI is cited in later robotics research; RHO (2026) evaluates on RAI&#x27;s manipulation benchmark. <span class="st v">verified</span> <a class="id" href="#rai-research-use">#rai-research-use</a></p>
     <ul>
       <li><a href="https://arxiv.org/abs/2610.27039">arxiv.org/abs/2610.27039</a>: Embodied Playground (2026) cites RAI</li>
       <li><a href="https://arxiv.org/abs/2511.03497">arxiv.org/abs/2511.03497</a>: ROSBag MCP Server (2025) cites RAI</li>
@@ -155,7 +155,7 @@
     <p class="small">Relationships, for transparency: RHO&#x27;s authors include two of Adam&#x27;s ROSCon 2026 workshop co-presenters; the last author of ROSBag MCP Server chairs the COST Action in which Adam leads a working group. The other papers are by unrelated groups.</p>
   </div>
   <div class="claim" id="o3de-gem">
-    <p>Wrote the RFC and first code of the O3DE ROS 2 Gem (2022) and is its top committer in the original repository; it is now the official O3DE robotics stack.<span class="st v">verified</span> <a class="id" href="#o3de-gem">#o3de-gem</a></p>
+    <p>Wrote the RFC and first code of the O3DE ROS 2 Gem (2022) and is its top committer in the original repository; it is now the official O3DE robotics stack. <span class="st v">verified</span> <a class="id" href="#o3de-gem">#o3de-gem</a></p>
     <ul>
       <li><a href="https://github.com/o3de/sig-core/issues/33">github.com/o3de/sig-core/issues/33</a>: &#x27;RFC - ROS2 Gem&#x27;, 7 Apr 2022</li>
       <li><a href="https://github.com/o3de/o3de/pull/8715">github.com/o3de/o3de/pull/8715</a>: &#x27;ROS2 Gem bare bones&#x27;, first code proposed to O3DE by adamdbrw, 5 Apr 2022; closed, as development moved to the original repository</li>
@@ -165,14 +165,14 @@
     </ul>
   </div>
   <div class="claim" id="o3de-foundation">
-    <p>Quoted in the Linux Foundation&#x27;s 2023 announcement on Open 3D Engine in robotics, and a panelist in the Open 3D Foundation webinar on open source in robotics.<span class="st v">verified</span> <a class="id" href="#o3de-foundation">#o3de-foundation</a></p>
+    <p>Quoted in the Linux Foundation&#x27;s 2023 announcement on Open 3D Engine in robotics, and a panelist in the Open 3D Foundation webinar on open source in robotics. <span class="st v">verified</span> <a class="id" href="#o3de-foundation">#o3de-foundation</a></p>
     <ul>
       <li><a href="https://www.linuxfoundation.org/press/open-3d-engine-sees-momentum-across-robotics-industry">www.linuxfoundation.org/press/open-3d-engine-sees-momentum-across-robotics-industry</a>: Press release, 14 Mar 2023, quoting Adam</li>
       <li><a href="https://project.linuxfoundation.org/o3df-how-os-technologies-are-accelerating-robotic-innovation">project.linuxfoundation.org/o3df-how-os-technologies-are-accelerating-robotic-innovation</a>: Webinar page listing the panel</li>
     </ul>
   </div>
   <div class="claim" id="ros2-for-unity">
-    <p>Co-created ROS 2 for Unity (first commit and #1 committer) and ros2cs (first commit); both ship inside AWSIM, the Autoware simulator.<span class="st v">verified</span> <a class="id" href="#ros2-for-unity">#ros2-for-unity</a></p>
+    <p>Co-created ROS 2 for Unity (first commit and #1 committer) and ros2cs (first commit); both ship inside AWSIM, the Autoware simulator. <span class="st v">verified</span> <a class="id" href="#ros2-for-unity">#ros2-for-unity</a></p>
     <ul>
       <li><a href="https://github.com/RobotecAI/ros2-for-unity">github.com/RobotecAI/ros2-for-unity</a>: First commit by Adam (16 Aug 2021); #1 committer (read 19 Nov 2026)</li>
       <li><a href="https://github.com/RobotecAI/ros2cs">github.com/RobotecAI/ros2cs</a>: First commit by Adam (11 Apr 2020); #2 committer (read 19 Nov 2026)</li>
@@ -181,7 +181,7 @@
     </ul>
   </div>
   <div class="claim" id="rosbag2">
-    <p>Led rosbag2 recording-performance work (2020–2021): optimised SQLite defaults and the --regex and --exclude options, shipped in ROS 2, and the performance report. ROS 2 Galactic release notes: in a 200 Mbps stress test the Foxy release dropped up to 70% of messages, Galactic retained about 100%.<span class="st v">verified</span> <a class="id" href="#rosbag2">#rosbag2</a></p>
+    <p>Led rosbag2 recording-performance work (2020–2021): optimised SQLite defaults and the --regex and --exclude options, shipped in ROS 2, and the performance report. ROS 2 Galactic release notes: in a 200 Mbps stress test the Foxy release dropped up to 70% of messages, Galactic retained about 100%. <span class="st v">verified</span> <a class="id" href="#rosbag2">#rosbag2</a></p>
     <ul>
       <li><a href="https://github.com/ros2/rosbag2/pull/568">github.com/ros2/rosbag2/pull/568</a>: &#x27;SQLite storage optimized by default&#x27;, merged 8 Jan 2021</li>
       <li><a href="https://github.com/ros2/rosbag2/pull/604">github.com/ros2/rosbag2/pull/604</a>: --regex option</li>
@@ -189,11 +189,12 @@
       <li><a href="https://github.com/ros2/rosbag2/pull/651">github.com/ros2/rosbag2/pull/651</a>: Performance report</li>
       <li><a href="https://github.com/ros2/rosbag2/blob/rolling/rosbag2_storage_sqlite3/README.md">github.com/ros2/rosbag2/blob/rolling/rosbag2_storage_sqlite3/README.md</a>: Optimized SQLite defaults still documented in ROS 2</li>
       <li><a href="https://docs.ros.org/en/rolling/Releases/Release-Galactic-Geochelone.html">docs.ros.org/en/rolling/Releases/Release-Galactic-Geochelone.html</a>: Release notes: the rosbag2 performance analysis and its report; Foxy up to 70% message loss vs about 100% retention in Galactic</li>
+      <li><a href="https://discourse.openrobotics.org/t/ros-2-tsc-meeting-minutes-2020-07-16/15468">discourse.openrobotics.org/t/ros-2-tsc-meeting-minutes-2020-07-16/15468</a>: ROS 2 TSC minutes (Brian Gerkey): &#x27;Adam Dabrowski from Robotec presented his findings on rosbag2 performance&#x27;</li>
     </ul>
     <p class="small">MCAP has been rosbag2&#x27;s default storage since ROS 2 Iron; the SQLite plugin and the options remain.</p>
   </div>
   <div class="claim" id="micro-ros">
-    <p>First author of the founding scenarios and requirements of micro-ROS (EU project OFERA, 2018).<span class="st v">verified</span> <a class="id" href="#micro-ros">#micro-ros</a></p>
+    <p>First author of the founding scenarios and requirements of micro-ROS (EU project OFERA, 2018). <span class="st v">verified</span> <a class="id" href="#micro-ros">#micro-ros</a></p>
     <ul>
       <li><a href="https://doi.org/10.1007/978-3-031-09062-2_2">doi.org/10.1007/978-3-031-09062-2_2</a>: micro-ROS chapter of &#x27;Robot Operating System: The Complete Reference&#x27; vol. 7, citing &#x27;Dabrowski, A., Lütkebohle, I., Lange, R., … Reference Scenarios and Technical System Requirements Definition. OFERA (2018)&#x27;</li>
       <li><a href="https://cordis.europa.eu/project/id/780785/results">cordis.europa.eu/project/id/780785/results</a>: OFERA project results (European Commission CORDIS)</li>
@@ -205,7 +206,7 @@
 <section id="roles" aria-labelledby="h-roles">
   <h2 id="h-roles">Roles</h2>
   <div class="claim" id="o3de-sig">
-    <p>Maintainer (April 2023) and elected Chair (May 2023) of O3DE SIG-Simulation; no longer Chair.<span class="st v">verified</span> <a class="id" href="#o3de-sig">#o3de-sig</a></p>
+    <p>Maintainer (April 2023) and elected Chair (May 2023) of O3DE SIG-Simulation; no longer Chair. <span class="st v">verified</span> <a class="id" href="#o3de-sig">#o3de-sig</a></p>
     <ul>
       <li><a href="https://github.com/o3de/sig-simulation/issues/70">github.com/o3de/sig-simulation/issues/70</a>: Maintainer nomination approved</li>
       <li><a href="https://github.com/o3de/sig-simulation/issues/71">github.com/o3de/sig-simulation/issues/71</a>: Chair election</li>
@@ -214,7 +215,7 @@
     <p class="small">The election is verified; that he no longer holds the role is his own statement.</p>
   </div>
   <div class="claim" id="osra-wg">
-    <p>Member of the OSRA Physical AI SIG since its start (an initial member, September 2025); coordinated its Embodied Agentic AI working group at the start, and has since stepped down from that role.<span class="st v">verified</span> <a class="id" href="#osra-wg">#osra-wg</a></p>
+    <p>Member of the OSRA Physical AI SIG since its start (an initial member, September 2025); coordinated its Embodied Agentic AI working group at the start, and has since stepped down from that role. <span class="st v">verified</span> <a class="id" href="#osra-wg">#osra-wg</a></p>
     <ul>
       <li><a href="https://physical-ai.ros.org/working-groups/embodied-agentic-ai/">physical-ai.ros.org/working-groups/embodied-agentic-ai</a>: Working-group page listing him as coordinator (not yet updated)</li>
       <li><a href="https://discourse.openrobotics.org/t/new-tgc-special-interest-group-on-physical-ai/50002">discourse.openrobotics.org/t/new-tgc-special-interest-group-on-physical-ai/50002</a>: SIG announcement with initial members</li>
@@ -222,20 +223,20 @@
     <p class="small">The working-group page still lists him as coordinator; that he has stepped down is his own statement.</p>
   </div>
   <div class="claim" id="embodied-ai-cg">
-    <p>Founded the ROS Embodied AI Community Group (October 2024); he still leads it.<span class="st v">verified</span> <a class="id" href="#embodied-ai-cg">#embodied-ai-cg</a></p>
+    <p>Founded the ROS Embodied AI Community Group (October 2024); he still leads it. <span class="st v">verified</span> <a class="id" href="#embodied-ai-cg">#embodied-ai-cg</a></p>
     <ul>
       <li><a href="https://discourse.openrobotics.org/t/embodied-ai-community-group-call-of-interest/39990">discourse.openrobotics.org/t/embodied-ai-community-group-call-of-interest/39990</a>: Call of interest, 9 Oct 2024, and the ROSCon 2024 Birds of a Feather session</li>
       <li><a href="https://discourse.openrobotics.org/t/the-launch-and-first-meeting-of-embodied-ai-community-group/40420">discourse.openrobotics.org/t/the-launch-and-first-meeting-of-embodied-ai-community-group/40420</a>: Launch and first meeting, 4 Nov 2024</li>
     </ul>
   </div>
   <div class="claim" id="cost">
-    <p>Leader of WG5 (Simulations &amp; Standards) and Management Committee member for Poland in COST Action CA25178 API-Net (from October 2026).<span class="st v">verified</span> <a class="id" href="#cost">#cost</a></p>
+    <p>Leader of WG5 (Simulations &amp; Standards) and Management Committee member for Poland in COST Action CA25178 API-Net (from October 2026). <span class="st v">verified</span> <a class="id" href="#cost">#cost</a></p>
     <ul>
       <li><a href="https://www.cost.eu/actions/CA25178/">www.cost.eu/actions/CA25178</a>: &#x27;WG5 Leader Mr Adam Dabrowski&#x27;; Management Committee, Poland</li>
     </ul>
   </div>
   <div class="claim" id="ec-expert">
-    <p>Independent Expert Evaluator for the European Commission since June 2018 (Horizon 2020, Horizon Europe): architecture, feasibility and execution risk of research proposals.<span class="st">self-reported</span> <a class="id" href="#ec-expert">#ec-expert</a></p>
+    <p>Independent Expert Evaluator for the European Commission since June 2018 (Horizon 2020, Horizon Europe): architecture, feasibility and execution risk of research proposals. <span class="st">self-reported</span> <a class="id" href="#ec-expert">#ec-expert</a></p>
     <ul>
       <li><a href="https://www.linkedin.com/in/dabrowskiadam/">www.linkedin.com/in/dabrowskiadam</a>: LinkedIn experience entry</li>
       <li><a href="https://warsaw.ai/speaker/adam-dabrowski/">warsaw.ai/speaker/adam-dabrowski</a>: Warsaw.ai speaker bio names the role</li>
@@ -243,7 +244,7 @@
     <p class="small">The European Commission does not publish evaluator lists by name.</p>
   </div>
   <div class="claim" id="teaching">
-    <p>Guest lecturer at the University of Warsaw: lectures at the Faculty of Mathematics, Informatics and Mechanics, and a lecture on large language models for linguists; mentors Robotec.ai engineers in agentic, AI-agent-driven software development.<span class="st">self-reported</span> <a class="id" href="#teaching">#teaching</a></p>
+    <p>Guest lecturer at the University of Warsaw: lectures at the Faculty of Mathematics, Informatics and Mechanics, and a lecture on large language models for linguists; mentors Robotec.ai engineers in agentic, AI-agent-driven software development. <span class="st">self-reported</span> <a class="id" href="#teaching">#teaching</a></p>
     <ul>
       <li><a href="https://www.linkedin.com/in/dabrowskiadam/">www.linkedin.com/in/dabrowskiadam</a>: Profile</li>
     </ul>
@@ -254,75 +255,75 @@
 <section id="what-others-say" aria-labelledby="h-what-others-say">
   <h2 id="h-what-others-say">What others say</h2>
   <div class="claim" id="quote-taddese">
-    <p>Addisu Z. Taddese, Gazebo PMC lead, on the proposal for the ROS Simulation Interfaces (November 2024): “Thanks @adamdbrw for kicking this off. I do agree that having a standardized simulation interface would be good for the community.”<span class="st v">verified</span> <a class="id" href="#quote-taddese">#quote-taddese</a></p>
+    <p>Addisu Z. Taddese, Gazebo PMC lead, on the proposal for the ROS Simulation Interfaces (November 2024): “Thanks @adamdbrw for kicking this off. I do agree that having a standardized simulation interface would be good for the community.” <span class="st v">verified</span> <a class="id" href="#quote-taddese">#quote-taddese</a></p>
     <ul>
       <li><a href="https://github.com/ros-infrastructure/rep/issues/410#issuecomment-2477956175">github.com/ros-infrastructure/rep/issues/410#issuecomment-2477956175</a>: The original statement</li>
     </ul>
   </div>
   <div class="claim" id="quote-nvidia-blog">
-    <p>NVIDIA Technical Blog, on the ROS Simulation Interfaces in Isaac Sim 5.0 (August 2025): “Led by Robotec.ai and developed in collaboration with Gazebo, Open 3D Engine, and NVIDIA, these interfaces streamline integration by offering developers a consistent and simplified way to manage simulations directly from ROS 2.”<span class="st v">verified</span> <a class="id" href="#quote-nvidia-blog">#quote-nvidia-blog</a></p>
+    <p>NVIDIA Technical Blog, on the ROS Simulation Interfaces in Isaac Sim 5.0 (August 2025): “Led by Robotec.ai and developed in collaboration with Gazebo, Open 3D Engine, and NVIDIA, these interfaces streamline integration by offering developers a consistent and simplified way to manage simulations directly from ROS 2.” <span class="st v">verified</span> <a class="id" href="#quote-nvidia-blog">#quote-nvidia-blog</a></p>
     <ul>
       <li><a href="https://developer.nvidia.com/blog/announcing-general-availability-for-nvidia-isaac-sim-5-0-and-nvidia-isaac-lab-2-2">developer.nvidia.com/blog/announcing-general-availability-for-nvidia-isaac-sim-5-0-and-nvidia-isaac-lab-2-2</a>: The original statement</li>
     </ul>
   </div>
   <div class="claim" id="quote-osra">
-    <p>Open Source Robotics Alliance, initiatives announced at ROSCon 2025 (October 2025): “Robotec.ai: Leading the development of new standardized interfaces for simulators”<span class="st v">verified</span> <a class="id" href="#quote-osra">#quote-osra</a></p>
+    <p>Open Source Robotics Alliance, initiatives announced at ROSCon 2025 (October 2025): “Robotec.ai: Leading the development of new standardized interfaces for simulators” <span class="st v">verified</span> <a class="id" href="#quote-osra">#quote-osra</a></p>
     <ul>
-      <li><a href="https://osralliance.org/?p=4378">osralliance.org/?p=4378</a>: The original statement</li>
+      <li><a href="https://osralliance.org/osra-initiatives-announced-at-roscon-2025/">osralliance.org/osra-initiatives-announced-at-roscon-2025</a>: The original statement</li>
     </ul>
   </div>
   <div class="claim" id="quote-openrobotics">
-    <p>Open Robotics, on LinkedIn (June 2026): “Adam Dabrowski from Robotec.ai is drafting a new Robotics Extension Proposal (REP) for REP-0158 OpenUSD conventions for simulation asset interoperability in open source robotics.”<span class="st v">verified</span> <a class="id" href="#quote-openrobotics">#quote-openrobotics</a></p>
+    <p>Open Robotics, on LinkedIn (June 2026): “Adam Dabrowski from Robotec.ai is drafting a new Robotics Extension Proposal (REP) for REP-0158 OpenUSD conventions for simulation asset interoperability in open source robotics.” <span class="st v">verified</span> <a class="id" href="#quote-openrobotics">#quote-openrobotics</a></p>
     <ul>
       <li><a href="https://www.linkedin.com/posts/open-source-robotics-foundation_draft-rep-158-openusd-conventions-for-simulation-activity-7473085906543890432-OheD">www.linkedin.com/posts/open-source-robotics-foundation_draft-rep-158-openusd-conventions-for-simulation-activity-7473085906543890432-OheD</a>: The original statement</li>
     </ul>
   </div>
   <div class="claim" id="quote-ghosh">
-    <p>Ayush Ghosh, NVIDIA Isaac Sim team (February 2025): “The proposal to standardize simulation interfaces is both timely and critical for improving interoperability and user experience across different simulators. … thank you for driving this important conversation forward.”<span class="st v">verified</span> <a class="id" href="#quote-ghosh">#quote-ghosh</a></p>
+    <p>Ayush Ghosh, NVIDIA Isaac Sim team (February 2025): “The proposal to standardize simulation interfaces is both timely and critical for improving interoperability and user experience across different simulators. … thank you for driving this important conversation forward.” <span class="st v">verified</span> <a class="id" href="#quote-ghosh">#quote-ghosh</a></p>
     <ul>
       <li><a href="https://github.com/ros-infrastructure/rep/issues/410#issuecomment-2628603807">github.com/ros-infrastructure/rep/issues/410#issuecomment-2628603807</a>: The original statement</li>
     </ul>
     <p class="small">Posted in the proposal issue Adam opened; it thanks the discussion rather than naming him.</p>
   </div>
   <div class="claim" id="quote-peters">
-    <p>Steve Peters, Gazebo maintainer, opening Gazebo&#x27;s implementation work (April 2025): “Standard ROS interfaces have been defined for interacting with simulation in the ros-simulation/simulation_interfaces package, which has just had its 1.0.0 release by @adamdbrw. We should consider how to support these interfaces in Gazebo.”<span class="st v">verified</span> <a class="id" href="#quote-peters">#quote-peters</a></p>
+    <p>Steve Peters, Gazebo maintainer, opening Gazebo&#x27;s implementation work (April 2025): “Standard ROS interfaces have been defined for interacting with simulation in the ros-simulation/simulation_interfaces package, which has just had its 1.0.0 release by @adamdbrw. We should consider how to support these interfaces in Gazebo.” <span class="st v">verified</span> <a class="id" href="#quote-peters">#quote-peters</a></p>
     <ul>
       <li><a href="https://github.com/gazebosim/ros_gz/issues/732">github.com/gazebosim/ros_gz/issues/732</a>: The original statement</li>
     </ul>
   </div>
   <div class="claim" id="quote-carroll">
-    <p>ROS PMC minutes, recorded by Michael Carroll, ROS PMC lead and REP 158 sponsor (September 2026): “REP 158 acceptance. … The proposal is well developed, has had substantial discussion on Discourse and GitHub, and no negative feedback has been raised.”<span class="st v">verified</span> <a class="id" href="#quote-carroll">#quote-carroll</a></p>
+    <p>ROS PMC minutes, recorded by Michael Carroll, then ROS PMC lead, and REP 158&#x27;s PMC sponsor (September 2026): “REP 158 acceptance. … The proposal is well developed, has had substantial discussion on Discourse and GitHub, and no negative feedback has been raised.” <span class="st v">verified</span> <a class="id" href="#quote-carroll">#quote-carroll</a></p>
     <ul>
       <li><a href="https://discourse.openrobotics.org/t/ros-pmc-minutes-for-september-8-2026/57957/1">discourse.openrobotics.org/t/ros-pmc-minutes-for-september-8-2026/57957/1</a>: The original statement</li>
     </ul>
   </div>
   <div class="claim" id="quote-haves">
-    <p>Sam Haves, Google DeepMind, on REP 158 in the MuJoCo discussion (June 2026): “I&#x27;m excited about your proposal, particularly to bring ROS concepts under the USD umbrella seems like a great step forward thanks for getting the conversation going.”<span class="st v">verified</span> <a class="id" href="#quote-haves">#quote-haves</a></p>
+    <p>Sam Haves, Google DeepMind, on REP 158 in the MuJoCo discussion (June 2026): “I&#x27;m excited about your proposal, particularly to bring ROS concepts under the USD umbrella seems like a great step forward thanks for getting the conversation going.” <span class="st v">verified</span> <a class="id" href="#quote-haves">#quote-haves</a></p>
     <ul>
       <li><a href="https://github.com/google-deepmind/mujoco/discussions/3360#discussioncomment-17445609">github.com/google-deepmind/mujoco/discussions/3360#discussioncomment-17445609</a>: The original statement</li>
     </ul>
     <p class="small">The same comment cautions against duplicating the Newton schema in a neutral ext_physics layer; REP 158 dropped that layer after this feedback.</p>
   </div>
   <div class="claim" id="quote-biggs">
-    <p>OSRA Technical Governance Committee minutes, recorded by Geoffrey Biggs, TGC chair (July 2025): “More standardization around some common service messages, originated out of the simulation interfaces work by Robotec and NVIDIA”<span class="st v">verified</span> <a class="id" href="#quote-biggs">#quote-biggs</a></p>
+    <p>OSRA Technical Governance Committee minutes, recorded by Geoffrey Biggs, TGC chair (July 2025): “More standardization around some common service messages, originated out of the simulation interfaces work by Robotec and NVIDIA” <span class="st v">verified</span> <a class="id" href="#quote-biggs">#quote-biggs</a></p>
     <ul>
       <li><a href="https://discourse.openrobotics.org/t/osra-tgc-meeting-minutes-for-may-2025-and-june-2025/49339/2">discourse.openrobotics.org/t/osra-tgc-meeting-minutes-for-may-2025-and-june-2025/49339/2</a>: The original statement</li>
     </ul>
   </div>
   <div class="claim" id="quote-mayoral">
-    <p>Víctor Mayoral Vilches, on the call to found the ROS Embodied AI Community Group (October 2024): “Well done @adamdbrw taking the lead and attempting to unify AI/GenAI efforts.”<span class="st v">verified</span> <a class="id" href="#quote-mayoral">#quote-mayoral</a></p>
+    <p>Víctor Mayoral Vilches, on the call to found the ROS Embodied AI Community Group (October 2024): “Well done @adamdbrw taking the lead and attempting to unify AI/GenAI efforts.” <span class="st v">verified</span> <a class="id" href="#quote-mayoral">#quote-mayoral</a></p>
     <ul>
       <li><a href="https://discourse.openrobotics.org/t/embodied-ai-community-group-call-of-interest/39990/2">discourse.openrobotics.org/t/embodied-ai-community-group-call-of-interest/39990/2</a>: The original statement</li>
     </ul>
   </div>
   <div class="claim" id="quote-knapp">
-    <p>Emerson Knapp, rosbag2 maintainer, on Adam&#x27;s SQLite double-buffering change (November 2020): “Thanks everyone for pushing this through - it looks great, this is a huge improvement for rosbag2.”<span class="st v">verified</span> <a class="id" href="#quote-knapp">#quote-knapp</a></p>
+    <p>Emerson Knapp, rosbag2 maintainer, on Adam&#x27;s SQLite double-buffering change (November 2020): “Thanks everyone for pushing this through - it looks great, this is a huge improvement for rosbag2.” <span class="st v">verified</span> <a class="id" href="#quote-knapp">#quote-knapp</a></p>
     <ul>
       <li><a href="https://github.com/ros2/rosbag2/pull/546#issuecomment-733957695">github.com/ros2/rosbag2/pull/546#issuecomment-733957695</a>: The original statement</li>
     </ul>
   </div>
   <div class="claim" id="quote-tier4">
-    <p>Takatoki Makino, TIER IV simulation engineer, in Unity&#x27;s AWSIM case study (June 2026): “‘ros2-for-unity’ enables as-is high-throughput low-latency utilization of the messaging formats and communication protocols used in actual cars, which allows us to reproduce simulations that are as close to real cars as possible.”<span class="st v">verified</span> <a class="id" href="#quote-tier4">#quote-tier4</a></p>
+    <p>Takatoki Makino, TIER IV simulation engineer, in Unity&#x27;s AWSIM case study (June 2026): “‘ros2-for-unity’ enables as-is high-throughput low-latency utilization of the messaging formats and communication protocols used in actual cars, which allows us to reproduce simulations that are as close to real cars as possible.” <span class="st v">verified</span> <a class="id" href="#quote-tier4">#quote-tier4</a></p>
     <ul>
       <li><a href="https://unity.com/resources/tier-iv-awsim-open-source-autonomous-driving-simulator">unity.com/resources/tier-iv-awsim-open-source-autonomous-driving-simulator</a>: The original statement</li>
     </ul>
@@ -332,7 +333,7 @@
 <section id="career" aria-labelledby="h-career">
   <h2 id="h-career">Career</h2>
   <div class="claim" id="career-robotec">
-    <p>At Robotec.ai since November 2017: Technical Lead (Nov 2017–Jun 2021), Principal Software Engineer (Jul 2021–Jan 2023), VP Robotics &amp; Simulation (Jan 2023–Jul 2024, a department of six teams), CTO (since July 2024). He was among the first five people at Robotec.ai and has led its technology through its bootstrapped growth to 50 people. He mentors Robotec.ai engineers in agentic, AI-agent-driven software development.<span class="st">self-reported</span> <a class="id" href="#career-robotec">#career-robotec</a></p>
+    <p>At Robotec.ai since November 2017: Technical Lead (Nov 2017–Jun 2021), Principal Software Engineer (Jul 2021–Jan 2023), VP Robotics &amp; Simulation (Jan 2023–Jul 2024, a department of six teams), CTO (since July 2024). He was among the first five people at Robotec.ai and has led its technology through its bootstrapped growth to 50 people. He mentors Robotec.ai engineers in agentic, AI-agent-driven software development. <span class="st">self-reported</span> <a class="id" href="#career-robotec">#career-robotec</a></p>
     <ul>
       <li><a href="https://www.linkedin.com/in/dabrowskiadam/">www.linkedin.com/in/dabrowskiadam</a>: LinkedIn experience entries</li>
       <li><a href="https://www.linuxfoundation.org/press/open-3d-engine-sees-momentum-across-robotics-industry">www.linuxfoundation.org/press/open-3d-engine-sees-momentum-across-robotics-industry</a>: Quoted as VP of Robotics and Simulation, Robotec.ai (March 2023)</li>
@@ -341,7 +342,7 @@
     </ul>
   </div>
   <div class="claim" id="career-piap">
-    <p>PIAP, Industrial Research Institute for Automation and Measurements (April 2014–April 2017; December 2017–March 2019, half-time in parallel with Robotec.ai): Senior Software Engineer; software for mobile robots and operator consoles; EU robotics and space research projects; Autonomy group lead (11 people); PIAP&#x27;s project lead in R5-COP; project lead and main engineer in OFERA.<span class="st">self-reported</span> <a class="id" href="#career-piap">#career-piap</a></p>
+    <p>PIAP, Industrial Research Institute for Automation and Measurements (April 2014–April 2017; December 2017–March 2019, half-time in parallel with Robotec.ai): Senior Software Engineer; software for mobile robots and operator consoles; EU robotics and space research projects; Autonomy group lead (11 people, robotics and deep learning); PIAP&#x27;s project lead in R5-COP; project lead and main engineer in OFERA. <span class="st">self-reported</span> <a class="id" href="#career-piap">#career-piap</a></p>
     <ul>
       <li><a href="https://www.linkedin.com/in/dabrowskiadam/">www.linkedin.com/in/dabrowskiadam</a>: LinkedIn experience entries</li>
       <li><a href="https://roscon.ros.org/2016/">roscon.ros.org/2016</a>: ROSCon 2016 programme lists him with PIAP</li>
@@ -350,7 +351,7 @@
     </ul>
   </div>
   <div class="claim" id="r5cop-award">
-    <p>R5-COP, a 30-partner EU (ARTEMIS) project on modular, ROS-based robots in which Adam was PIAP&#x27;s project lead, won the ARTEMIS Exhibition Award at the ARTEMIS/ITEA Co-summit (Berlin, 10–11 March 2015); the exhibit featured PIAP&#x27;s SCOUT robot and the DTI/MiR100 logistics platform.<span class="st v">verified</span> <a class="id" href="#r5cop-award">#r5cop-award</a></p>
+    <p>R5-COP, a 30-partner EU (ARTEMIS) project on modular, ROS-based robots in which Adam was PIAP&#x27;s project lead, won the ARTEMIS Exhibition Award at the ARTEMIS/ITEA Co-summit (Berlin, 10–11 March 2015); the exhibit featured PIAP&#x27;s SCOUT robot and the DTI/MiR100 logistics platform. <span class="st v">verified</span> <a class="id" href="#r5cop-award">#r5cop-award</a></p>
     <ul>
       <li><a href="https://artemis-ia.eu/project/53-r5-cop.html">artemis-ia.eu/project/53-r5-cop.html</a>: Project page: 30 partners, PIAP among them</li>
       <li><a href="https://artemis-ia.eu/co-summit-2015/exhibition-award-1.html">artemis-ia.eu/co-summit-2015/exhibition-award-1.html</a>: R5-COP won the ARTEMIS Exhibition award, Co-summit 2015, Berlin (visitor vote)</li>
@@ -359,19 +360,19 @@
     <p class="small">The award went to the project&#x27;s exhibit, which featured PIAP&#x27;s SCOUT robot. Adam&#x27;s R5-COP role at PIAP is shown by the ARTEMIS Technology Conference 2016 agenda (see talk-2016-artemis).</p>
   </div>
   <div class="claim" id="career-early">
-    <p>Software engineer and system analyst 2005–2014: TLS-Technologie (2005–2007), Gadu-Gadu (2007–2008, C++/Qt client of Poland&#x27;s most-used instant messenger), PZU and Inter Polska (2009–2010, system analyst), GG Network (2011–2012), DCC Labs (2013, digital TV decoding), Deloitte Poland (2013–2014, risk-rating system for Poland&#x27;s largest bank).<span class="st">self-reported</span> <a class="id" href="#career-early">#career-early</a></p>
+    <p>Software engineer and system analyst 2005–2014: TLS-Technologie (2005–2007), Gadu-Gadu (2007–2008, C++/Qt client of Poland&#x27;s most-used instant messenger), PZU, Poland&#x27;s largest insurer, and Inter Polska (2009–2010, system analyst integrating information systems), GG Network (2011–2012), DCC Labs (2013, digital TV decoding), Deloitte Poland (2013–2014, risk-rating system for Poland&#x27;s largest bank). <span class="st">self-reported</span> <a class="id" href="#career-early">#career-early</a></p>
     <ul>
       <li><a href="https://www.linkedin.com/in/dabrowskiadam/">www.linkedin.com/in/dabrowskiadam</a>: LinkedIn experience entries</li>
     </ul>
   </div>
   <div class="claim" id="education">
-    <p>MSc in Information Technology, University of Warsaw. Languages: Polish (native), English, German.<span class="st">self-reported</span> <a class="id" href="#education">#education</a></p>
+    <p>MSc in Information Technology, University of Warsaw. Languages: Polish (native), English, German. <span class="st">self-reported</span> <a class="id" href="#education">#education</a></p>
     <ul>
       <li><a href="https://www.linkedin.com/in/dabrowskiadam/">www.linkedin.com/in/dabrowskiadam</a>: LinkedIn education and languages</li>
     </ul>
   </div>
   <div class="claim" id="volunteer-2009">
-    <p>Volunteer maths teacher for children from families in hardship (2009–2010).<span class="st">self-reported</span> <a class="id" href="#volunteer-2009">#volunteer-2009</a></p>
+    <p>Volunteer maths teacher for children from families in hardship (2009–2010). <span class="st">self-reported</span> <a class="id" href="#volunteer-2009">#volunteer-2009</a></p>
     <ul>
       <li><a href="https://www.linkedin.com/in/dabrowskiadam/">www.linkedin.com/in/dabrowskiadam</a>: LinkedIn volunteering entry</li>
     </ul>
@@ -381,7 +382,7 @@
 <section id="talks" aria-labelledby="h-talks">
   <h2 id="h-talks">Talks</h2>
   <div class="claim" id="talk-2016">
-    <p>ROSCon 2016, Seoul: &#x27;Evaluating the resilience of ROS2 communication layer&#x27;, with Rafał Kozik and Mateusz Maciaś (PIAP).<span class="st v">verified</span> <a class="id" href="#talk-2016">#talk-2016</a></p>
+    <p>ROSCon 2016, Seoul: &#x27;Evaluating the resilience of ROS2 communication layer&#x27;, with Rafał Kozik and Mateusz Maciaś (PIAP). <span class="st v">verified</span> <a class="id" href="#talk-2016">#talk-2016</a></p>
     <ul>
       <li><a href="https://roscon.ros.org/2016/">roscon.ros.org/2016</a>: Programme entry</li>
       <li><a href="https://vimeo.com/187705229">vimeo.com/187705229</a>: Talk video</li>
@@ -390,7 +391,7 @@
     </ul>
   </div>
   <div class="claim" id="talk-2016-artemis">
-    <p>ARTEMIS Technology Conference 2016, Madrid, R5-COP project workshop (6 October 2016): opened it with the project overview, and gave the talks &#x27;Modular approach to robot control&#x27; and &#x27;Advanced and experimental human-machine interfaces&#x27;.<span class="st v">verified</span> <a class="id" href="#talk-2016-artemis">#talk-2016-artemis</a></p>
+    <p>ARTEMIS Technology Conference 2016, Madrid, R5-COP project workshop (6 October 2016): opened it with the project overview, and gave the talks &#x27;Modular approach to robot control&#x27; and &#x27;Advanced and experimental human-machine interfaces&#x27;. <span class="st v">verified</span> <a class="id" href="#talk-2016-artemis">#talk-2016-artemis</a></p>
     <ul>
       <li><a href="https://artemis-ia.eu/publication/download/r5cop-atc2016-agenda.pdf">artemis-ia.eu/publication/download/r5cop-atc2016-agenda.pdf</a>: Workshop agenda published by ARTEMIS: the opening project overview and both talks by Adam Dąbrowski (PIAP)</li>
       <li><a href="https://artemis-ia.eu/news/artemis-technology-conference-2016.html">artemis-ia.eu/news/artemis-technology-conference-2016.html</a>: Conference report: R5-COP presented results on the second day; demonstration by partners PIAP, BME and Probot</li>
@@ -398,14 +399,14 @@
     <p class="small">The agenda, marked as a draft, lists the opening as &#x27;Opening / Key note, overview of the project&#x27;.</p>
   </div>
   <div class="claim" id="talk-2020">
-    <p>ROS Tooling Working Group, July 2020: rosbag2 performance findings.<span class="st v">verified</span> <a class="id" href="#talk-2020">#talk-2020</a></p>
+    <p>ROS Tooling Working Group, July 2020: rosbag2 performance findings. <span class="st v">verified</span> <a class="id" href="#talk-2020">#talk-2020</a></p>
     <ul>
       <li><a href="https://discourse.openrobotics.org/t/tooling-wg-breakout-session-rosbag2-performance/15067">discourse.openrobotics.org/t/tooling-wg-breakout-session-rosbag2-performance/15067</a>: Session announcement</li>
       <li><a href="https://www.youtube.com/watch?v=UUOy85c94Aw">www.youtube.com/watch?v=UUOy85c94Aw</a>: Recording</li>
     </ul>
   </div>
   <div class="claim" id="talk-2021">
-    <p>ROS World 2021: &#x27;Rosbag2 for Power Users&#x27;, with Emerson Knapp.<span class="st v">verified</span> <a class="id" href="#talk-2021">#talk-2021</a></p>
+    <p>ROS World 2021: &#x27;Rosbag2 for Power Users&#x27;, with Emerson Knapp. <span class="st v">verified</span> <a class="id" href="#talk-2021">#talk-2021</a></p>
     <ul>
       <li><a href="https://roscon.ros.org/world/2021/">roscon.ros.org/world/2021</a>: Programme entry</li>
       <li><a href="https://vimeo.com/649655219/75630c8cff">vimeo.com/649655219/75630c8cff</a>: Talk video</li>
@@ -413,13 +414,13 @@
     </ul>
   </div>
   <div class="claim" id="demo-2022">
-    <p>ROSCon 2022, Kyoto: apple-picking robots demo in O3DE (demo, not a talk).<span class="st v">verified</span> <a class="id" href="#demo-2022">#demo-2022</a></p>
+    <p>ROSCon 2022, Kyoto: apple-picking robots demo in O3DE (demo, not a talk). <span class="st v">verified</span> <a class="id" href="#demo-2022">#demo-2022</a></p>
     <ul>
       <li><a href="https://github.com/o3de/roscondemo">github.com/o3de/roscondemo</a>: Demo repository &#x27;as presented during ROSCon 2022&#x27;; Adam #1 committer (read 19 Nov 2026)</li>
     </ul>
   </div>
   <div class="claim" id="talk-2023">
-    <p>ROSCon 2023, New Orleans: &#x27;Simulate robots like never before with Open 3D Engine&#x27;; Gazebo community meeting (Oct 2023); ROS Developers Podcast #128 (Nov 2023).<span class="st v">verified</span> <a class="id" href="#talk-2023">#talk-2023</a></p>
+    <p>ROSCon 2023, New Orleans: &#x27;Simulate robots like never before with Open 3D Engine&#x27;; Gazebo community meeting (Oct 2023); ROS Developers Podcast #128 (Nov 2023). <span class="st v">verified</span> <a class="id" href="#talk-2023">#talk-2023</a></p>
     <ul>
       <li><a href="https://vimeo.com/879001753">vimeo.com/879001753</a>: Talk video</li>
       <li><a href="https://roscon.ros.org/2023/talks/Simulate_robots_like_never_before_with_Open_3D_Engine.pdf">roscon.ros.org/2023/talks/Simulate_robots_like_never_before_with_Open_3D_Engine.pdf</a>: Slides</li>
@@ -428,7 +429,7 @@
     </ul>
   </div>
   <div class="claim" id="talk-2024">
-    <p>ROSCon 2024, Odense: &#x27;Agent-based AI Framework for ROS 2&#x27;, and the Embodied AI Birds of a Feather session; Warsaw.ai Episode XXIV (10 Oct 2024): &#x27;AI Agent framework for robotics&#x27;.<span class="st v">verified</span> <a class="id" href="#talk-2024">#talk-2024</a></p>
+    <p>ROSCon 2024, Odense: &#x27;Agent-based AI Framework for ROS 2&#x27;, and the Embodied AI Birds of a Feather session; Warsaw.ai Episode XXIV (10 Oct 2024): &#x27;AI Agent framework for robotics&#x27;. <span class="st v">verified</span> <a class="id" href="#talk-2024">#talk-2024</a></p>
     <ul>
       <li><a href="https://roscon.ros.org/2024/talks/Agent-based_AI_Framework_for_ROS_2.pdf">roscon.ros.org/2024/talks/Agent-based_AI_Framework_for_ROS_2.pdf</a>: Slides</li>
       <li><a href="https://vimeo.com/1026029511">vimeo.com/1026029511</a>: Talk video</li>
@@ -436,7 +437,7 @@
     </ul>
   </div>
   <div class="claim" id="talk-2026-davos">
-    <p>Davos Tech Summit, 2 July 2026: main-stage keynote &#x27;The Blueprint for Physical AI&#x27; in the session &#x27;Foundation Models in Robotics&#x27;.<span class="st v">verified</span> <a class="id" href="#talk-2026-davos">#talk-2026-davos</a></p>
+    <p>Davos Tech Summit, 2 July 2026: main-stage keynote &#x27;The Blueprint for Physical AI&#x27; in the session &#x27;Foundation Models in Robotics&#x27;. <span class="st v">verified</span> <a class="id" href="#talk-2026-davos">#talk-2026-davos</a></p>
     <ul>
       <li><a href="https://davostechsummit.com/data/program.csv">davostechsummit.com/data/program.csv</a>: Programme data (CSV): Thursday 2 July 2026, 12:15–13:00, Main Stage, session &#x27;Foundation Models in Robotics&#x27;, Keynote, &#x27;The Blueprint for Physical AI&#x27;, Adam Dabrowski, Robotec, CTO</li>
       <li><a href="https://adamdbrw.github.io/davos-2026-blueprint-for-physical-ai.html">adamdbrw.github.io/davos-2026-blueprint-for-physical-ai.html</a>: The talk in writing, with slides (the talk was not recorded)</li>
@@ -444,7 +445,7 @@
     <p class="small">One of three keynotes in a 45-minute main-stage session; the talk was not recorded.</p>
   </div>
   <div class="claim" id="talk-2026-roscon">
-    <p>ROSCon 2026, Toronto: co-presenter of the workshop &#x27;Train, Simulate, Deploy: Agentic AI from Cloud to Robot&#x27; (one of five presenters).<span class="st v">verified</span> <a class="id" href="#talk-2026-roscon">#talk-2026-roscon</a></p>
+    <p>ROSCon 2026, Toronto: co-presenter of the workshop &#x27;Train, Simulate, Deploy: Agentic AI from Cloud to Robot&#x27; (one of five presenters). <span class="st v">verified</span> <a class="id" href="#talk-2026-roscon">#talk-2026-roscon</a></p>
     <ul>
       <li><a href="https://discourse.openrobotics.org/t/roscon-global-2026-registration-now-open-workshop-and-exhibitor-info-now-available/54710">discourse.openrobotics.org/t/roscon-global-2026-registration-now-open-workshop-and-exhibitor-info-now-available/54710</a>: Workshop listing naming the presenters, including Adam Dąbrowski</li>
     </ul>
@@ -454,14 +455,14 @@
 <section id="publications" aria-labelledby="h-publications">
   <h2 id="h-publications">Publications</h2>
   <div class="claim" id="pub-rai">
-    <p>Rachwał, K., Majek, M., Boczek, B., Dąbrowski, K., Liberadzki, P., Dąbrowski, A., Ganzha, M. RAI: Flexible Agent Framework for Embodied AI. In: Highlights in Practical Applications of Agents, Multi-Agent Systems and Computational Social Science: The PAAMS Collection (PAAMS 2025), Springer CCIS, pp. 195–206.<span class="st v">verified</span> <a class="id" href="#pub-rai">#pub-rai</a></p>
+    <p>Rachwał, K., Majek, M., Boczek, B., Dąbrowski, K., Liberadzki, P., Dąbrowski, A., Ganzha, M. RAI: Flexible Agent Framework for Embodied AI. In: Highlights in Practical Applications of Agents, Multi-Agent Systems and Computational Social Science: The PAAMS Collection (PAAMS 2025), Springer CCIS, pp. 195–206. <span class="st v">verified</span> <a class="id" href="#pub-rai">#pub-rai</a></p>
     <ul>
       <li><a href="https://doi.org/10.1007/978-3-032-05925-3_16">doi.org/10.1007/978-3-032-05925-3_16</a>: Published version</li>
       <li><a href="https://arxiv.org/abs/2505.07532">arxiv.org/abs/2505.07532</a>: Preprint</li>
     </ul>
   </div>
   <div class="claim" id="pub-vlm-2026">
-    <p>Rachwał, K., Majek, M., Boczek, B., Matejczyk, J., Matejkowski, D., Dąbrowski, A., Seyde, T., Amini, A., Ganzha, M. Multi-Agent Robotic Control with Onboard Vision-Language Models. Advances in Practical Applications of Agentic AI and Multi-Agent Systems: The PAAMS Collection (PAAMS 2026), Springer LNCS, pp. 427–432.<span class="st v">verified</span> <a class="id" href="#pub-vlm-2026">#pub-vlm-2026</a></p>
+    <p>Rachwał, K., Majek, M., Boczek, B., Matejczyk, J., Matejkowski, D., Dąbrowski, A., Seyde, T., Amini, A., Ganzha, M. Multi-Agent Robotic Control with Onboard Vision-Language Models. Advances in Practical Applications of Agentic AI and Multi-Agent Systems: The PAAMS Collection (PAAMS 2026), Springer LNCS, pp. 427–432. <span class="st v">verified</span> <a class="id" href="#pub-vlm-2026">#pub-vlm-2026</a></p>
     <ul>
       <li><a href="https://doi.org/10.1007/978-3-032-41794-7_38">doi.org/10.1007/978-3-032-41794-7_38</a>: Published chapter (Crossref: 17 October 2026), author list in this order</li>
       <li><a href="https://arxiv.org/abs/2607.07403">arxiv.org/abs/2607.07403</a>: Preprint</li>
@@ -469,32 +470,32 @@
     </ul>
   </div>
   <div class="claim" id="pub-automation-2019">
-    <p>Maciaś, M., Dąbrowski, A., Fraś, J., Karczewski, M., Puchalski, S., Tabaka, S., Jaroszek, P. Measuring Performance in Robotic Teleoperation Tasks with Virtual Reality Headgear. AUTOMATION 2019, Springer, pp. 408–417.<span class="st v">verified</span> <a class="id" href="#pub-automation-2019">#pub-automation-2019</a></p>
+    <p>Maciaś, M., Dąbrowski, A., Fraś, J., Karczewski, M., Puchalski, S., Tabaka, S., Jaroszek, P. Measuring Performance in Robotic Teleoperation Tasks with Virtual Reality Headgear. AUTOMATION 2019, Springer, pp. 408–417. <span class="st v">verified</span> <a class="id" href="#pub-automation-2019">#pub-automation-2019</a></p>
     <ul>
       <li><a href="https://doi.org/10.1007/978-3-030-13273-6_39">doi.org/10.1007/978-3-030-13273-6_39</a>: Published version</li>
     </ul>
   </div>
   <div class="claim" id="pub-autcon-2018">
-    <p>Czarnowski, J., Dąbrowski, A., Maciaś, M., Główka, J., Wrona, J. Technology gaps in Human-Machine Interfaces for autonomous construction robots. Automation in Construction 94 (2018), pp. 179–190.<span class="st v">verified</span> <a class="id" href="#pub-autcon-2018">#pub-autcon-2018</a></p>
+    <p>Czarnowski, J., Dąbrowski, A., Maciaś, M., Główka, J., Wrona, J. Technology gaps in Human-Machine Interfaces for autonomous construction robots. Automation in Construction 94 (2018), pp. 179–190. <span class="st v">verified</span> <a class="id" href="#pub-autcon-2018">#pub-autcon-2018</a></p>
     <ul>
       <li><a href="https://doi.org/10.1016/j.autcon.2018.06.014">doi.org/10.1016/j.autcon.2018.06.014</a>: Published version</li>
     </ul>
   </div>
   <div class="claim" id="pub-ofera-2018">
-    <p>Dąbrowski, A., Lütkebohle, I., Lange, R., Losa, J. M., Gamarra, B. O., Goenaga, I. M., Vilches, V. M. Reference Scenarios and Technical System Requirements Definition. OFERA (Horizon 2020) deliverable, 2018.<span class="st v">verified</span> <a class="id" href="#pub-ofera-2018">#pub-ofera-2018</a></p>
+    <p>Dąbrowski, A., Lütkebohle, I., Lange, R., Losa, J. M., Gamarra, B. O., Goenaga, I. M., Vilches, V. M. Reference Scenarios and Technical System Requirements Definition. OFERA (Horizon 2020) deliverable, 2018. <span class="st v">verified</span> <a class="id" href="#pub-ofera-2018">#pub-ofera-2018</a></p>
     <ul>
       <li><a href="https://doi.org/10.1007/978-3-031-09062-2_2">doi.org/10.1007/978-3-031-09062-2_2</a>: Cited in the micro-ROS chapter of &#x27;Robot Operating System: The Complete Reference&#x27; vol. 7</li>
       <li><a href="https://cordis.europa.eu/project/id/780785/results">cordis.europa.eu/project/id/780785/results</a>: CORDIS lists the deliverable &#x27;Reference Scenarios and Technical System Requirements Definition&#x27; with a public download</li>
     </ul>
   </div>
   <div class="claim" id="pub-rosbag2-2021">
-    <p>Report on performance improvements in rosbag2. ros2/rosbag2 technical report, 2021 (added by adamdbrw).<span class="st v">verified</span> <a class="id" href="#pub-rosbag2-2021">#pub-rosbag2-2021</a></p>
+    <p>Report on performance improvements in rosbag2. ros2/rosbag2 technical report, 2021 (added by adamdbrw). <span class="st v">verified</span> <a class="id" href="#pub-rosbag2-2021">#pub-rosbag2-2021</a></p>
     <ul>
       <li><a href="https://github.com/ros2/rosbag2/pull/651">github.com/ros2/rosbag2/pull/651</a>: Pull request adding the report</li>
     </ul>
   </div>
   <div class="claim" id="pub-nato-2015">
-    <p>Identification and analysis of gaps in the field of UGV human-machine interfaces. NATO AVT-241 Specialists Meeting, 2015. Authors: M. Maciaś, A. Dąbrowski, J. Główka (order not independently confirmed).<span class="st">self-reported</span> <a class="id" href="#pub-nato-2015">#pub-nato-2015</a></p>
+    <p>Identification and analysis of gaps in the field of UGV human-machine interfaces. NATO AVT-241 Specialists Meeting, 2015. Authors: M. Maciaś, A. Dąbrowski, J. Główka (order not independently confirmed). <span class="st">self-reported</span> <a class="id" href="#pub-nato-2015">#pub-nato-2015</a></p>
     <ul>
       <li><a href="https://www.linkedin.com/in/dabrowskiadam/">www.linkedin.com/in/dabrowskiadam</a>: LinkedIn publications</li>
       <li><a href="https://orcid.org/0000-0002-2130-0577">orcid.org/0000-0002-2130-0577</a>: Listed on his ORCID record</li>
@@ -505,7 +506,7 @@
 
 </main>
 <footer class="site narrow">
-  <p><a href="./">Profile</a> · <a href="profile.html">Printable profile</a> · <a href="speaker.html">Speaker and press kit</a> · <a href="claims.json">claims.json</a> · Last updated <time datetime="2026-11-19">19 November 2026</time>.</p>
+  <p><a href="./">Profile</a> · <a href="profile.html">Printable profile</a> · <a href="speaker.html">Speaker and press kit</a> · <a href="claims.json">claims.json</a> · Last updated <time datetime="2026-11-20">20 November 2026</time>.</p>
 </footer>
 </body>
 </html>

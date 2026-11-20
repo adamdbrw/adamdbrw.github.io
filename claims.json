@@ -13,7 +13,7 @@
   "orcid": "https://orcid.org/0000-0002-2130-0577"
  },
  "about": "Every factual claim made on adamdbrw.github.io, with sources. status: 'verified' = an independent public source confirms the claim; 'self-reported' = stated by Adam (site, LinkedIn, speaker bios he supplied) and not independently published; partial corroboration is listed in evidence. Notes disclose relationships between Adam and the authors of some sources.",
- "last_checked": "2026-11-19",
+ "last_checked": "2026-11-20",
  "how_to_verify": [
   "Start with the ids in start_here: the strongest independently verified claims.",
   "Open each evidence URL; the 'shows' field says what to look for.",
@@ -21,17 +21,17 @@
   "Commit ranks change over time; they are given with the date read."
  ],
  "start_here": [
-  "lede-direction",
   "rep158-author",
   "rep158-accepted",
   "simif-proposal",
+  "simif-design",
   "simif-implementations",
   "simif-adoption",
   "o3de-gem",
   "rosbag2",
-  "quote-taddese",
   "quote-nvidia-blog",
-  "quote-ghosh"
+  "quote-taddese",
+  "quote-peters"
  ],
  "claims": [
   {
@@ -124,7 +124,7 @@
    "id": "simif-design",
    "category": "Standards",
    "status": "verified",
-   "claim": "Lead author of the ROS Simulation Interfaces: wrote the first version (pull request #1: all 33 commits, squash-merged into one; 185 review comments from 13 reviewers, among them Gazebo and ROS maintainers), then developed them with NVIDIA contributors; 83% of the non-empty lines in the 38 interface definition files today are his (git blame, November 2026), and he created 29 of the 38 files; listed as author and maintainer.",
+   "claim": "Lead author of the ROS Simulation Interfaces: wrote the first version (pull request #1: all 33 commits, squash-merged into one; 185 review comments from 13 reviewers, among them Gazebo and ROS maintainers), then developed them with NVIDIA contributors; most of the non-empty lines in the 38 interface definition files today are his: 72% by default git blame, 77% ignoring whitespace (-w), 83% also following moved and copied lines (-w -C) (November 2026), and he created 29 of the 38 files; listed as author and maintainer.",
    "evidence": [
     {
      "url": "https://github.com/ros-simulation/simulation_interfaces/pull/1",
@@ -395,6 +395,10 @@
     {
      "url": "https://docs.ros.org/en/rolling/Releases/Release-Galactic-Geochelone.html",
      "shows": "Release notes: the rosbag2 performance analysis and its report; Foxy up to 70% message loss vs about 100% retention in Galactic"
+    },
+    {
+     "url": "https://discourse.openrobotics.org/t/ros-2-tsc-meeting-minutes-2020-07-16/15468",
+     "shows": "ROS 2 TSC minutes (Brian Gerkey): 'Adam Dabrowski from Robotec presented his findings on rosbag2 performance'"
     }
    ],
    "note": "MCAP has been rosbag2's default storage since ROS 2 Iron; the SQLite plugin and the options remain."
@@ -450,7 +454,7 @@
    "claim": "Open Source Robotics Alliance, initiatives announced at ROSCon 2025 (October 2025): “Robotec.ai: Leading the development of new standardized interfaces for simulators”",
    "evidence": [
     {
-     "url": "https://osralliance.org/?p=4378",
+     "url": "https://osralliance.org/osra-initiatives-announced-at-roscon-2025/",
      "shows": "The original statement"
     }
    ]
@@ -496,7 +500,7 @@
    "id": "quote-carroll",
    "category": "What others say",
    "status": "verified",
-   "claim": "ROS PMC minutes, recorded by Michael Carroll, ROS PMC lead and REP 158 sponsor (September 2026): “REP 158 acceptance. … The proposal is well developed, has had substantial discussion on Discourse and GitHub, and no negative feedback has been raised.”",
+   "claim": "ROS PMC minutes, recorded by Michael Carroll, then ROS PMC lead, and REP 158's PMC sponsor (September 2026): “REP 158 acceptance. … The proposal is well developed, has had substantial discussion on Discourse and GitHub, and no negative feedback has been raised.”",
    "evidence": [
     {
      "url": "https://discourse.openrobotics.org/t/ros-pmc-minutes-for-september-8-2026/57957/1",
@@ -668,7 +672,7 @@
    "id": "career-piap",
    "category": "Career",
    "status": "self-reported",
-   "claim": "PIAP, Industrial Research Institute for Automation and Measurements (April 2014–April 2017; December 2017–March 2019, half-time in parallel with Robotec.ai): Senior Software Engineer; software for mobile robots and operator consoles; EU robotics and space research projects; Autonomy group lead (11 people); PIAP's project lead in R5-COP; project lead and main engineer in OFERA.",
+   "claim": "PIAP, Industrial Research Institute for Automation and Measurements (April 2014–April 2017; December 2017–March 2019, half-time in parallel with Robotec.ai): Senior Software Engineer; software for mobile robots and operator consoles; EU robotics and space research projects; Autonomy group lead (11 people, robotics and deep learning); PIAP's project lead in R5-COP; project lead and main engineer in OFERA.",
    "evidence": [
     {
      "url": "https://www.linkedin.com/in/dabrowskiadam/",
@@ -713,7 +717,7 @@
    "id": "career-early",
    "category": "Career",
    "status": "self-reported",
-   "claim": "Software engineer and system analyst 2005–2014: TLS-Technologie (2005–2007), Gadu-Gadu (2007–2008, C++/Qt client of Poland's most-used instant messenger), PZU and Inter Polska (2009–2010, system analyst), GG Network (2011–2012), DCC Labs (2013, digital TV decoding), Deloitte Poland (2013–2014, risk-rating system for Poland's largest bank).",
+   "claim": "Software engineer and system analyst 2005–2014: TLS-Technologie (2005–2007), Gadu-Gadu (2007–2008, C++/Qt client of Poland's most-used instant messenger), PZU, Poland's largest insurer, and Inter Polska (2009–2010, system analyst integrating information systems), GG Network (2011–2012), DCC Labs (2013, digital TV decoding), Deloitte Poland (2013–2014, risk-rating system for Poland's largest bank).",
    "evidence": [
     {
      "url": "https://www.linkedin.com/in/dabrowskiadam/",
