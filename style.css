@@ -110,4 +110,5 @@ figure.photo figcaption { margin-top: 4px; }
 @media (max-width: 560px) { figure.photo { float: none; width: 100%; max-width: 320px; margin: 0 0 12px; } }
 
 section { display: flow-root; }
-#view figure.photo { width: 180px; }
+#view figure.photo { width: 110px; margin: 2px 0 8px 16px; }
+#view figure.photo figcaption { font-size: .75rem; line-height: 1.3; }
