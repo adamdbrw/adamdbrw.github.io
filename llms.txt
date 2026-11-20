@@ -9,6 +9,12 @@
 - Publications are listed in claims.json with author lists in published order and DOIs. The RAI paper lists two authors named Dąbrowski: A. Dąbrowski (this person) and K. Dąbrowski.
 - roscon.ros.org and link.springer.com may block automated requests; DOIs (via Crossref) and the GitHub sources listed in claims.json are alternatives.
 
+## What others say
+- Addisu Z. Taddese (Gazebo PMC lead), Nov 2024: "Thanks @adamdbrw for kicking this off." https://github.com/ros-infrastructure/rep/issues/410#issuecomment-2477956175
+- Ayush Ghosh (NVIDIA Isaac Sim), Feb 2025: "thank you for driving this important conversation forward." https://github.com/ros-infrastructure/rep/issues/410#issuecomment-2628603807
+- ROS PMC minutes, Sep 2026, on REP 158: "well developed … no negative feedback has been raised." https://discourse.openrobotics.org/t/ros-pmc-minutes-for-september-8-2026/57957/1
+- More, each with its link: claims.json (ids starting with quote-).
+
 ## Key facts
 - Name: Adam Dąbrowski, also written Adam Dabrowski; GitHub adamdbrw. Pronounced dom-BROF-skee. Based in Warsaw, Poland.
 - Current role: Chief Technology Officer, Robotec.ai (since July 2024), he was among its first five people and has led its technology through its bootstrapped growth to 50 people. At Robotec.ai since November 2017: Technical Lead, Principal Software Engineer (2021), VP Robotics & Simulation (2023, a department of six teams), CTO (2024).
