@@ -263,7 +263,7 @@
    "id": "rosbag2",
    "category": "Open source",
    "status": "verified",
-   "claim": "Led rosbag2 recording-performance work (2020–2021): optimized SQLite defaults and the --regex and --exclude options, shipped in ROS 2, and the performance report.",
+   "claim": "Led rosbag2 recording-performance work (2020–2021): optimised SQLite defaults and the --regex and --exclude options, shipped in ROS 2, and the performance report.",
    "evidence": [
     {
      "url": "https://github.com/ros2/rosbag2/pull/568",
@@ -409,7 +409,7 @@
     },
     {
      "url": "https://artemis-ia.eu/publication/download/r5cop-atc2016-agenda.pdf",
-     "shows": "R5-COP workshop agenda (ARTEMIS Technology Conference 2016): project overview keynote by Adam Dąbrowski (PIAP)"
+     "shows": "R5-COP workshop agenda (ARTEMIS Technology Conference 2016): opening project overview by Adam Dąbrowski (PIAP)"
     },
     {
      "url": "https://github.com/piappl/robotic-map",
@@ -421,8 +421,12 @@
    "id": "r5cop-award",
    "category": "Career",
    "status": "verified",
-   "claim": "R5-COP, the EU ARTEMIS project in which Adam was PIAP's project lead, won the ARTEMIS Exhibition Award at the ARTEMIS/ITEA Co-summit (Berlin, 10–11 March 2015); the exhibit featured PIAP's SCOUT robot and the DTI/MiR100 logistics platform.",
+   "claim": "R5-COP, a 30-partner EU (ARTEMIS) project on modular, ROS-based robots in which Adam was PIAP's project lead, won the ARTEMIS Exhibition Award at the ARTEMIS/ITEA Co-summit (Berlin, 10–11 March 2015); the exhibit featured PIAP's SCOUT robot and the DTI/MiR100 logistics platform.",
    "evidence": [
+    {
+     "url": "https://artemis-ia.eu/project/53-r5-cop.html",
+     "shows": "Project page: 30 partners, PIAP among them"
+    },
     {
      "url": "https://artemis-ia.eu/co-summit-2015/exhibition-award-1.html",
      "shows": "R5-COP won the ARTEMIS Exhibition award, Co-summit 2015, Berlin (visitor vote)"
@@ -432,7 +436,7 @@
      "shows": "PIAP SCOUT and the DTI/MiR100 platform were the exhibited platforms rewarded with the 2015 Co-Summit Exhibition Award"
     }
    ],
-   "note": "The award went to the project's exhibit. Adam's R5-COP role at PIAP is shown by the ARTEMIS Technology Conference 2016 agenda (see talk-2016-artemis)."
+   "note": "The award went to the project's exhibit, which featured PIAP's SCOUT robot. Adam's R5-COP role at PIAP is shown by the ARTEMIS Technology Conference 2016 agenda (see talk-2016-artemis)."
   },
   {
    "id": "career-early",
@@ -498,18 +502,18 @@
    "id": "talk-2016-artemis",
    "category": "Talks",
    "status": "verified",
-   "claim": "ARTEMIS Technology Conference 2016, Madrid, R5-COP workshop (6 October 2016): opening keynote with the project overview, and the talks 'Modular approach to robot control' and 'Advanced and experimental human-machine interfaces'.",
+   "claim": "ARTEMIS Technology Conference 2016, Madrid, R5-COP project workshop (6 October 2016): opened it with the project overview, and gave the talks 'Modular approach to robot control' and 'Advanced and experimental human-machine interfaces'.",
    "evidence": [
     {
      "url": "https://artemis-ia.eu/publication/download/r5cop-atc2016-agenda.pdf",
-     "shows": "Workshop agenda published by ARTEMIS: keynote and both talks by Adam Dąbrowski (PIAP)"
+     "shows": "Workshop agenda published by ARTEMIS: the opening project overview and both talks by Adam Dąbrowski (PIAP)"
     },
     {
      "url": "https://artemis-ia.eu/news/artemis-technology-conference-2016.html",
      "shows": "Conference report: R5-COP presented results on the second day; demonstration by partners PIAP, BME and Probot"
     }
    ],
-   "note": "The agenda is marked as a draft."
+   "note": "The agenda, marked as a draft, lists the opening as 'Opening / Key note, overview of the project'."
   },
   {
    "id": "talk-2020",
