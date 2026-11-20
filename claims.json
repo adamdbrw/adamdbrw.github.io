@@ -410,6 +410,23 @@
    ]
   },
   {
+   "id": "r5cop-award",
+   "category": "Career",
+   "status": "verified",
+   "claim": "R5-COP, the EU ARTEMIS project in which Adam was PIAP's project lead, won the ARTEMIS Exhibition Award at the ARTEMIS/ITEA Co-summit (Berlin, 10–11 March 2015); the exhibit featured PIAP's SCOUT robot and the DTI/MiR100 logistics platform.",
+   "evidence": [
+    {
+     "url": "https://artemis-ia.eu/co-summit-2015/exhibition-award-1.html",
+     "shows": "R5-COP won the ARTEMIS Exhibition award, Co-summit 2015, Berlin (visitor vote)"
+    },
+    {
+     "url": "https://artemis-ia.eu/news/robots-on-the-rise-one-year-into-the-r5-cop-project.html",
+     "shows": "PIAP SCOUT and the DTI/MiR100 platform were the exhibited platforms rewarded with the 2015 Co-Summit Exhibition Award"
+    }
+   ],
+   "note": "The award went to the project's exhibit; Adam's role as PIAP's project lead is his own statement (see career-piap)."
+  },
+  {
    "id": "career-early",
    "category": "Career",
    "status": "self-reported",
