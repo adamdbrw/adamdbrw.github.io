@@ -38,11 +38,11 @@
 <p class="crumb"><a href="./">← Adam Dąbrowski</a></p>
 <h1>Sources</h1>
 <p class="lede">Every claim on this site, with public sources to check it.</p>
-<p>42 claims; 33 are confirmed by an independent public source (<span class="st v">verified</span>). The other 9 are Adam's own statements (<span class="st">self-reported</span>), such as job titles and dates; each lists whatever public record supports it. Last checked <time datetime="2026-11-19">19 November 2026</time>.</p>
+<p>43 claims; 34 are confirmed by an independent public source (<span class="st v">verified</span>). The other 9 are Adam's own statements (<span class="st">self-reported</span>), such as job titles and dates; each lists whatever public record supports it. Last checked <time datetime="2026-11-19">19 November 2026</time>.</p>
 <p>For agents and scripts: the same data as <a href="claims.json">claims.json</a> (stable ids, one entry per claim, each with evidence URLs and what each source shows). GitHub account: <a href="https://github.com/adamdbrw">adamdbrw</a>.</p>
 <h2 id="start-here">Start here</h2>
 <p>The strongest independently verified claims:</p>
-<ul><li><a href="#lede-direction">Since 2018 his work has been taken up beyond his own company: the micro-ROS requirements (2018), the rosbag2 recording defaults in ROS 2 (2021), the ROS Simulation Interfaces (shipped by Gazebo and NVIDIA Isaac Sim) and REP 158 (lead author; accepted by the ROS and Gazebo PMCs).</a></li><li><a href="#rep158-author">Lead author of REP 158, &#x27;OpenUSD Conventions for Simulation Asset Interoperability in Open Source Robotics&#x27;, with co-authors from Robotec.ai, NVIDIA and Ekumen.</a></li><li><a href="#rep158-accepted">REP 158 was accepted by the Gazebo PMC (28 September 2026) and the ROS PMC (29 September 2026) and marked Accepted on 22 October 2026.</a></li><li><a href="#simif-proposal">Proposed the standardisation of ROS simulation interfaces (November 2024).</a></li><li><a href="#simif-implementations">The ROS Simulation Interfaces are implemented in Gazebo, NVIDIA Isaac Sim and O3DE.</a></li><li><a href="#o3de-gem">Wrote the RFC and first code of the O3DE ROS 2 Gem (2022) and is its top committer in the original repository; it is now the official O3DE robotics stack.</a></li><li><a href="#rosbag2">Led rosbag2 recording-performance work (2020–2021): optimised SQLite defaults and the --regex and --exclude options, shipped in ROS 2, and the performance report.</a></li></ul>
+<ul><li><a href="#lede-direction">Since 2018 his work has been taken up beyond his own company: the micro-ROS requirements (2018), the rosbag2 recording defaults in ROS 2 (2021), the ROS Simulation Interfaces (shipped by Gazebo and NVIDIA Isaac Sim) and REP 158 (lead author; accepted by the ROS and Gazebo PMCs).</a></li><li><a href="#rep158-author">Lead author of REP 158, &#x27;OpenUSD Conventions for Simulation Asset Interoperability in Open Source Robotics&#x27;, with co-authors from Robotec.ai, NVIDIA and Ekumen.</a></li><li><a href="#rep158-accepted">REP 158 was accepted by the Gazebo PMC (28 September 2026) and the ROS PMC (29 September 2026) and marked Accepted on 22 October 2026.</a></li><li><a href="#simif-proposal">Proposed the standardisation of ROS simulation interfaces (November 2024).</a></li><li><a href="#simif-implementations">The ROS Simulation Interfaces are implemented in Gazebo, NVIDIA Isaac Sim and O3DE, and released for ROS 2 Humble, Jazzy, Kilted, Lyrical and Rolling.</a></li><li><a href="#simif-adoption">More than 60 public GitHub projects outside Robotec.ai declare the ROS Simulation Interfaces as a dependency (November 2026), among them the MVSim simulator, OmniSim, community bridges for Genesis and Newton, and the toolkit of the AI for Industry Challenge.</a></li><li><a href="#o3de-gem">Wrote the RFC and first code of the O3DE ROS 2 Gem (2022) and is its top committer in the original repository; it is now the official O3DE robotics stack.</a></li><li><a href="#rosbag2">Led rosbag2 recording-performance work (2020–2021): optimised SQLite defaults and the --regex and --exclude options, shipped in ROS 2, and the performance report.</a></li></ul>
 <nav class="top" aria-label="Categories"><a href="#standards">Standards</a><a href="#products">Products</a><a href="#open-source">Open source</a><a href="#roles">Roles</a><a href="#career">Career</a><a href="#talks">Talks</a><a href="#publications">Publications</a></nav>
 
 <section id="standards" aria-labelledby="h-standards">
@@ -64,6 +64,7 @@
       <li><a href="https://reps.openrobotics.org/rep-0158-2006/">reps.openrobotics.org/rep-0158-2006</a>: Official REP page: &#x27;By Adam Dabrowski (Robotec.ai), Mateusz Zak, Michal Pelka (Robotec.ai), Ayush Ghosh, Renato Gasoto (NVIDIA), Franco Cipollone (Ekumen)&#x27;; Status: Accepted</li>
       <li><a href="https://github.com/openrobotics/reps/pull/29">github.com/openrobotics/reps/pull/29</a>: Pull request adding the REP draft (merged June 2026)</li>
       <li><a href="https://github.com/ros-simulation/openusd-schemas/pull/1">github.com/ros-simulation/openusd-schemas/pull/1</a>: Core schema, pull request by adamdbrw</li>
+      <li><a href="https://github.com/google-deepmind/mujoco/discussions/3360">github.com/google-deepmind/mujoco/discussions/3360</a>: He asked the MuJoCo team for feedback on REP 158 (June 2026)</li>
     </ul>
   </div>
   <div class="claim" id="rep158-accepted">
@@ -79,6 +80,7 @@
     <ul>
       <li><a href="https://github.com/ros-infrastructure/rep/issues/410">github.com/ros-infrastructure/rep/issues/410</a>: Issue &#x27;Standardization of simulation interfaces&#x27; opened by adamdbrw on 5 Nov 2024; Gazebo lead thanks him for kicking it off</li>
     </ul>
+    <p class="small">Addisu Z. Taddese (GitHub azeey), Gazebo lead maintainer, replied on 15 November 2024: &#x27;Thanks @adamdbrw for kicking this off. I do agree that having a standardized simulation interface would be good for the community.&#x27;</p>
   </div>
   <div class="claim" id="simif-design">
     <p>Wrote the first version of the ROS Simulation Interfaces (pull request #1: all 33 commits, 289 review comments), then developed them with NVIDIA contributors and reviews from Gazebo maintainers; listed as maintainer and author.<span class="st v">verified</span> <a class="id" href="#simif-design">#simif-design</a></p>
@@ -89,13 +91,27 @@
     </ul>
   </div>
   <div class="claim" id="simif-implementations">
-    <p>The ROS Simulation Interfaces are implemented in Gazebo, NVIDIA Isaac Sim and O3DE.<span class="st v">verified</span> <a class="id" href="#simif-implementations">#simif-implementations</a></p>
+    <p>The ROS Simulation Interfaces are implemented in Gazebo, NVIDIA Isaac Sim and O3DE, and released for ROS 2 Humble, Jazzy, Kilted, Lyrical and Rolling.<span class="st v">verified</span> <a class="id" href="#simif-implementations">#simif-implementations</a></p>
     <ul>
       <li><a href="https://gazebosim.org/docs/latest/ros2_sim_interfaces">gazebosim.org/docs/latest/ros2_sim_interfaces</a>: Gazebo documentation for the interfaces</li>
       <li><a href="https://docs.isaacsim.omniverse.nvidia.com/latest/ros2_tutorials/bridge_configuration/tutorial_ros2_simulation_control.html">docs.isaacsim.omniverse.nvidia.com/latest/ros2_tutorials/bridge_configuration/tutorial_ros2_simulation_control.html</a>: Isaac Sim tutorial: simulation control through the standard simulation_interfaces package</li>
       <li><a href="https://docs.o3de.org/docs/user-guide/interactivity/robotics/simulation-interfaces/">docs.o3de.org/docs/user-guide/interactivity/robotics/simulation-interfaces</a>: O3DE documentation for the interfaces</li>
+      <li><a href="https://index.ros.org/p/simulation_interfaces/">index.ros.org/p/simulation_interfaces</a>: ROS Index: releases for Humble, Jazzy, Kilted, Lyrical and Rolling</li>
     </ul>
     <p class="small">The O3DE implementation is by Robotec.ai; Gazebo and NVIDIA Isaac Sim implemented the interfaces themselves.</p>
+  </div>
+  <div class="claim" id="simif-adoption">
+    <p>More than 60 public GitHub projects outside Robotec.ai declare the ROS Simulation Interfaces as a dependency (November 2026), among them the MVSim simulator, OmniSim, community bridges for Genesis and Newton, and the toolkit of the AI for Industry Challenge.<span class="st v">verified</span> <a class="id" href="#simif-adoption">#simif-adoption</a></p>
+    <ul>
+      <li><a href="https://github.com/MRPT/mvsim/blob/develop/mvsim_node_src/mvsim_node_sim_interfaces.cpp">github.com/MRPT/mvsim/blob/develop/mvsim_node_src/mvsim_node_sim_interfaces.cpp</a>: MVSim simulator: its ROS 2 node implements the Simulation Interfaces</li>
+      <li><a href="https://github.com/intrinsic-dev/aic/blob/main/aic_engine/src/aic_engine.hpp">github.com/intrinsic-dev/aic/blob/main/aic_engine/src/aic_engine.hpp</a>: AI for Industry Challenge toolkit: its engine uses the Simulation Interfaces</li>
+      <li><a href="https://github.com/omnilink-tech/omnisim/blob/main/packages/omnisim-ros2/src/omnisim_ros2/omnisim_ros2/simulation_interfaces_node.py">github.com/omnilink-tech/omnisim/blob/main/packages/omnisim-ros2/src/omnisim_ros2/omnisim_ros2/simulation_interfaces_node.py</a>: OmniSim: a Simulation Interfaces node</li>
+      <li><a href="https://github.com/signalbotics/genesis_ros/blob/main/genesis_ros/genesis_ros/services/entity.py">github.com/signalbotics/genesis_ros/blob/main/genesis_ros/genesis_ros/services/entity.py</a>: Genesis bridge (community) uses the Simulation Interfaces services</li>
+      <li><a href="https://github.com/vybhav-ibr/newton_ros/blob/main/newton_simulation_interfaces/newton_simulation_interfaces/simulation_interface.py">github.com/vybhav-ibr/newton_ros/blob/main/newton_simulation_interfaces/newton_simulation_interfaces/simulation_interface.py</a>: Newton bridge (community) implements the Simulation Interfaces</li>
+      <li><a href="https://discourse.openrobotics.org/t/project-newton-ros-ros2-bridge-for-the-newton-simulator/54117">discourse.openrobotics.org/t/project-newton-ros-ros2-bridge-for-the-newton-simulator/54117</a>: Newton bridge announcement; the author chose the Simulation Interfaces so users need not learn Newton&#x27;s API</li>
+      <li><a href="https://github.com/gazebosim/ros_gz/tree/ros2/ros_gz_sim/src/gz_simulation_interfaces">github.com/gazebosim/ros_gz/tree/ros2/ros_gz_sim/src/gz_simulation_interfaces</a>: Gazebo&#x27;s ros_gz implementation</li>
+    </ul>
+    <p class="small">Count from a GitHub code search for simulation_interfaces in package.xml files, excluding Robotec.ai and the package&#x27;s own repository; the search needs a GitHub login, so the listed files are the checkable sample.</p>
   </div>
   <div class="claim" id="simif-roscon2025">
     <p>Presented the new ROS simulation standard at ROSCon 2025 with Ayush Ghosh (NVIDIA).<span class="st v">verified</span> <a class="id" href="#simif-roscon2025">#simif-roscon2025</a></p>
@@ -108,7 +124,7 @@
 <section id="products" aria-labelledby="h-products">
   <h2 id="h-products">Products</h2>
   <div class="claim" id="slingshot">
-    <p>Conceived and designed Slingshot (2026), Robotec.ai&#x27;s product that turns a site scan into a simulation-ready digital twin with OpenUSD output; wrote about 95% of the commits and built the development harness; its OpenUSD exports are checked against REP 158.<span class="st">self-reported</span> <a class="id" href="#slingshot">#slingshot</a></p>
+    <p>Conceived and designed Slingshot (2026), Robotec.ai&#x27;s product that turns a site scan into a simulation-ready digital twin with OpenUSD output; wrote about 95% of the code (reconstruction with Gaussian splatting, people removal, camera calibration, object extraction, OpenUSD export) with an AI coding-agent harness he built; its OpenUSD exports are checked against REP 158.<span class="st">self-reported</span> <a class="id" href="#slingshot">#slingshot</a></p>
     <ul>
       <li><a href="https://www.robotec.ai/slingshot">www.robotec.ai/slingshot</a>: Public product page: a digital twin of a site from a scan, with OpenUSD output</li>
     </ul>
@@ -228,7 +244,7 @@
 <section id="career" aria-labelledby="h-career">
   <h2 id="h-career">Career</h2>
   <div class="claim" id="career-robotec">
-    <p>At Robotec.ai since November 2017: Technical Lead (Nov 2017–Jun 2021), Principal Software Engineer (Jul 2021–Jan 2023), VP Robotics &amp; Simulation (Jan 2023–Jul 2024, a department of six teams), CTO (since July 2024). He was among the first five people at Robotec.ai and has led its technology through its bootstrapped growth to 50 people.<span class="st">self-reported</span> <a class="id" href="#career-robotec">#career-robotec</a></p>
+    <p>At Robotec.ai since November 2017: Technical Lead (Nov 2017–Jun 2021), Principal Software Engineer (Jul 2021–Jan 2023), VP Robotics &amp; Simulation (Jan 2023–Jul 2024, a department of six teams), CTO (since July 2024). He was among the first five people at Robotec.ai and has led its technology through its bootstrapped growth to 50 people. He mentors Robotec.ai engineers in agentic, AI-agent-driven software development.<span class="st">self-reported</span> <a class="id" href="#career-robotec">#career-robotec</a></p>
     <ul>
       <li><a href="https://www.linkedin.com/in/dabrowskiadam/">www.linkedin.com/in/dabrowskiadam</a>: LinkedIn experience entries</li>
       <li><a href="https://www.linuxfoundation.org/press/open-3d-engine-sees-momentum-across-robotics-industry">www.linuxfoundation.org/press/open-3d-engine-sees-momentum-across-robotics-industry</a>: Quoted as VP of Robotics and Simulation, Robotec.ai (March 2023)</li>
