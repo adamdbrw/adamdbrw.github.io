@@ -65,6 +65,7 @@
       <li><a href="https://github.com/openrobotics/reps/pull/29">github.com/openrobotics/reps/pull/29</a>: Pull request adding the REP draft (merged June 2026)</li>
       <li><a href="https://github.com/ros-simulation/openusd-schemas/pull/1">github.com/ros-simulation/openusd-schemas/pull/1</a>: Core schema, pull request by adamdbrw</li>
       <li><a href="https://github.com/google-deepmind/mujoco/discussions/3360">github.com/google-deepmind/mujoco/discussions/3360</a>: He asked the MuJoCo team for feedback on REP 158 (June 2026)</li>
+      <li><a href="https://www.linkedin.com/posts/open-source-robotics-foundation_draft-rep-158-openusd-conventions-for-simulation-activity-7473085906543890432-OheD">www.linkedin.com/posts/open-source-robotics-foundation_draft-rep-158-openusd-conventions-for-simulation-activity-7473085906543890432-OheD</a>: Open Robotics: &#x27;a standardized, vendor-neutral way to use OpenUSD in open-source robotics&#x27;</li>
     </ul>
   </div>
   <div class="claim" id="rep158-accepted">
@@ -121,7 +122,7 @@
     <p class="small">Count from a GitHub code search for simulation_interfaces in package.xml files, excluding Robotec.ai and the package&#x27;s own repository; the search needs a GitHub login, so the listed files are the checkable sample.</p>
   </div>
   <div class="claim" id="simif-roscon2025">
-    <p>Presented the new ROS simulation standard at ROSCon 2025 with Ayush Ghosh (NVIDIA). <span class="st v">verified</span> <a class="id" href="#simif-roscon2025">#simif-roscon2025</a></p>
+    <p>Presented the new ROS simulation standard at ROSCon 2025 in Singapore with Ayush Ghosh (NVIDIA). <span class="st v">verified</span> <a class="id" href="#simif-roscon2025">#simif-roscon2025</a></p>
     <ul>
       <li><a href="https://vimeo.com/1136376172">vimeo.com/1136376172</a>: Talk video, &#x27;Introducing the new ROS simulation standard&#x27;</li>
     </ul>
@@ -131,7 +132,7 @@
 <section id="products" aria-labelledby="h-products">
   <h2 id="h-products">Products</h2>
   <div class="claim" id="slingshot">
-    <p>Conceived and designed Slingshot (2026), Robotec.ai&#x27;s product that turns a site scan into a simulation-ready digital twin with OpenUSD output; wrote about 95% of the code (reconstruction with Gaussian splatting, people removal, camera calibration, object extraction, OpenUSD export) with an AI coding-agent harness he built; its OpenUSD exports are checked against REP 158. <span class="st">self-reported</span> <a class="id" href="#slingshot">#slingshot</a></p>
+    <p>Conceived and designed Slingshot (2026), Robotec.ai&#x27;s product that turns a site scan into a simulation-ready digital twin with OpenUSD output; wrote about 95% of the code (reconstruction with Gaussian splatting, people removal, camera calibration, object extraction, OpenUSD export) with an AI coding-agent harness he built; its OpenUSD exports are checked against REP 158. Technical details (his own statement): LiDAR-grounded 3D reconstruction trained region by region across GPUs, self-tested correction of camera calibration and timing errors, removal of people, object reconstruction, a native Rust core, OpenUSD output that opens in NVIDIA Isaac Sim and O3DE. <span class="st">self-reported</span> <a class="id" href="#slingshot">#slingshot</a></p>
     <ul>
       <li><a href="https://www.robotec.ai/slingshot">www.robotec.ai/slingshot</a>: Public product page: a digital twin of a site from a scan, with OpenUSD output</li>
     </ul>
@@ -377,6 +378,8 @@
     <p>TIER IV: Autoware&#x27;s simulation realism and sensor validation; ROS 2 for Unity runs inside TIER IV&#x27;s open-source AWSIM driving simulator. His role: architected and engineered Robotec.ai&#x27;s first AWSIM work (2022) and co-created ROS 2 for Unity (2021); as CTO, directs the current work with TIER IV. <span class="st v">verified</span> <a class="id" href="#case-tier4">#case-tier4</a></p>
     <ul>
       <li><a href="https://www.robotec.ai/case-studies/advancing-autonomous-driving-simulation">www.robotec.ai/case-studies/advancing-autonomous-driving-simulation</a>: Robotec.ai&#x27;s published case study with TIER IV</li>
+      <li><a href="https://www.indyautonomouschallenge.com/sim-races-autoware-foundation-and-autonoma">www.indyautonomouschallenge.com/sim-races-autoware-foundation-and-autonoma</a>: AWSIM &#x27;developed by TIER IV and Robotec.ai&#x27;</li>
+      <li><a href="https://unity.com/resources/tier-iv-awsim-open-source-autonomous-driving-simulator">unity.com/resources/tier-iv-awsim-open-source-autonomous-driving-simulator</a>: TIER IV worked with Robotec.ai on ros2-for-unity and Robotec-GPU-Lidar for AWSIM; quote by TIER IV simulation engineer Takatoki Makino</li>
     </ul>
     <p class="small">The case study is public on Robotec.ai&#x27;s site; his role in it is his own statement.</p>
   </div>
@@ -398,6 +401,7 @@
     <p>AWS: Cloud-native, high-fidelity robotics simulation at scale with Open 3D Engine and ROS 2: multi-robot scenarios and distributed sensor simulation. His role: As VP Robotics &amp; Simulation; built on the O3DE robotics stack he started. <span class="st v">verified</span> <a class="id" href="#case-aws">#case-aws</a></p>
     <ul>
       <li><a href="https://www.robotec.ai/case-studies/high-performance-simulation">www.robotec.ai/case-studies/high-performance-simulation</a>: Robotec.ai&#x27;s published case study with AWS</li>
+      <li><a href="https://husarion.com/tutorials/simulations/o3de-rosbot-xl-slam-toolbox/">husarion.com/tutorials/simulations/o3de-rosbot-xl-slam-toolbox</a>: &#x27;ROS 2 Gem extension developed by Robotec.ai and AWS Game Tech&#x27;</li>
     </ul>
     <p class="small">The case study is public on Robotec.ai&#x27;s site; his role in it is his own statement.</p>
   </div>
@@ -415,7 +419,7 @@
     </ul>
   </div>
   <div class="claim" id="case-dexory">
-    <p>Dexory uses Robotec.ai&#x27;s GPU lidar simulation (RGL) in Gazebo: Guillaume Doisy (Lead Systems Architect) adopted it in 2023 and keeps Dexory&#x27;s fork current in 2026 (Gazebo Jetty); Dexory contributed features back. <span class="st v">verified</span> <a class="id" href="#case-dexory">#case-dexory</a></p>
+    <p>Dexory uses Robotec.ai&#x27;s GPU lidar simulation (RGL) in Gazebo to simulate multiple 3D lidars for its warehouse robots: Guillaume Doisy (Lead Systems Architect) adopted it in 2023 (&#x27;Working now!&#x27;) and Dexory keeps its fork current in 2026 (Gazebo Jetty); Dexory contributed features back. His role: directed the engineering behind RGL, as VP and then CTO. <span class="st v">verified</span> <a class="id" href="#case-dexory">#case-dexory</a></p>
     <ul>
       <li><a href="https://github.com/botsandus/RGLGazeboPlugin">github.com/botsandus/RGLGazeboPlugin</a>: Dexory&#x27;s (botsandus) fork, updated May 2026 for Ubuntu 26.04 / ROS 2 Lyrical / Gazebo Jetty</li>
       <li><a href="https://github.com/RobotecAI/RGLGazeboPlugin">github.com/RobotecAI/RGLGazeboPlugin</a>: README credits Dexory&#x27;s contributions (LaserScan, Laser Retro, RGL update)</li>

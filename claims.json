@@ -84,6 +84,10 @@
     {
      "url": "https://github.com/google-deepmind/mujoco/discussions/3360",
      "shows": "He asked the MuJoCo team for feedback on REP 158 (June 2026)"
+    },
+    {
+     "url": "https://www.linkedin.com/posts/open-source-robotics-foundation_draft-rep-158-openusd-conventions-for-simulation-activity-7473085906543890432-OheD",
+     "shows": "Open Robotics: 'a standardized, vendor-neutral way to use OpenUSD in open-source robotics'"
     }
    ]
   },
@@ -222,7 +226,7 @@
    "id": "simif-roscon2025",
    "category": "Standards",
    "status": "verified",
-   "claim": "Presented the new ROS simulation standard at ROSCon 2025 with Ayush Ghosh (NVIDIA).",
+   "claim": "Presented the new ROS simulation standard at ROSCon 2025 in Singapore with Ayush Ghosh (NVIDIA).",
    "evidence": [
     {
      "url": "https://vimeo.com/1136376172",
@@ -234,7 +238,7 @@
    "id": "slingshot",
    "category": "Products",
    "status": "self-reported",
-   "claim": "Conceived and designed Slingshot (2026), Robotec.ai's product that turns a site scan into a simulation-ready digital twin with OpenUSD output; wrote about 95% of the code (reconstruction with Gaussian splatting, people removal, camera calibration, object extraction, OpenUSD export) with an AI coding-agent harness he built; its OpenUSD exports are checked against REP 158.",
+   "claim": "Conceived and designed Slingshot (2026), Robotec.ai's product that turns a site scan into a simulation-ready digital twin with OpenUSD output; wrote about 95% of the code (reconstruction with Gaussian splatting, people removal, camera calibration, object extraction, OpenUSD export) with an AI coding-agent harness he built; its OpenUSD exports are checked against REP 158. Technical details (his own statement): LiDAR-grounded 3D reconstruction trained region by region across GPUs, self-tested correction of camera calibration and timing errors, removal of people, object reconstruction, a native Rust core, OpenUSD output that opens in NVIDIA Isaac Sim and O3DE.",
    "evidence": [
     {
      "url": "https://www.robotec.ai/slingshot",
@@ -621,6 +625,14 @@
     {
      "url": "https://www.robotec.ai/case-studies/advancing-autonomous-driving-simulation",
      "shows": "Robotec.ai's published case study with TIER IV"
+    },
+    {
+     "url": "https://www.indyautonomouschallenge.com/sim-races-autoware-foundation-and-autonoma",
+     "shows": "AWSIM 'developed by TIER IV and Robotec.ai'"
+    },
+    {
+     "url": "https://unity.com/resources/tier-iv-awsim-open-source-autonomous-driving-simulator",
+     "shows": "TIER IV worked with Robotec.ai on ros2-for-unity and Robotec-GPU-Lidar for AWSIM; quote by TIER IV simulation engineer Takatoki Makino"
     }
    ],
    "note": "The case study is public on Robotec.ai's site; his role in it is his own statement."
@@ -660,6 +672,10 @@
     {
      "url": "https://www.robotec.ai/case-studies/high-performance-simulation",
      "shows": "Robotec.ai's published case study with AWS"
+    },
+    {
+     "url": "https://husarion.com/tutorials/simulations/o3de-rosbot-xl-slam-toolbox/",
+     "shows": "'ROS 2 Gem extension developed by Robotec.ai and AWS Game Tech'"
     }
    ],
    "note": "The case study is public on Robotec.ai's site; his role in it is his own statement."
@@ -693,7 +709,7 @@
    "id": "case-dexory",
    "category": "Customer case studies",
    "status": "verified",
-   "claim": "Dexory uses Robotec.ai's GPU lidar simulation (RGL) in Gazebo: Guillaume Doisy (Lead Systems Architect) adopted it in 2023 and keeps Dexory's fork current in 2026 (Gazebo Jetty); Dexory contributed features back.",
+   "claim": "Dexory uses Robotec.ai's GPU lidar simulation (RGL) in Gazebo to simulate multiple 3D lidars for its warehouse robots: Guillaume Doisy (Lead Systems Architect) adopted it in 2023 ('Working now!') and Dexory keeps its fork current in 2026 (Gazebo Jetty); Dexory contributed features back. His role: directed the engineering behind RGL, as VP and then CTO.",
    "evidence": [
     {
      "url": "https://github.com/botsandus/RGLGazeboPlugin",
