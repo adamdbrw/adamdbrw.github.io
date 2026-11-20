@@ -1,6 +1,6 @@
 # Adam Dąbrowski (Dabrowski)
 
-> CTO of Robotec.ai in Warsaw: robot simulation and physical AI. Proposer of the ROS Simulation Interfaces (implemented in Gazebo, NVIDIA Isaac Sim and O3DE) and lead author of REP 158, OpenUSD conventions for robot simulation assets, accepted by the ROS and Gazebo project management committees (September 2026). Not to be confused with other people named Adam Dąbrowski in signal processing or space engineering.
+> CTO of Robotec.ai in Warsaw: robot simulation and physical AI. Since 2018 his work has been taken up well beyond his own company (micro-ROS requirements, rosbag2 defaults in ROS 2, two simulation standards): proposer of the ROS Simulation Interfaces (shipped by Gazebo and NVIDIA Isaac Sim, and in O3DE) and lead author of REP 158, OpenUSD conventions for robot simulation assets, accepted by the ROS and Gazebo project management committees. He still builds: Slingshot (2026), Robotec.ai's scan-to-digital-twin product, is his design and mostly his code.
 
 ## Machine-readable data
 - [claims.json](https://adamdbrw.github.io/claims.json): every factual claim on this site, one entry each, with a stable id, a status ("verified": an independent public source confirms it; "self-reported": Adam's own statement) and evidence URLs with what each source shows. The same data as a page: [Sources](https://adamdbrw.github.io/sources.html).

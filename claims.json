@@ -9,7 +9,7 @@
   "profile": "https://adamdbrw.github.io/",
   "github": "https://github.com/adamdbrw",
   "linkedin": "https://www.linkedin.com/in/dabrowskiadam/",
-  "disambiguation": "Robotics software engineer and CTO of Robotec.ai, Warsaw. Not the researchers of the same name in signal processing or space engineering."
+  "disambiguation": "Robotics software engineer and CTO of Robotec.ai, Warsaw. Not the researchers of the same name in signal processing, space engineering or medicine."
  },
  "about": "Every factual claim made on adamdbrw.github.io, with sources. status: 'verified' = an independent public source confirms the claim; 'self-reported' = stated by Adam (site, LinkedIn, speaker bios he supplied) and not independently published; partial corroboration is listed in evidence. Notes disclose relationships between Adam and the authors of some sources.",
  "last_checked": "2026-11-19",
@@ -20,6 +20,7 @@
   "Commit ranks change over time; they are given with the date read."
  ],
  "start_here": [
+  "lede-direction",
   "rep158-author",
   "rep158-accepted",
   "simif-proposal",
@@ -28,6 +29,35 @@
   "rosbag2"
  ],
  "claims": [
+  {
+   "id": "lede-direction",
+   "category": "Standards",
+   "status": "verified",
+   "claim": "Since 2018 his work has been taken up beyond his own company: the micro-ROS requirements (2018), the rosbag2 recording defaults in ROS 2 (2021), the ROS Simulation Interfaces (shipped by Gazebo and NVIDIA Isaac Sim) and REP 158 (lead author; accepted by the ROS and Gazebo PMCs).",
+   "evidence": [
+    {
+     "url": "https://doi.org/10.1007/978-3-031-09062-2_2",
+     "shows": "micro-ROS chapter cites his OFERA requirements report as first author (see micro-ros)"
+    },
+    {
+     "url": "https://github.com/ros2/rosbag2/pull/568",
+     "shows": "rosbag2 SQLite defaults merged into ROS 2, 2021 (see rosbag2)"
+    },
+    {
+     "url": "https://gazebosim.org/docs/latest/ros2_sim_interfaces",
+     "shows": "Gazebo implements the Simulation Interfaces (see simif-implementations)"
+    },
+    {
+     "url": "https://docs.isaacsim.omniverse.nvidia.com/latest/ros2_tutorials/bridge_configuration/tutorial_ros2_simulation_control.html",
+     "shows": "NVIDIA Isaac Sim uses the Simulation Interfaces (see simif-implementations)"
+    },
+    {
+     "url": "https://reps.openrobotics.org/rep-0158-2006/",
+     "shows": "REP 158 lists him as first author (see rep158-author, rep158-accepted)"
+    }
+   ],
+   "note": "Summary of the claims micro-ros, rosbag2, simif-implementations, rep158-author and rep158-accepted."
+  },
   {
    "id": "rep158-author",
    "category": "Standards",
@@ -84,7 +114,7 @@
    "id": "simif-design",
    "category": "Standards",
    "status": "verified",
-   "claim": "Wrote the first version of the ROS Simulation Interfaces (pull request #1: all its commits, 289 review comments), then developed them with NVIDIA contributors and reviews from Gazebo maintainers; listed as maintainer and author.",
+   "claim": "Wrote the first version of the ROS Simulation Interfaces (pull request #1: all 33 commits, 289 review comments), then developed them with NVIDIA contributors and reviews from Gazebo maintainers; listed as maintainer and author.",
    "evidence": [
     {
      "url": "https://github.com/ros-simulation/simulation_interfaces/pull/1",

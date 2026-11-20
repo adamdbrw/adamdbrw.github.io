@@ -38,15 +38,26 @@
 <p class="crumb"><a href="./">← Adam Dąbrowski</a></p>
 <h1>Sources</h1>
 <p class="lede">Every claim on this site, with public sources to check it.</p>
-<p>41 claims; 32 are confirmed by an independent public source (<span class="st v">verified</span>). The other 9 are Adam's own statements (<span class="st">self-reported</span>), such as job titles and dates; each lists whatever public record supports it. Last checked <time datetime="2026-11-19">19 November 2026</time>.</p>
+<p>42 claims; 33 are confirmed by an independent public source (<span class="st v">verified</span>). The other 9 are Adam's own statements (<span class="st">self-reported</span>), such as job titles and dates; each lists whatever public record supports it. Last checked <time datetime="2026-11-19">19 November 2026</time>.</p>
 <p>For agents and scripts: the same data as <a href="claims.json">claims.json</a> (stable ids, one entry per claim, each with evidence URLs and what each source shows). GitHub account: <a href="https://github.com/adamdbrw">adamdbrw</a>.</p>
 <h2 id="start-here">Start here</h2>
 <p>The strongest independently verified claims:</p>
-<ul><li><a href="#rep158-author">Lead author of REP 158, &#x27;OpenUSD Conventions for Simulation Asset Interoperability in Open Source Robotics&#x27;, with co-authors from Robotec.ai, NVIDIA and Ekumen.</a></li><li><a href="#rep158-accepted">REP 158 was accepted by the Gazebo PMC (28 September 2026) and the ROS PMC (29 September 2026) and marked Accepted on 22 October 2026.</a></li><li><a href="#simif-proposal">Proposed the standardisation of ROS simulation interfaces (November 2024).</a></li><li><a href="#simif-implementations">The ROS Simulation Interfaces are implemented in Gazebo, NVIDIA Isaac Sim and O3DE.</a></li><li><a href="#o3de-gem">Wrote the RFC and first code of the O3DE ROS 2 Gem (2022) and is its top committer in the original repository; it is now the official O3DE robotics stack.</a></li><li><a href="#rosbag2">Led rosbag2 recording-performance work (2020–2021): optimised SQLite defaults and the --regex and --exclude options, shipped in ROS 2, and the performance report.</a></li></ul>
+<ul><li><a href="#lede-direction">Since 2018 his work has been taken up beyond his own company: the micro-ROS requirements (2018), the rosbag2 recording defaults in ROS 2 (2021), the ROS Simulation Interfaces (shipped by Gazebo and NVIDIA Isaac Sim) and REP 158 (lead author; accepted by the ROS and Gazebo PMCs).</a></li><li><a href="#rep158-author">Lead author of REP 158, &#x27;OpenUSD Conventions for Simulation Asset Interoperability in Open Source Robotics&#x27;, with co-authors from Robotec.ai, NVIDIA and Ekumen.</a></li><li><a href="#rep158-accepted">REP 158 was accepted by the Gazebo PMC (28 September 2026) and the ROS PMC (29 September 2026) and marked Accepted on 22 October 2026.</a></li><li><a href="#simif-proposal">Proposed the standardisation of ROS simulation interfaces (November 2024).</a></li><li><a href="#simif-implementations">The ROS Simulation Interfaces are implemented in Gazebo, NVIDIA Isaac Sim and O3DE.</a></li><li><a href="#o3de-gem">Wrote the RFC and first code of the O3DE ROS 2 Gem (2022) and is its top committer in the original repository; it is now the official O3DE robotics stack.</a></li><li><a href="#rosbag2">Led rosbag2 recording-performance work (2020–2021): optimised SQLite defaults and the --regex and --exclude options, shipped in ROS 2, and the performance report.</a></li></ul>
 <nav class="top" aria-label="Categories"><a href="#standards">Standards</a><a href="#products">Products</a><a href="#open-source">Open source</a><a href="#roles">Roles</a><a href="#career">Career</a><a href="#talks">Talks</a><a href="#publications">Publications</a></nav>
 
 <section id="standards" aria-labelledby="h-standards">
   <h2 id="h-standards">Standards</h2>
+  <div class="claim" id="lede-direction">
+    <p>Since 2018 his work has been taken up beyond his own company: the micro-ROS requirements (2018), the rosbag2 recording defaults in ROS 2 (2021), the ROS Simulation Interfaces (shipped by Gazebo and NVIDIA Isaac Sim) and REP 158 (lead author; accepted by the ROS and Gazebo PMCs).<span class="st v">verified</span> <a class="id" href="#lede-direction">#lede-direction</a></p>
+    <ul>
+      <li><a href="https://doi.org/10.1007/978-3-031-09062-2_2">doi.org/10.1007/978-3-031-09062-2_2</a>: micro-ROS chapter cites his OFERA requirements report as first author (see micro-ros)</li>
+      <li><a href="https://github.com/ros2/rosbag2/pull/568">github.com/ros2/rosbag2/pull/568</a>: rosbag2 SQLite defaults merged into ROS 2, 2021 (see rosbag2)</li>
+      <li><a href="https://gazebosim.org/docs/latest/ros2_sim_interfaces">gazebosim.org/docs/latest/ros2_sim_interfaces</a>: Gazebo implements the Simulation Interfaces (see simif-implementations)</li>
+      <li><a href="https://docs.isaacsim.omniverse.nvidia.com/latest/ros2_tutorials/bridge_configuration/tutorial_ros2_simulation_control.html">docs.isaacsim.omniverse.nvidia.com/latest/ros2_tutorials/bridge_configuration/tutorial_ros2_simulation_control.html</a>: NVIDIA Isaac Sim uses the Simulation Interfaces (see simif-implementations)</li>
+      <li><a href="https://reps.openrobotics.org/rep-0158-2006/">reps.openrobotics.org/rep-0158-2006</a>: REP 158 lists him as first author (see rep158-author, rep158-accepted)</li>
+    </ul>
+    <p class="small">Summary of the claims micro-ros, rosbag2, simif-implementations, rep158-author and rep158-accepted.</p>
+  </div>
   <div class="claim" id="rep158-author">
     <p>Lead author of REP 158, &#x27;OpenUSD Conventions for Simulation Asset Interoperability in Open Source Robotics&#x27;, with co-authors from Robotec.ai, NVIDIA and Ekumen.<span class="st v">verified</span> <a class="id" href="#rep158-author">#rep158-author</a></p>
     <ul>
@@ -70,7 +81,7 @@
     </ul>
   </div>
   <div class="claim" id="simif-design">
-    <p>Wrote the first version of the ROS Simulation Interfaces (pull request #1: all its commits, 289 review comments), then developed them with NVIDIA contributors and reviews from Gazebo maintainers; listed as maintainer and author.<span class="st v">verified</span> <a class="id" href="#simif-design">#simif-design</a></p>
+    <p>Wrote the first version of the ROS Simulation Interfaces (pull request #1: all 33 commits, 289 review comments), then developed them with NVIDIA contributors and reviews from Gazebo maintainers; listed as maintainer and author.<span class="st v">verified</span> <a class="id" href="#simif-design">#simif-design</a></p>
     <ul>
       <li><a href="https://github.com/ros-simulation/simulation_interfaces/pull/1">github.com/ros-simulation/simulation_interfaces/pull/1</a>: First pull request, by adamdbrw (opened 17 Dec 2024, merged 21 Mar 2025); reviews include Gazebo maintainers (azeey, scpeters)</li>
       <li><a href="https://index.ros.org/p/simulation_interfaces/">index.ros.org/p/simulation_interfaces</a>: ROS Index lists Adam Dąbrowski as maintainer and author</li>
