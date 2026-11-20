@@ -268,7 +268,7 @@
    "id": "rai-research-use",
    "category": "Open source",
    "status": "verified",
-   "claim": "RAI is cited in later robotics research; RHO (2026) evaluates on RAI's manipulation benchmark.",
+   "claim": "RAI is cited in later robotics research; RHO (2026) evaluates on RAI's O3DE benchmark.",
    "evidence": [
     {
      "url": "https://arxiv.org/abs/2610.27039",
@@ -284,7 +284,7 @@
     },
     {
      "url": "https://arxiv.org/abs/2606.16458",
-     "shows": "RHO (2026) evaluates on RAI's manipulation benchmark and transfers to RAI's ROS 2 stack"
+     "shows": "RHO (2026) evaluates on RAI's O3DE benchmark and transfers to RAI's ROS 2 stack"
     }
    ],
    "note": "Relationships, for transparency: RHO's authors include two of Adam's ROSCon 2026 workshop co-presenters; the last author of ROSBag MCP Server chairs the COST Action in which Adam leads a working group. The other papers are by unrelated groups."
