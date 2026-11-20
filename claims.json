@@ -406,6 +406,10 @@
     {
      "url": "https://roscon.ros.org/2016/",
      "shows": "ROSCon 2016 programme lists him with PIAP"
+    },
+    {
+     "url": "https://artemis-ia.eu/publication/download/r5cop-atc2016-agenda.pdf",
+     "shows": "R5-COP workshop agenda (ARTEMIS Technology Conference 2016): project overview keynote by Adam Dąbrowski (PIAP)"
     }
    ]
   },
@@ -424,7 +428,7 @@
      "shows": "PIAP SCOUT and the DTI/MiR100 platform were the exhibited platforms rewarded with the 2015 Co-Summit Exhibition Award"
     }
    ],
-   "note": "The award went to the project's exhibit; Adam's role as PIAP's project lead is his own statement (see career-piap)."
+   "note": "The award went to the project's exhibit. Adam's R5-COP role at PIAP is shown by the ARTEMIS Technology Conference 2016 agenda (see talk-2016-artemis)."
   },
   {
    "id": "career-early",
@@ -481,6 +485,23 @@
      "shows": "Slides"
     }
    ]
+  },
+  {
+   "id": "talk-2016-artemis",
+   "category": "Talks",
+   "status": "verified",
+   "claim": "ARTEMIS Technology Conference 2016, Madrid, R5-COP workshop (6 October 2016): opening keynote with the project overview, and the talks 'Modular approach to robot control' and 'Advanced and experimental human-machine interfaces'.",
+   "evidence": [
+    {
+     "url": "https://artemis-ia.eu/publication/download/r5cop-atc2016-agenda.pdf",
+     "shows": "Workshop agenda published by ARTEMIS: keynote and both talks by Adam Dąbrowski (PIAP)"
+    },
+    {
+     "url": "https://artemis-ia.eu/news/artemis-technology-conference-2016.html",
+     "shows": "Conference report: R5-COP presented results on the second day; demonstration by partners PIAP, BME and Probot"
+    }
+   ],
+   "note": "The agenda is marked as a draft."
   },
   {
    "id": "talk-2020",
