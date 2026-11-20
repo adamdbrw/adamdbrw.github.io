@@ -134,6 +134,19 @@
    ]
   },
   {
+   "id": "slingshot",
+   "category": "Products",
+   "status": "self-reported",
+   "claim": "Conceived and designed Slingshot (2026), Robotec.ai's product that turns a site scan into a simulation-ready digital twin with OpenUSD output; wrote about 95% of the commits and built the development harness; its OpenUSD exports are checked against REP 158.",
+   "evidence": [
+    {
+     "url": "https://www.robotec.ai/slingshot",
+     "shows": "Public product page: a digital twin of a site from a scan, with OpenUSD output"
+    }
+   ],
+   "note": "The product is public; the source repository is private, so his share of the work and the REP 158 check are his own statements."
+  },
+  {
    "id": "rai",
    "category": "Open source",
    "status": "self-reported",
@@ -382,7 +395,7 @@
    "id": "career-robotec",
    "category": "Career",
    "status": "self-reported",
-   "claim": "At Robotec.ai since November 2017: Technical Lead (Nov 2017–Jun 2021), Principal Software Engineer (Jul 2021–Jan 2023), VP Robotics & Simulation (Jan 2023–Jul 2024, a department of six teams), CTO (since July 2024). He was among the first five people at Robotec.ai, which grew, bootstrapped, to 50; he has led its technology through that growth.",
+   "claim": "At Robotec.ai since November 2017: Technical Lead (Nov 2017–Jun 2021), Principal Software Engineer (Jul 2021–Jan 2023), VP Robotics & Simulation (Jan 2023–Jul 2024, a department of six teams), CTO (since July 2024). He was among the first five people at Robotec.ai and has led its technology through its bootstrapped growth to 50 people.",
    "evidence": [
     {
      "url": "https://www.linkedin.com/in/dabrowskiadam/",
