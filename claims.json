@@ -582,6 +582,97 @@
    ]
   },
   {
+   "id": "case-boliden-twin",
+   "category": "Customer case studies",
+   "status": "verified",
+   "claim": "Boliden: Digital twin of a large mining operation: replays recorded system data, supports predictive analytics and lets autonomous mining fleets be validated safely before deployment. His role: As CTO, directed the engineering.",
+   "evidence": [
+    {
+     "url": "https://www.robotec.ai/case-studies/digital-twin-of-a-large-mining-operation",
+     "shows": "Robotec.ai's published case study with Boliden"
+    }
+   ],
+   "note": "The case study is public on Robotec.ai's site; his role in it is his own statement."
+  },
+  {
+   "id": "case-boliden-kiteshield",
+   "category": "Customer case studies",
+   "status": "verified",
+   "claim": "Boliden: Kite Shield: a high-fidelity digital twin and mixed-reality environment of Boliden's underground tunnels and fleet, used to verify a UWB safety system's geofences and collision risks before it went live. His role: As CTO, directed the engineering (RoSi platform).",
+   "evidence": [
+    {
+     "url": "https://www.robotec.ai/case-studies/kiteshield-mixed-reality-safety-system-for-underground-mining",
+     "shows": "Robotec.ai's published case study with Boliden"
+    }
+   ],
+   "note": "The case study is public on Robotec.ai's site; his role in it is his own statement."
+  },
+  {
+   "id": "case-tier4",
+   "category": "Customer case studies",
+   "status": "verified",
+   "claim": "TIER IV: Autoware's simulation realism and sensor validation; ROS 2 for Unity runs inside TIER IV's open-source AWSIM driving simulator. His role: Co-created ROS 2 for Unity; as CTO, directed the engineering.",
+   "evidence": [
+    {
+     "url": "https://www.robotec.ai/case-studies/advancing-autonomous-driving-simulation",
+     "shows": "Robotec.ai's published case study with TIER IV"
+    }
+   ],
+   "note": "The case study is public on Robotec.ai's site; his role in it is his own statement."
+  },
+  {
+   "id": "case-qualcomm",
+   "category": "Customer case studies",
+   "status": "verified",
+   "claim": "Qualcomm: Photorealistic retail simulation for a mobile manipulator restocking shelves; synthetic data and hardware-in-the-loop validation confirmed real-time performance on Qualcomm edge hardware. His role: As CTO, directed the engineering.",
+   "evidence": [
+    {
+     "url": "https://www.robotec.ai/case-studies/high-fidelity-retail-simulation-for-mobile-manipulation-with-qualcomm",
+     "shows": "Robotec.ai's published case study with Qualcomm"
+    }
+   ],
+   "note": "The case study is public on Robotec.ai's site; his role in it is his own statement."
+  },
+  {
+   "id": "case-adi",
+   "category": "Customer case studies",
+   "status": "verified",
+   "claim": "Analog Devices: Digital twin of a semiconductor production bay to validate robotic workflows, human–robot interaction and automation efficiency. His role: As CTO, directed the engineering (RoSi platform).",
+   "evidence": [
+    {
+     "url": "https://www.robotec.ai/case-studies/digital-twin-of-semiconductor-manufacturing",
+     "shows": "Robotec.ai's published case study with Analog Devices"
+    }
+   ],
+   "note": "The case study is public on Robotec.ai's site; his role in it is his own statement."
+  },
+  {
+   "id": "case-aws",
+   "category": "Customer case studies",
+   "status": "verified",
+   "claim": "AWS: Cloud-native, high-fidelity robotics simulation at scale with Open 3D Engine and ROS 2: multi-robot scenarios and distributed sensor simulation. His role: As VP Robotics & Simulation; built on the O3DE robotics stack he started.",
+   "evidence": [
+    {
+     "url": "https://www.robotec.ai/case-studies/high-performance-simulation",
+     "shows": "Robotec.ai's published case study with AWS"
+    }
+   ],
+   "note": "The case study is public on Robotec.ai's site; his role in it is his own statement."
+  },
+  {
+   "id": "case-nvidia-intrinsic",
+   "category": "Customer case studies",
+   "status": "verified",
+   "claim": "NVIDIA and Intrinsic: A ROS 2 standard simulation interface for interoperability across simulators, now in NVIDIA Isaac Sim and Gazebo. His role: Proposed the standard and is its lead author.",
+   "evidence": [
+    {
+     "url": "https://www.robotec.ai/case-studies/new-standard-for-open-source-robotics-simulation",
+     "shows": "Robotec.ai's published case study with NVIDIA and Intrinsic"
+    }
+   ],
+   "note": "The case study is public on Robotec.ai's site; his role in it is his own statement."
+  },
+  {
    "id": "osra-wg",
    "category": "Roles",
    "status": "verified",

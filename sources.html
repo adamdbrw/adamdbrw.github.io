@@ -38,12 +38,12 @@
 <nav class="crumb" aria-label="Breadcrumb"><a href="./">← Adam Dąbrowski</a></nav>
 <h1>Sources</h1>
 <p class="lede">Every claim on this site, with public sources to check it.</p>
-<p>57 claims; 47 are confirmed by an independent public source (<span class="st v">verified</span>). The other 10 are Adam's own statements (<span class="st">self-reported</span>), such as job titles and dates; each lists whatever public record supports it. Last checked <time datetime="2026-11-20">20 November 2026</time>.</p>
+<p>64 claims; 54 are confirmed by an independent public source (<span class="st v">verified</span>). The other 10 are Adam's own statements (<span class="st">self-reported</span>), such as job titles and dates; each lists whatever public record supports it. Last checked <time datetime="2026-11-20">20 November 2026</time>.</p>
 <p>For agents and scripts: the same data as <a href="claims.json">claims.json</a> (stable ids, one entry per claim, each with evidence URLs and what each source shows). GitHub account: <a href="https://github.com/adamdbrw">adamdbrw</a>; ORCID: <a href="https://orcid.org/0000-0002-2130-0577">0000-0002-2130-0577</a>.</p>
 <h2 id="start-here">Start here</h2>
 <p>The strongest independently verified claims:</p>
 <ul><li><a href="#rep158-author">Lead author of REP 158, &#x27;OpenUSD Conventions for Simulation Asset Interoperability in Open Source Robotics&#x27;, with co-authors from Robotec.ai, NVIDIA and Ekumen.</a></li><li><a href="#rep158-accepted">REP 158 was accepted by the Gazebo PMC (28 September 2026) and the ROS PMC (29 September 2026) and marked Accepted on 22 October 2026.</a></li><li><a href="#simif-proposal">Proposed the standardisation of ROS simulation interfaces (November 2024).</a></li><li><a href="#simif-design">Lead author of the ROS Simulation Interfaces: wrote the first version (pull request #1: all 33 commits, squash-merged into one; 185 review comments from 13 reviewers, among them Gazebo and ROS maintainers), then developed them with NVIDIA contributors; most of the non-empty lines in the 38 interface definition files today are his: 72% by default git blame, 77% ignoring whitespace (-w), 83% also following moved and copied lines (-w -C) (November 2026), and he created 29 of the 38 files; listed as author and maintainer.</a></li><li><a href="#simif-implementations">The ROS Simulation Interfaces are implemented in Gazebo, NVIDIA Isaac Sim and O3DE, and released for ROS 2 Humble, Jazzy, Kilted, Lyrical and Rolling.</a></li><li><a href="#simif-adoption">More than 60 public GitHub repositories outside Robotec.ai declare the ROS Simulation Interfaces as a dependency (November 2026). About ten are simulators or simulator bridges, among them the MVSim simulator, OmniSim, community bridges for Genesis and Newton, and PyBulletFleet; others include the toolkit of the AI for Industry Challenge and its entrants&#x27; copies, and coursework.</a></li><li><a href="#o3de-gem">Wrote the RFC and first code of the O3DE ROS 2 Gem (2022) and is its top committer in the original repository; it is now the official O3DE robotics stack.</a></li><li><a href="#rosbag2">Led rosbag2 recording-performance work (2020–2021): optimised SQLite defaults and the --regex and --exclude options, shipped in ROS 2, and the performance report. ROS 2 Galactic release notes: in a 200 Mbps stress test the Foxy release dropped up to 70% of messages, Galactic retained about 100%.</a></li><li><a href="#quote-nvidia-blog">NVIDIA Technical Blog, on the ROS Simulation Interfaces in Isaac Sim 5.0 (August 2025): “Led by Robotec.ai and developed in collaboration with Gazebo, Open 3D Engine, and NVIDIA, these interfaces streamline integration by offering developers a consistent and simplified way to manage simulations directly from ROS 2.”</a></li><li><a href="#quote-taddese">Addisu Z. Taddese, Gazebo PMC lead, on the proposal for the ROS Simulation Interfaces (November 2024): “Thanks @adamdbrw for kicking this off. I do agree that having a standardized simulation interface would be good for the community.”</a></li><li><a href="#quote-peters">Steve Peters, Gazebo maintainer, opening Gazebo&#x27;s implementation work (April 2025): “Standard ROS interfaces have been defined for interacting with simulation in the ros-simulation/simulation_interfaces package, which has just had its 1.0.0 release by @adamdbrw. We should consider how to support these interfaces in Gazebo.”</a></li></ul>
-<nav class="top" aria-label="Categories"><a href="#standards">Standards</a><a href="#products">Products</a><a href="#open-source">Open source</a><a href="#roles">Roles</a><a href="#what-others-say">What others say</a><a href="#career">Career</a><a href="#talks">Talks</a><a href="#publications">Publications</a></nav>
+<nav class="top" aria-label="Categories"><a href="#standards">Standards</a><a href="#products">Products</a><a href="#open-source">Open source</a><a href="#roles">Roles</a><a href="#what-others-say">What others say</a><a href="#customer-case-studies">Customer case studies</a><a href="#career">Career</a><a href="#talks">Talks</a><a href="#publications">Publications</a></nav>
 
 <section id="standards" aria-labelledby="h-standards">
   <h2 id="h-standards">Standards</h2>
@@ -333,6 +333,59 @@
     <ul>
       <li><a href="https://unity.com/resources/tier-iv-awsim-open-source-autonomous-driving-simulator">unity.com/resources/tier-iv-awsim-open-source-autonomous-driving-simulator</a>: The original statement</li>
     </ul>
+  </div>
+</section>
+
+<section id="customer-case-studies" aria-labelledby="h-customer-case-studies">
+  <h2 id="h-customer-case-studies">Customer case studies</h2>
+  <div class="claim" id="case-boliden-twin">
+    <p>Boliden: Digital twin of a large mining operation: replays recorded system data, supports predictive analytics and lets autonomous mining fleets be validated safely before deployment. His role: As CTO, directed the engineering. <span class="st v">verified</span> <a class="id" href="#case-boliden-twin">#case-boliden-twin</a></p>
+    <ul>
+      <li><a href="https://www.robotec.ai/case-studies/digital-twin-of-a-large-mining-operation">www.robotec.ai/case-studies/digital-twin-of-a-large-mining-operation</a>: Robotec.ai&#x27;s published case study with Boliden</li>
+    </ul>
+    <p class="small">The case study is public on Robotec.ai&#x27;s site; his role in it is his own statement.</p>
+  </div>
+  <div class="claim" id="case-boliden-kiteshield">
+    <p>Boliden: Kite Shield: a high-fidelity digital twin and mixed-reality environment of Boliden&#x27;s underground tunnels and fleet, used to verify a UWB safety system&#x27;s geofences and collision risks before it went live. His role: As CTO, directed the engineering (RoSi platform). <span class="st v">verified</span> <a class="id" href="#case-boliden-kiteshield">#case-boliden-kiteshield</a></p>
+    <ul>
+      <li><a href="https://www.robotec.ai/case-studies/kiteshield-mixed-reality-safety-system-for-underground-mining">www.robotec.ai/case-studies/kiteshield-mixed-reality-safety-system-for-underground-mining</a>: Robotec.ai&#x27;s published case study with Boliden</li>
+    </ul>
+    <p class="small">The case study is public on Robotec.ai&#x27;s site; his role in it is his own statement.</p>
+  </div>
+  <div class="claim" id="case-tier4">
+    <p>TIER IV: Autoware&#x27;s simulation realism and sensor validation; ROS 2 for Unity runs inside TIER IV&#x27;s open-source AWSIM driving simulator. His role: Co-created ROS 2 for Unity; as CTO, directed the engineering. <span class="st v">verified</span> <a class="id" href="#case-tier4">#case-tier4</a></p>
+    <ul>
+      <li><a href="https://www.robotec.ai/case-studies/advancing-autonomous-driving-simulation">www.robotec.ai/case-studies/advancing-autonomous-driving-simulation</a>: Robotec.ai&#x27;s published case study with TIER IV</li>
+    </ul>
+    <p class="small">The case study is public on Robotec.ai&#x27;s site; his role in it is his own statement.</p>
+  </div>
+  <div class="claim" id="case-qualcomm">
+    <p>Qualcomm: Photorealistic retail simulation for a mobile manipulator restocking shelves; synthetic data and hardware-in-the-loop validation confirmed real-time performance on Qualcomm edge hardware. His role: As CTO, directed the engineering. <span class="st v">verified</span> <a class="id" href="#case-qualcomm">#case-qualcomm</a></p>
+    <ul>
+      <li><a href="https://www.robotec.ai/case-studies/high-fidelity-retail-simulation-for-mobile-manipulation-with-qualcomm">www.robotec.ai/case-studies/high-fidelity-retail-simulation-for-mobile-manipulation-with-qualcomm</a>: Robotec.ai&#x27;s published case study with Qualcomm</li>
+    </ul>
+    <p class="small">The case study is public on Robotec.ai&#x27;s site; his role in it is his own statement.</p>
+  </div>
+  <div class="claim" id="case-adi">
+    <p>Analog Devices: Digital twin of a semiconductor production bay to validate robotic workflows, human–robot interaction and automation efficiency. His role: As CTO, directed the engineering (RoSi platform). <span class="st v">verified</span> <a class="id" href="#case-adi">#case-adi</a></p>
+    <ul>
+      <li><a href="https://www.robotec.ai/case-studies/digital-twin-of-semiconductor-manufacturing">www.robotec.ai/case-studies/digital-twin-of-semiconductor-manufacturing</a>: Robotec.ai&#x27;s published case study with Analog Devices</li>
+    </ul>
+    <p class="small">The case study is public on Robotec.ai&#x27;s site; his role in it is his own statement.</p>
+  </div>
+  <div class="claim" id="case-aws">
+    <p>AWS: Cloud-native, high-fidelity robotics simulation at scale with Open 3D Engine and ROS 2: multi-robot scenarios and distributed sensor simulation. His role: As VP Robotics &amp; Simulation; built on the O3DE robotics stack he started. <span class="st v">verified</span> <a class="id" href="#case-aws">#case-aws</a></p>
+    <ul>
+      <li><a href="https://www.robotec.ai/case-studies/high-performance-simulation">www.robotec.ai/case-studies/high-performance-simulation</a>: Robotec.ai&#x27;s published case study with AWS</li>
+    </ul>
+    <p class="small">The case study is public on Robotec.ai&#x27;s site; his role in it is his own statement.</p>
+  </div>
+  <div class="claim" id="case-nvidia-intrinsic">
+    <p>NVIDIA and Intrinsic: A ROS 2 standard simulation interface for interoperability across simulators, now in NVIDIA Isaac Sim and Gazebo. His role: Proposed the standard and is its lead author. <span class="st v">verified</span> <a class="id" href="#case-nvidia-intrinsic">#case-nvidia-intrinsic</a></p>
+    <ul>
+      <li><a href="https://www.robotec.ai/case-studies/new-standard-for-open-source-robotics-simulation">www.robotec.ai/case-studies/new-standard-for-open-source-robotics-simulation</a>: Robotec.ai&#x27;s published case study with NVIDIA and Intrinsic</li>
+    </ul>
+    <p class="small">The case study is public on Robotec.ai&#x27;s site; his role in it is his own statement.</p>
   </div>
 </section>
 
