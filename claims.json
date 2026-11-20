@@ -567,23 +567,24 @@
    "id": "osra-wg",
    "category": "Roles",
    "status": "verified",
-   "claim": "Coordinator of the Embodied Agentic AI working group of the OSRA Physical AI SIG, and an initial member of the SIG (September 2025).",
+   "claim": "Member of the OSRA Physical AI SIG since its start (an initial member, September 2025); coordinated its Embodied Agentic AI working group at the start, and has since stepped down from that role.",
    "evidence": [
     {
      "url": "https://physical-ai.ros.org/working-groups/embodied-agentic-ai/",
-     "shows": "'Coordinator: Adam Dabrowski (Robotec.ai)'"
+     "shows": "Working-group page listing him as coordinator (not yet updated)"
     },
     {
      "url": "https://discourse.openrobotics.org/t/new-tgc-special-interest-group-on-physical-ai/50002",
      "shows": "SIG announcement with initial members"
     }
-   ]
+   ],
+   "note": "The working-group page still lists him as coordinator; that he has stepped down is his own statement."
   },
   {
    "id": "embodied-ai-cg",
    "category": "Roles",
    "status": "verified",
-   "claim": "Founded the ROS Embodied AI Community Group (October 2024).",
+   "claim": "Founded the ROS Embodied AI Community Group (October 2024); he still leads it.",
    "evidence": [
     {
      "url": "https://discourse.openrobotics.org/t/embodied-ai-community-group-call-of-interest/39990",
