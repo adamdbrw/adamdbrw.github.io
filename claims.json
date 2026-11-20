@@ -108,6 +108,18 @@
    ]
   },
   {
+   "id": "rep158-tooling",
+   "category": "Standards",
+   "status": "verified",
+   "claim": "REP 158 has a public, Apache-2.0 compliance checker (ros-usd-check, shipped as OpenUSD validators) in ros-simulation/openusd-schemas, built by the Robotec.ai team (commits by Mateusz Żak and Maciej Majek).",
+   "evidence": [
+    {
+     "url": "https://github.com/ros-simulation/openusd-schemas/tree/main/tools/compliance_checker",
+     "shows": "Compliance checker source, one module per REP section"
+    }
+   ]
+  },
+  {
    "id": "simif-proposal",
    "category": "Standards",
    "status": "verified",
