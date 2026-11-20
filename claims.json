@@ -124,7 +124,7 @@
    "id": "simif-design",
    "category": "Standards",
    "status": "verified",
-   "claim": "Wrote the first version of the ROS Simulation Interfaces (pull request #1: all 33 commits; 185 review comments from 13 reviewers, among them Gazebo and ROS maintainers), then developed them with NVIDIA contributors and reviews from Gazebo maintainers; listed as maintainer and author.",
+   "claim": "Lead author of the ROS Simulation Interfaces: wrote the first version (pull request #1: all 33 commits, squash-merged into one; 185 review comments from 13 reviewers, among them Gazebo and ROS maintainers), then developed them with NVIDIA contributors; 83% of the non-empty lines in the 38 interface definition files today are his (git blame, November 2026), and he created 29 of the 38 files; listed as author and maintainer.",
    "evidence": [
     {
      "url": "https://github.com/ros-simulation/simulation_interfaces/pull/1",
@@ -135,8 +135,8 @@
      "shows": "ROS Index lists Adam Dąbrowski as maintainer and author"
     },
     {
-     "url": "https://github.com/ros-simulation/simulation_interfaces/graphs/contributors",
-     "shows": "Contributors: Ayush Ghosh (NVIDIA, joined February 2025) is now the largest committer; Adam second"
+     "url": "https://github.com/ros-simulation/simulation_interfaces",
+     "shows": "Repository: run git blame on the msg, srv and action files. Commit counts understate his share because pull request #1's 33 commits were squash-merged into one commit."
     }
    ]
   },
