@@ -693,7 +693,7 @@
    "id": "case-dexory",
    "category": "Customer case studies",
    "status": "verified",
-   "claim": "Dexory uses Robotec.ai's GPU lidar simulation (RGL) in Gazebo, maintains its own fork through 2026 (Gazebo Jetty) and contributed features back.",
+   "claim": "Dexory uses Robotec.ai's GPU lidar simulation (RGL) in Gazebo: Guillaume Doisy (Lead Systems Architect) adopted it in 2023 and keeps Dexory's fork current in 2026 (Gazebo Jetty); Dexory contributed features back.",
    "evidence": [
     {
      "url": "https://github.com/botsandus/RGLGazeboPlugin",
