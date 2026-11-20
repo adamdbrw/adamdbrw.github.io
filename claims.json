@@ -603,6 +603,10 @@
     {
      "url": "https://www.robotec.ai/case-studies/kiteshield-mixed-reality-safety-system-for-underground-mining",
      "shows": "Robotec.ai's published case study with Boliden"
+    },
+    {
+     "url": "https://kiteshield.com/about/",
+     "shows": "Kiteshield (Boliden and LKAB) lists Robotec as partner for simulation and digital twins"
     }
    ],
    "note": "The case study is public on Robotec.ai's site; his role in it is his own statement."
@@ -671,6 +675,83 @@
     }
    ],
    "note": "The case study is public on Robotec.ai's site; his role in it is his own statement."
+  },
+  {
+   "id": "case-iac-rosbag2",
+   "category": "Customer case studies",
+   "status": "verified",
+   "claim": "Apex.AI, ADLINK, Bosch and TIER IV funded and supported Robotec.ai's rosbag2 rewrite for the Indy Autonomous Challenge, making it 6x faster; shipped in ROS 2 Galactic. His role: led the rosbag2 performance work and wrote its report.",
+   "evidence": [
+    {
+     "url": "https://discourse.openrobotics.org/t/ces-2022-indy-autonomous-challenge-jan-7th/22996/7",
+     "shows": "Joe Speed (6 Nov 2021): 'To support IAC use case, Robotec.ai rewrote rosbag2 making it 6x faster with funding & engineering support from Apex.AI, ADLINK, Bosch, Tier IV.'"
+    }
+   ]
+  },
+  {
+   "id": "case-dexory",
+   "category": "Customer case studies",
+   "status": "verified",
+   "claim": "Dexory uses Robotec.ai's GPU lidar simulation (RGL) in Gazebo, maintains its own fork through 2026 (Gazebo Jetty) and contributed features back.",
+   "evidence": [
+    {
+     "url": "https://github.com/botsandus/RGLGazeboPlugin",
+     "shows": "Dexory's (botsandus) fork, updated May 2026 for Ubuntu 26.04 / ROS 2 Lyrical / Gazebo Jetty"
+    },
+    {
+     "url": "https://github.com/RobotecAI/RGLGazeboPlugin",
+     "shows": "README credits Dexory's contributions (LaserScan, Laser Retro, RGL update)"
+    },
+    {
+     "url": "https://github.com/RobotecAI/RGLGazeboPlugin/issues/10",
+     "shows": "Guillaume Doisy evaluating the plugin, April 2023"
+    }
+   ],
+   "note": "His role in RGL is his own statement."
+  },
+  {
+   "id": "quote-speed",
+   "category": "What others say",
+   "status": "verified",
+   "claim": "Joe Speed, ROS Discourse (October 2021): “ROS 2 with @adamdbrw's ros2-for-unity gives a very large performance improvement (latency, throughput) to the SVL Simulator used by the Indy Autonomous Challenge university teams compared to its default ROS 2 bridge.”",
+   "evidence": [
+    {
+     "url": "https://discourse.openrobotics.org/t/ros2-for-unity/22022/9",
+     "shows": "The original post"
+    }
+   ]
+  },
+  {
+   "id": "quote-nvidia-may2025",
+   "category": "What others say",
+   "status": "verified",
+   "claim": "NVIDIA Technical Blog (May 2025): “Spearheaded by Robotec.ai and developed in collaboration with Gazebo, Open 3D Engine, and NVIDIA, this new standardized interface simplifies integration…”",
+   "evidence": [
+    {
+     "url": "https://developer.nvidia.com/blog/advanced-sensor-physics-customization-and-model-benchmarking-coming-to-nvidia-isaac-sim-and-nvidia-isaac-lab/",
+     "shows": "The blog post"
+    }
+   ]
+  },
+  {
+   "id": "adopters",
+   "category": "Customer case studies",
+   "status": "verified",
+   "claim": "Robotec.ai's open-source simulation libraries are used by Autoware's AWSIM, Project PLATEAU (Japan's national 3D city-model programme; RGL for lidar simulation) and the OpenLoong humanoid project (ROS 2 for Unity).",
+   "evidence": [
+    {
+     "url": "https://github.com/Project-PLATEAU/PLATEAU-PointCloud-Generator",
+     "shows": "README and RGLUnityPlugin sources"
+    },
+    {
+     "url": "https://github.com/loongOpen/Unity-RL-Playground",
+     "shows": "Ros2ForUnity in the project"
+    },
+    {
+     "url": "https://github.com/autowarefoundation/AWSIM",
+     "shows": "AWSIM"
+    }
+   ]
   },
   {
    "id": "osra-wg",
