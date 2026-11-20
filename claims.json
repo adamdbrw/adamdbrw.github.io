@@ -647,14 +647,14 @@
    "id": "teaching",
    "category": "Roles",
    "status": "self-reported",
-   "claim": "Guest lecturer at the University of Warsaw: lectures at the Faculty of Mathematics, Informatics and Mechanics, and a lecture on large language models for linguists; mentors Robotec.ai engineers in agentic, AI-agent-driven software development.",
+   "claim": "Guest lecturer at the University of Warsaw: lectures at the Faculty of Mathematics, Informatics and Mechanics, and a lecture on large language models for linguists; Robotec.ai's client lead for the MIM UW team programming project 'Applying Large Language Models in Robotics for Anomaly Detection in Industrial Environments' (2023/24; day-to-day mentoring by his colleague Mateusz Żak); mentors Robotec.ai engineers in agentic software development.",
    "evidence": [
     {
-     "url": "https://www.linkedin.com/in/dabrowskiadam/",
-     "shows": "Profile"
+     "url": "https://zpp.mimuw.edu.pl/2023_24/info_zpp.php",
+     "shows": "MIM UW team projects 2023/24: the project with Robotec.ai as client; final presentation 14 June 2024 (his role is not named on the page)"
     }
    ],
-   "note": "No public event pages found; his own statement."
+   "note": "The project and Robotec.ai's role are public; his role as client lead and the lectures are his own statement."
   },
   {
    "id": "career-robotec",
